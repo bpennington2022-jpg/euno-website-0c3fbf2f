@@ -36,7 +36,7 @@ const Index = () => {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                  Make introspection{" "}
+                  Make progress{" "}
                   <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
                     effortless
                   </span>
@@ -77,7 +77,7 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-3xl blur-3xl"></div>
               <img 
                 src={heroImage} 
-                alt="euno app interface showing introspective insights"
+                alt="euno app interface showing progress insights"
                 className="relative w-full h-auto rounded-2xl shadow-2xl"
               />
             </div>
@@ -176,7 +176,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">How euno works</h2>
             <p className="text-xl text-muted-foreground">
-              Three simple steps to effortless introspection
+              Three simple steps to effortless progress
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -259,7 +259,7 @@ const Index = () => {
             </div>
           </div>
           <div className="text-center mt-8 text-muted-foreground">
-            <p>&copy; 2024 euno. Making introspection effortless.</p>
+            <p>&copy; 2024 euno. Making progress effortless.</p>
           </div>
         </div>
       </footer>
