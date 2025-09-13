@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Brain, Sparkles, Zap, CheckCircle, Users, Target, Heart } from "lucide-react";
-import heroImage from "@/assets/hero-gradient.jpg";
+import PsychologyAnimation from "@/components/PsychologyAnimation";
 
 const Index = () => {
   return (
@@ -73,13 +73,8 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-3xl blur-3xl"></div>
-              <img 
-                src={heroImage} 
-                alt="euno app interface showing progress insights"
-                className="relative w-full h-auto rounded-2xl shadow-2xl"
-              />
+            <div>
+              <PsychologyAnimation />
             </div>
           </div>
         </div>
