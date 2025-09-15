@@ -53,36 +53,70 @@ const About = () => {
       </section>
 
       {/* Our Mission */}
-      <section className="py-12 px-6">
+      <section className="py-16 px-6">
         <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto text-center space-y-6">
-            <h2 className="text-3xl font-bold text-white">Our Mission</h2>
-            <p className="text-lg text-gray-300 leading-relaxed">
-              Everyone deserves not just to change, but to make consistent progress throughout life. 
-              Euno delivers that by making cognitive restructuring effortless and natural.
-            </p>
+          <div className="max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="space-y-6">
+                <h2 className="text-4xl font-bold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+                  Our Mission
+                </h2>
+                <p className="text-xl text-gray-300 leading-relaxed">
+                  Everyone deserves not just to change, but to make consistent progress throughout life. 
+                  Euno delivers that by making cognitive restructuring effortless and natural.
+                </p>
+              </div>
+              <div className="flex justify-center lg:justify-end">
+                <div className="w-80 h-80 bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 rounded-full flex items-center justify-center relative overflow-hidden">
+                  <div className="w-60 h-60 bg-gradient-to-tr from-primary/30 via-accent/30 to-secondary/30 rounded-full animate-pulse">
+                    <div className="w-full h-full flex items-center justify-center">
+                      <div className="w-40 h-40 bg-gradient-to-bl from-primary/40 via-accent/40 to-secondary/40 rounded-full animate-bounce">
+                        <div className="w-full h-full flex items-center justify-center">
+                          <div className="w-20 h-20 bg-gradient-to-r from-primary to-accent rounded-full animate-spin"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Our Story */}
-      <section className="py-16 px-6 bg-gray-900/50">
+      <section className="py-16 px-6 bg-gray-900/30">
         <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto space-y-8">
-            <h2 className="text-4xl font-bold text-center mb-12 text-white">
-              Our Story
-            </h2>
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                Everyone knows the ache: things could be different. It shows up as restlessness, dissatisfaction, 
-                or the blunt cry, "I just need to figure my shit out." This universal feeling affects people across 
-                all life stages and circumstances.
-              </p>
-              <p>
-                <strong className="text-primary">Euno was born from that realization</strong>: the deeper pain isn't that change is impossible, 
-                but that we cannot see what is holding us back. What if discomfort, fear, or ego could be surfaced 
-                and reframed in a way that makes progress feel natural?
-              </p>
+          <div className="max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="space-y-8">
+                <h2 className="text-4xl font-bold bg-gradient-to-r from-accent via-primary to-secondary bg-clip-text text-transparent">
+                  Our Story
+                </h2>
+                <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+                  <p>
+                    Everyone knows the ache: things could be different. It shows up as restlessness, dissatisfaction, 
+                    or the blunt cry, "I just need to figure my shit out."
+                  </p>
+                  <p>
+                    <strong className="text-primary">Euno was born from that realization</strong>: the deeper pain isn't that change is impossible, 
+                    but that we cannot see what is holding us back. What if discomfort, fear, or ego could be surfaced 
+                    and reframed in a way that makes progress feel natural?
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-center lg:justify-end">
+                <div className="relative w-80 h-80">
+                  <div className="absolute inset-0 bg-gradient-to-r from-accent/30 to-primary/30 rounded-xl transform rotate-6 animate-pulse"></div>
+                  <div className="absolute inset-0 bg-gradient-to-l from-secondary/30 to-accent/30 rounded-xl transform -rotate-6 animate-pulse delay-100"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-secondary/30 rounded-xl transform rotate-3 animate-pulse delay-200"></div>
+                  <div className="absolute inset-4 bg-gradient-to-br from-primary/40 via-accent/40 to-secondary/40 rounded-lg flex items-center justify-center backdrop-blur-sm">
+                    <div className="text-6xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent animate-fade-in">
+                      ?
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -91,42 +125,42 @@ const About = () => {
       {/* Values */}
       <section className="py-16 px-6">
         <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12 text-white">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-secondary via-accent to-primary bg-clip-text text-transparent">
               Our Values
             </h2>
-            <div className="space-y-8">
-              <Card className="p-8 bg-gray-800/50 border-gray-700">
-                <div className="flex items-start space-x-4">
-                  <Heart className="h-8 w-8 text-primary mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-xl font-semibold mb-3 text-gray-100">Humanity</h3>
-                    <p className="text-gray-300 leading-relaxed">
-                      We begin with empathy, honoring the complexity of each person's inner world.
-                    </p>
+            <div className="grid md:grid-cols-3 gap-8">
+              <Card className="p-8 bg-gradient-to-br from-gray-800/30 to-gray-900/50 border-gray-700/50 hover:border-primary/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-center space-y-4">
+                  <div className="w-16 h-16 mx-auto bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center">
+                    <Heart className="h-8 w-8 text-white" />
                   </div>
+                  <h3 className="text-xl font-semibold text-gray-100">Humanity</h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    We begin with empathy, honoring the complexity of each person's inner world.
+                  </p>
                 </div>
               </Card>
-              <Card className="p-8 bg-gray-800/50 border-gray-700">
-                <div className="flex items-start space-x-4">
-                  <Brain className="h-8 w-8 text-accent mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-xl font-semibold mb-3 text-gray-100">Dreams</h3>
-                    <p className="text-gray-300 leading-relaxed">
-                      We believe that the act of dreaming itself proves that change is possible.
-                    </p>
+              <Card className="p-8 bg-gradient-to-br from-gray-800/30 to-gray-900/50 border-gray-700/50 hover:border-accent/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-center space-y-4">
+                  <div className="w-16 h-16 mx-auto bg-gradient-to-r from-accent to-secondary rounded-full flex items-center justify-center">
+                    <Brain className="h-8 w-8 text-white" />
                   </div>
+                  <h3 className="text-xl font-semibold text-gray-100">Dreams</h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    We believe that the act of dreaming itself proves that change is possible.
+                  </p>
                 </div>
               </Card>
-              <Card className="p-8 bg-gray-800/50 border-gray-700">
-                <div className="flex items-start space-x-4">
-                  <Users className="h-8 w-8 text-secondary mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-xl font-semibold mb-3 text-gray-100">Agency</h3>
-                    <p className="text-gray-300 leading-relaxed">
-                      You are the author of your own growth. We center your beliefs and progress around what matters to you.
-                    </p>
+              <Card className="p-8 bg-gradient-to-br from-gray-800/30 to-gray-900/50 border-gray-700/50 hover:border-secondary/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-center space-y-4">
+                  <div className="w-16 h-16 mx-auto bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center">
+                    <Users className="h-8 w-8 text-white" />
                   </div>
+                  <h3 className="text-xl font-semibold text-gray-100">Agency</h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    You are the author of your own growth. We center your beliefs and progress around what matters to you.
+                  </p>
                 </div>
               </Card>
             </div>
@@ -135,47 +169,83 @@ const About = () => {
       </section>
 
       {/* What Makes Us Different */}
-      <section className="py-16 px-6 bg-gray-900/50">
+      <section className="py-16 px-6 bg-gray-900/30">
         <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12 text-white">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
               What Makes euno Different
             </h2>
-            <div className="space-y-12">
-              <div className="flex items-center gap-8">
-                <div className="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center flex-shrink-0">
-                  <Target className="h-8 w-8 text-white" />
-                </div>
-                <div>
-                  <h3 className="text-2xl font-semibold mb-3 text-gray-100">Progress, Not Productivity</h3>
+            <div className="space-y-16">
+              <div className="flex flex-col lg:flex-row items-center gap-12">
+                <div className="lg:w-1/2 space-y-6">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center flex-shrink-0">
+                      <Target className="h-6 w-6 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-semibold text-gray-100">Progress, Not Productivity</h3>
+                  </div>
                   <p className="text-lg text-gray-300 leading-relaxed">
                     Most tools focus on tasks, habits, or wellness in pieces. Euno addresses the bigger picture: 
                     the universal ache of "things could be different."
                   </p>
                 </div>
-              </div>
-              <div className="flex items-center gap-8">
-                <div className="w-16 h-16 bg-gradient-to-r from-accent to-secondary rounded-full flex items-center justify-center flex-shrink-0">
-                  <Brain className="h-8 w-8 text-white" />
+                <div className="lg:w-1/2 flex justify-center">
+                  <div className="w-64 h-64 relative">
+                    <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-full animate-spin slow"></div>
+                    <div className="absolute inset-4 bg-gradient-to-l from-accent/30 to-primary/30 rounded-full animate-pulse"></div>
+                    <div className="absolute inset-8 bg-gradient-to-t from-primary/40 to-accent/40 rounded-full flex items-center justify-center">
+                      <Target className="h-16 w-16 text-white animate-fade-in" />
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-2xl font-semibold mb-3 text-gray-100">Change That's Effortless</h3>
+              </div>
+
+              <div className="flex flex-col lg:flex-row-reverse items-center gap-12">
+                <div className="lg:w-1/2 space-y-6">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-gradient-to-r from-accent to-secondary rounded-full flex items-center justify-center flex-shrink-0">
+                      <Brain className="h-6 w-6 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-semibold text-gray-100">Change That's Effortless</h3>
+                  </div>
                   <p className="text-lg text-gray-300 leading-relaxed">
                     Therapy, journaling, and self-help all demand time, skill, or discipline. 
                     Euno uses AI to surface insights so progress feels natural — not forced.
                   </p>
                 </div>
-              </div>
-              <div className="flex items-center gap-8">
-                <div className="w-16 h-16 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center flex-shrink-0">
-                  <Users className="h-8 w-8 text-white" />
+                <div className="lg:w-1/2 flex justify-center">
+                  <div className="w-64 h-64 relative">
+                    <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-secondary/20 rounded-xl transform rotate-12 animate-pulse"></div>
+                    <div className="absolute inset-0 bg-gradient-to-tl from-secondary/20 to-accent/20 rounded-xl transform -rotate-12 animate-pulse delay-75"></div>
+                    <div className="absolute inset-8 bg-gradient-to-r from-accent/40 to-secondary/40 rounded-lg flex items-center justify-center backdrop-blur-sm">
+                      <Brain className="h-16 w-16 text-white animate-bounce" />
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-2xl font-semibold mb-3 text-gray-100">For Everyone</h3>
+              </div>
+
+              <div className="flex flex-col lg:flex-row items-center gap-12">
+                <div className="lg:w-1/2 space-y-6">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center flex-shrink-0">
+                      <Users className="h-6 w-6 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-semibold text-gray-100">For Everyone</h3>
+                  </div>
                   <p className="text-lg text-gray-300 leading-relaxed">
                     No goals to set, no jargon to learn, no need to already "be introspective." 
                     Euno meets you where you are and helps you figure things out.
                   </p>
+                </div>
+                <div className="lg:w-1/2 flex justify-center">
+                  <div className="w-64 h-64 relative">
+                    <div className="absolute inset-0 bg-gradient-to-r from-secondary/20 to-primary/20 rounded-full"></div>
+                    <div className="absolute inset-2 bg-gradient-to-l from-primary/20 to-secondary/20 rounded-full"></div>
+                    <div className="absolute inset-4 bg-gradient-to-t from-secondary/20 to-primary/20 rounded-full"></div>
+                    <div className="absolute inset-8 bg-gradient-to-br from-secondary/40 to-primary/40 rounded-full flex items-center justify-center animate-pulse">
+                      <Users className="h-16 w-16 text-white" />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
