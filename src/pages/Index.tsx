@@ -10,7 +10,12 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-gray-950/80 backdrop-blur-sm border-b border-gray-800/50 z-50">
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
           <div className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            euno
+            <span className="relative inline-block">
+              <span className="relative">e</span>
+              <span className="relative -ml-1">u</span>
+              <span className="relative -ml-2">n</span>
+              <span className="relative -ml-1">o</span>
+            </span>
           </div>
           <div className="hidden md:flex items-center space-x-8">
             <a href="#features" className="text-gray-300 hover:text-primary transition-colors">
@@ -58,9 +63,8 @@ const Index = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
                 <Button 
-                  variant="outline" 
                   size="lg"
-                  className="border-2 hover:bg-primary/5"
+                  className="bg-gradient-to-r from-accent/20 to-secondary/20 border border-accent/30 text-white hover:from-accent/30 hover:to-secondary/30"
                 >
                   Watch Demo
                 </Button>
@@ -248,7 +252,12 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              euno
+              <span className="relative inline-block">
+                <span className="relative">e</span>
+                <span className="relative -ml-1">u</span>
+                <span className="relative -ml-2">n</span>
+                <span className="relative -ml-1">o</span>
+              </span>
             </div>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-gray-200">Privacy</a>
