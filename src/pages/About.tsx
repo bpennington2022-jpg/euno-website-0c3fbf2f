@@ -10,7 +10,12 @@ const About = () => {
       <nav className="fixed top-0 w-full bg-gray-950/80 backdrop-blur-sm border-b border-gray-800/50 z-50">
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
           <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            euno
+            <span className="relative inline-block">
+              <span className="relative">e</span>
+              <span className="relative -ml-1">u</span>
+              <span className="relative -ml-2">n</span>
+              <span className="relative -ml-1">o</span>
+            </span>
           </Link>
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-300 hover:text-primary transition-colors">
@@ -37,14 +42,24 @@ const About = () => {
             Back to Home
           </Link>
           <div className="max-w-4xl mx-auto text-center space-y-8">
-            <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-              About{" "}
-              <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-                euno
-              </span>
+            <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-white">
+              About euno
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
               Infrastructure for progress itself. Not wellness. Not therapy. Not productivity. Progress.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Mission */}
+      <section className="py-12 px-6">
+        <div className="container mx-auto">
+          <div className="max-w-4xl mx-auto text-center space-y-6">
+            <h2 className="text-3xl font-bold text-white">Our Mission</h2>
+            <p className="text-lg text-gray-300 leading-relaxed">
+              Everyone deserves not just to change, but to make consistent progress throughout life. 
+              Euno delivers that by making cognitive restructuring effortless and natural.
             </p>
           </div>
         </div>
@@ -54,110 +69,21 @@ const About = () => {
       <section className="py-16 px-6 bg-gray-900/50">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto space-y-8">
-            <h2 className="text-4xl font-bold text-center mb-12">
-              Our{" "}
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Story
-              </span>
+            <h2 className="text-4xl font-bold text-center mb-12 text-white">
+              Our Story
             </h2>
             <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
               <p>
                 Everyone knows the ache: things could be different. It shows up as restlessness, dissatisfaction, 
-                or the blunt cry, "I just need to figure my shit out." This isn't tied to any one age or life stage. 
-                Students, parents, professionals, even those who seem "fine" all encounter this recurring, 
-                slippery feeling that life could be more aligned, more fulfilling.
-              </p>
-              <p>
-                The problem is not the pain itself, but our inability to see it clearly. When left unnamed, 
-                it calcifies into stagnation, missed opportunities, and quiet self-resentment. Traditional tools 
-                such as therapy, wellness programs, or productivity hacks ask for clarity, discipline, or intention 
-                we can't name at the moment the ache strikes.
+                or the blunt cry, "I just need to figure my shit out." This universal feeling affects people across 
+                all life stages and circumstances.
               </p>
               <p>
                 <strong className="text-primary">Euno was born from that realization</strong>: the deeper pain isn't that change is impossible, 
                 but that we cannot see what is holding us back. What if discomfort, fear, or ego could be surfaced 
                 and reframed in a way that makes progress feel natural?
               </p>
-              <p>
-                Euno exists to make that possible. Not as wellness, not as productivity, but as infrastructure 
-                for progress itself.
-              </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* What Makes Us Different */}
-      <section className="py-16 px-6">
-        <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12">
-              What Makes euno{" "}
-              <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
-                Different
-              </span>
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              <Card className="p-8 bg-gray-800/50 border-gray-700 text-center">
-                <Target className="h-12 w-12 text-primary mb-6 mx-auto" />
-                <h3 className="text-xl font-semibold mb-4 text-gray-100">Progress, Not Productivity</h3>
-                <p className="text-gray-300">
-                  Most tools focus on tasks, habits, or wellness in pieces. Euno addresses the bigger picture: 
-                  the universal ache of "things could be different."
-                </p>
-              </Card>
-              <Card className="p-8 bg-gray-800/50 border-gray-700 text-center">
-                <Brain className="h-12 w-12 text-accent mb-6 mx-auto" />
-                <h3 className="text-xl font-semibold mb-4 text-gray-100">Change That's Effortless</h3>
-                <p className="text-gray-300">
-                  Therapy, journaling, and self-help all demand time, skill, or discipline. 
-                  Euno uses AI to surface insights so progress feels natural — not forced.
-                </p>
-              </Card>
-              <Card className="p-8 bg-gray-800/50 border-gray-700 text-center">
-                <Users className="h-12 w-12 text-secondary mb-6 mx-auto" />
-                <h3 className="text-xl font-semibold mb-4 text-gray-100">For Everyone</h3>
-                <p className="text-gray-300">
-                  No goals to set, no jargon to learn, no need to already "be introspective." 
-                  Euno meets you where you are and helps you figure things out.
-                </p>
-              </Card>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Mission & Vision */}
-      <section className="py-16 px-6 bg-gray-900/50">
-        <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12">
-              Our{" "}
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Purpose
-              </span>
-            </h2>
-            <div className="grid md:grid-cols-2 gap-12">
-              <Card className="p-8 bg-gray-800/50 border-gray-700">
-                <h3 className="text-2xl font-semibold mb-6 text-primary">Truth</h3>
-                <p className="text-lg text-gray-300 leading-relaxed">
-                  Progress doesn't have to be effortful.
-                </p>
-              </Card>
-              <Card className="p-8 bg-gray-800/50 border-gray-700">
-                <h3 className="text-2xl font-semibold mb-6 text-accent">Tension</h3>
-                <p className="text-lg text-gray-300 leading-relaxed">
-                  Everyone feels the pain of "things could be different."
-                </p>
-              </Card>
-            </div>
-            <Card className="p-8 bg-gradient-to-r from-primary/10 to-accent/10 border-primary/20 mt-8">
-              <h3 className="text-2xl font-semibold mb-6 text-center text-gray-100">Our Positioning</h3>
-              <p className="text-xl text-gray-200 leading-relaxed text-center">
-                Everyone deserves not just to change, but to make consistent progress throughout life. 
-                Euno delivers that.
-              </p>
-            </Card>
           </div>
         </div>
       </section>
@@ -166,11 +92,8 @@ const About = () => {
       <section className="py-16 px-6">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12">
-              Our{" "}
-              <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
-                Values
-              </span>
+            <h2 className="text-4xl font-bold text-center mb-12 text-white">
+              Our Values
             </h2>
             <div className="space-y-8">
               <Card className="p-8 bg-gray-800/50 border-gray-700">
@@ -210,6 +133,56 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      {/* What Makes Us Different */}
+      <section className="py-16 px-6 bg-gray-900/50">
+        <div className="container mx-auto">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-12 text-white">
+              What Makes euno Different
+            </h2>
+            <div className="space-y-12">
+              <div className="flex items-center gap-8">
+                <div className="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center flex-shrink-0">
+                  <Target className="h-8 w-8 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold mb-3 text-gray-100">Progress, Not Productivity</h3>
+                  <p className="text-lg text-gray-300 leading-relaxed">
+                    Most tools focus on tasks, habits, or wellness in pieces. Euno addresses the bigger picture: 
+                    the universal ache of "things could be different."
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-8">
+                <div className="w-16 h-16 bg-gradient-to-r from-accent to-secondary rounded-full flex items-center justify-center flex-shrink-0">
+                  <Brain className="h-8 w-8 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold mb-3 text-gray-100">Change That's Effortless</h3>
+                  <p className="text-lg text-gray-300 leading-relaxed">
+                    Therapy, journaling, and self-help all demand time, skill, or discipline. 
+                    Euno uses AI to surface insights so progress feels natural — not forced.
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-8">
+                <div className="w-16 h-16 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center flex-shrink-0">
+                  <Users className="h-8 w-8 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold mb-3 text-gray-100">For Everyone</h3>
+                  <p className="text-lg text-gray-300 leading-relaxed">
+                    No goals to set, no jargon to learn, no need to already "be introspective." 
+                    Euno meets you where you are and helps you figure things out.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       {/* Philosophy */}
       <section className="py-16 px-6 bg-gray-900/50">
@@ -270,7 +243,12 @@ const About = () => {
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              euno
+              <span className="relative inline-block">
+                <span className="relative">e</span>
+                <span className="relative -ml-1">u</span>
+                <span className="relative -ml-2">n</span>
+                <span className="relative -ml-1">o</span>
+              </span>
             </div>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-gray-200">Privacy</a>
