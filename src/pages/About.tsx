@@ -67,12 +67,12 @@ const About = () => {
                 </p>
               </div>
               <div className="flex justify-center lg:justify-end">
-                <div className="w-80 h-80 bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 rounded-full flex items-center justify-center relative overflow-hidden">
-                  <div className="w-60 h-60 bg-gradient-to-tr from-primary/30 via-accent/30 to-secondary/30 rounded-full animate-pulse">
+                <div className="w-48 h-48 bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 rounded-full flex items-center justify-center relative overflow-hidden">
+                  <div className="w-36 h-36 bg-gradient-to-tr from-primary/30 via-accent/30 to-secondary/30 rounded-full animate-pulse">
                     <div className="w-full h-full flex items-center justify-center">
-                      <div className="w-40 h-40 bg-gradient-to-bl from-primary/40 via-accent/40 to-secondary/40 rounded-full animate-bounce">
+                      <div className="w-24 h-24 bg-gradient-to-bl from-primary/40 via-accent/40 to-secondary/40 rounded-full animate-bounce">
                         <div className="w-full h-full flex items-center justify-center">
-                          <div className="w-20 h-20 bg-gradient-to-r from-primary to-accent rounded-full animate-spin"></div>
+                          <div className="w-12 h-12 bg-gradient-to-r from-primary to-accent rounded-full animate-spin"></div>
                         </div>
                       </div>
                     </div>
@@ -106,12 +106,12 @@ const About = () => {
                 </div>
               </div>
               <div className="flex justify-center lg:justify-end">
-                <div className="relative w-80 h-80">
+                <div className="relative w-48 h-48">
                   <div className="absolute inset-0 bg-gradient-to-r from-accent/30 to-primary/30 rounded-xl transform rotate-6 animate-pulse"></div>
                   <div className="absolute inset-0 bg-gradient-to-l from-secondary/30 to-accent/30 rounded-xl transform -rotate-6 animate-pulse delay-100"></div>
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-secondary/30 rounded-xl transform rotate-3 animate-pulse delay-200"></div>
                   <div className="absolute inset-4 bg-gradient-to-br from-primary/40 via-accent/40 to-secondary/40 rounded-lg flex items-center justify-center backdrop-blur-sm">
-                    <div className="text-6xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent animate-fade-in">
+                    <div className="text-4xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent animate-fade-in">
                       ?
                     </div>
                   </div>
