@@ -24,9 +24,6 @@ const Index = () => {
             <a href="/about" className="text-gray-300 hover:text-primary transition-colors">
               About
             </a>
-            <a href="#early-access" className="text-gray-300 hover:text-primary transition-colors">
-              Early Access
-            </a>
           </div>
           <Button className="bg-gradient-to-r from-primary to-accent hover:opacity-90">
             Get Started
