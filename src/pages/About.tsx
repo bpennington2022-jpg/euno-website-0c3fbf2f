@@ -22,9 +22,6 @@ const About = () => {
               Home
             </Link>
           </div>
-          <Button className="bg-gradient-to-r from-primary to-accent hover:opacity-90">
-            Get Started
-          </Button>
         </div>
       </nav>
 
