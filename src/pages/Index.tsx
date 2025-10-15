@@ -21,9 +21,6 @@ const Index = () => {
             <a href="#features" className="text-gray-300 hover:text-primary transition-colors">
               Features
             </a>
-            <a href="#how-it-works" className="text-gray-300 hover:text-primary transition-colors">
-              How It Works
-            </a>
             <a href="/about" className="text-gray-300 hover:text-primary transition-colors">
               About
             </a>
