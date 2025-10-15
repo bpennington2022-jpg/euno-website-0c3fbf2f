@@ -8,15 +8,7 @@ const About = () => {
     <div className="min-h-screen bg-gray-950 text-gray-100">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-gray-950/80 backdrop-blur-sm border-b border-gray-800/50 z-50">
-        <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-          <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            <span className="relative inline-block">
-              <span className="relative">e</span>
-              <span className="relative -ml-1">u</span>
-              <span className="relative -ml-2">n</span>
-              <span className="relative -ml-1">o</span>
-            </span>
-          </Link>
+        <div className="container mx-auto px-6 py-4 flex items-center justify-center">
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-300 hover:text-primary transition-colors">
               Home
