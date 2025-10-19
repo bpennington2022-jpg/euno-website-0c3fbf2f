@@ -20,10 +20,6 @@ const About = () => {
       {/* Hero Section */}
       <section className="pt-24 pb-16 px-6">
         <div className="container mx-auto">
-          <Link to="/" className="inline-flex items-center text-gray-400 hover:text-primary transition-colors mb-8">
-            <ArrowLeft className="h-4 w-4 mr-2" />
-            Back to Home
-          </Link>
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-white">
               About euno
