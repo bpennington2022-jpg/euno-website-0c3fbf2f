@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Brain, Sparkles, Zap, CheckCircle, Users, Target, Heart } from "lucide-react";
-import PsychologyAnimation from "@/components/PsychologyAnimation";
+import AppMockup from "@/components/AppMockup";
 
 const Index = () => {
   return (
@@ -49,7 +49,7 @@ const Index = () => {
                 </div>
               </div>
               <div className="lg:justify-self-end">
-                <PsychologyAnimation />
+                <AppMockup />
               </div>
             </div>
           </div>
