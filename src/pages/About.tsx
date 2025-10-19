@@ -19,6 +19,9 @@ const About = () => {
             <Link to="/methodology" className="text-gray-300 hover:text-primary transition-colors">
               Methodology
             </Link>
+            <Link to="/data" className="text-gray-300 hover:text-primary transition-colors">
+              Data
+            </Link>
           </div>
         </div>
       </nav>
