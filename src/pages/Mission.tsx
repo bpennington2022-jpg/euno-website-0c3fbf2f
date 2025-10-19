@@ -34,243 +34,200 @@ const Mission = () => {
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-white">
-              About euno
+              Our Mission
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-              Infrastructure for progress itself. Not wellness. Not therapy. Not productivity. Progress.
+              Making introspection effortless. Making change accessible. Making progress natural.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Our Mission */}
+      {/* The Journey */}
       <section className="py-16 px-6">
         <div className="container mx-auto">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="space-y-6">
-                <h2 className="text-4xl font-bold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-                  Our Mission
-                </h2>
-                <p className="text-xl text-gray-300 leading-relaxed">
-                  Everyone deserves not just to change, but to make consistent progress throughout life. 
-                  Euno delivers that by making cognitive restructuring effortless and natural.
-                </p>
-              </div>
-              <div className="flex justify-center lg:justify-end">
-                <div className="w-48 h-48 bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 rounded-full flex items-center justify-center relative overflow-hidden">
-                  <div className="w-36 h-36 bg-gradient-to-tr from-primary/30 via-accent/30 to-secondary/30 rounded-full animate-pulse">
-                    <div className="w-full h-full flex items-center justify-center">
-                      <div className="w-24 h-24 bg-gradient-to-bl from-primary/40 via-accent/40 to-secondary/40 rounded-full animate-bounce">
-                        <div className="w-full h-full flex items-center justify-center">
-                          <div className="w-12 h-12 bg-gradient-to-r from-primary to-accent rounded-full animate-spin"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div className="max-w-4xl mx-auto space-y-12">
+            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+              <h2 className="text-3xl font-bold text-white mb-8">How We Got Here</h2>
+              
+              <p>
+                We started with a simple goal: build a healthcare app. We wanted to empower people with their health—to make it really easy to understand the intangible elements that affected their wellbeing.
+              </p>
+
+              <p>
+                But as we talked to physicians, one physician in particular made a comment that changed everything: <strong className="text-primary">"Even if you made the best healthcare app in the world, that would not make people care about their health."</strong>
+              </p>
+
+              <p>
+                That statement hit us hard. Because what it really meant was this: <strong className="text-accent">you cannot change the way you behave and the way you feel without changing the way you think.</strong>
+              </p>
+
+              <p>
+                He directed us to an epiphany psychologist who also worked at our university. That psychologist is now on our team. And he was essential in helping us understand what we actually needed to build.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Our Story */}
+      {/* The Problem */}
       <section className="py-16 px-6 bg-gray-900/30">
         <div className="container mx-auto">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="space-y-8">
-                <h2 className="text-4xl font-bold bg-gradient-to-r from-accent via-primary to-secondary bg-clip-text text-transparent">
-                  Our Story
-                </h2>
-                <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-                  <p>
-                    Everyone knows the ache: things could be different. It shows up as restlessness, dissatisfaction, 
-                    or the blunt cry, "I just need to figure my shit out."
-                  </p>
-                  <p>
-                    <strong className="text-primary">Euno was born from that realization</strong>: the deeper pain isn't that change is impossible, 
-                    but that we cannot see what is holding us back. What if discomfort, fear, or ego could be surfaced 
-                    and reframed in a way that makes progress feel natural?
-                  </p>
-                </div>
-              </div>
-              <div className="flex justify-center lg:justify-end">
-                <div className="relative w-48 h-48">
-                  <div className="absolute inset-0 bg-gradient-to-r from-accent/30 to-primary/30 rounded-xl transform rotate-6 animate-pulse"></div>
-                  <div className="absolute inset-0 bg-gradient-to-l from-secondary/30 to-accent/30 rounded-xl transform -rotate-6 animate-pulse delay-100"></div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-secondary/30 rounded-xl transform rotate-3 animate-pulse delay-200"></div>
-                  <div className="absolute inset-4 bg-gradient-to-br from-primary/40 via-accent/40 to-secondary/40 rounded-lg flex items-center justify-center backdrop-blur-sm">
-                    <div className="text-4xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent animate-fade-in">
-                      ?
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div className="max-w-4xl mx-auto space-y-12">
+            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+              <h2 className="text-3xl font-bold text-white mb-8">The Problem We're Solving</h2>
+              
+              <p>
+                <strong className="text-primary">95% of people who have a heart attack and need to change their health behaviors to avoid another heart attack cannot avoid a second heart attack.</strong>
+              </p>
+
+              <p>
+                Think about that. Even when a life is on the line, change is still nearly impossible. That doesn't mean these people aren't educated enough. Every single one of them knew they needed to change. But <strong className="text-accent">change is hard</strong>.
+              </p>
+
+              <p>
+                Change is inaccessible because sustained behavior change—becoming healthier, becoming more financially responsible, becoming whoever you need to become—is hard because it means changing the way we think. And changing the way we think isn't just hard, it's <em>effortful</em>. It's <em>friction-full</em>.
+              </p>
+
+              <p>
+                Only 12% of Americans go to therapy. Does that mean only 12% of Americans need help changing the way they think? No. But it reflects the pain of wanting to become someone different, the pain of wanting to think differently.
+              </p>
+
+              <p>
+                <strong className="text-white">It is the pain of change—the way you want to feel, the way you want to behave—that we understood as being at the crux of what we wanted to build.</strong>
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Values */}
+      {/* Our Solution */}
       <section className="py-16 px-6">
         <div className="container mx-auto">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-secondary via-accent to-primary bg-clip-text text-transparent">
-              Our Values
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              <Card className="p-8 bg-gradient-to-br from-gray-800/30 to-gray-900/50 border-gray-700/50 hover:border-primary/50 transition-all duration-300 hover:transform hover:scale-105">
-                <div className="text-center space-y-4">
-                  <div className="w-16 h-16 mx-auto bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center">
-                    <Heart className="h-8 w-8 text-white" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-100">Humanity</h3>
-                  <p className="text-gray-300 leading-relaxed">
-                    We begin with empathy, honoring the complexity of each person's inner world.
-                  </p>
-                </div>
-              </Card>
-              <Card className="p-8 bg-gradient-to-br from-gray-800/30 to-gray-900/50 border-gray-700/50 hover:border-accent/50 transition-all duration-300 hover:transform hover:scale-105">
-                <div className="text-center space-y-4">
-                  <div className="w-16 h-16 mx-auto bg-gradient-to-r from-accent to-secondary rounded-full flex items-center justify-center">
-                    <Brain className="h-8 w-8 text-white" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-100">Dreams</h3>
-                  <p className="text-gray-300 leading-relaxed">
-                    We believe that the act of dreaming itself proves that change is possible.
-                  </p>
-                </div>
-              </Card>
-              <Card className="p-8 bg-gradient-to-br from-gray-800/30 to-gray-900/50 border-gray-700/50 hover:border-secondary/50 transition-all duration-300 hover:transform hover:scale-105">
-                <div className="text-center space-y-4">
-                  <div className="w-16 h-16 mx-auto bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center">
-                    <Users className="h-8 w-8 text-white" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-100">Agency</h3>
-                  <p className="text-gray-300 leading-relaxed">
-                    You are the author of your own growth. We center your beliefs and progress around what matters to you.
-                  </p>
-                </div>
-              </Card>
+          <div className="max-w-4xl mx-auto space-y-12">
+            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+              <h2 className="text-3xl font-bold text-white mb-8">What We're Building</h2>
+              
+              <p>
+                We're building for the people who experience the pain of needing to change. Not the people who are super smart or super intellectual and love to intellectualize things. No—<strong className="text-primary">the people who experience the pain of wanting to change</strong>.
+              </p>
+
+              <p>
+                We're making it so those people can access change with the same level of control that someone who is super introspective and thinks all the time can. We're <strong className="text-accent">making metacognition effortless</strong>.
+              </p>
+
+              <p>
+                We recognize that we are not an AI company. We're not building AI and finding a place to put it. <strong className="text-white">We're not leveraging tech—we're leveraging an understanding of the problem.</strong>
+              </p>
+
+              <p>
+                This pain is visceral for all of us. And it's everywhere. People who need to be financially responsible. Someone whose daughter came out as gay and is having a hard time accepting their own daughter. Someone who wants to be happy. Someone who wants to call their mom more. Someone who wants to be a better father or mother.
+              </p>
+
+              <p className="text-xl font-semibold text-white">
+                Everyone wants to become. Everyone needs help becoming. And the act of becoming is a cognitive, psychological experience.
+              </p>
+
+              <p>
+                There is no system designed to directly target this problem—to make it less hard, to make it democratized, to support not only the people who already introspect, but to <strong className="text-primary">make introspection effortless</strong>.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* What Makes Us Different */}
+      {/* Why Effortlessness Matters */}
       <section className="py-16 px-6 bg-gray-900/30">
         <div className="container mx-auto">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              What Makes euno Different
-            </h2>
-            <div className="space-y-16">
-              <div className="flex flex-col lg:flex-row items-center gap-12">
-                <div className="lg:w-1/2 space-y-6">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center flex-shrink-0">
-                      <Target className="h-6 w-6 text-white" />
-                    </div>
-                    <h3 className="text-2xl font-semibold text-gray-100">Progress, Not Productivity</h3>
-                  </div>
-                  <p className="text-lg text-gray-300 leading-relaxed">
-                    Most tools focus on tasks, habits, or wellness in pieces. Euno addresses the bigger picture: 
-                    the universal ache of "things could be different."
-                  </p>
-                </div>
-                <div className="lg:w-1/2 flex justify-center">
-                  <div className="w-64 h-64 relative">
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-full animate-spin slow"></div>
-                    <div className="absolute inset-4 bg-gradient-to-l from-accent/30 to-primary/30 rounded-full animate-pulse"></div>
-                    <div className="absolute inset-8 bg-gradient-to-t from-primary/40 to-accent/40 rounded-full flex items-center justify-center">
-                      <Target className="h-16 w-16 text-white animate-fade-in" />
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div className="max-w-4xl mx-auto space-y-12">
+            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+              <h2 className="text-3xl font-bold text-white mb-8">Why Effortlessness?</h2>
+              
+              <p>
+                We say "effortlessness" because we recognize the nature of the problem. The current solutions are not effortless—they are effortful.
+              </p>
 
-              <div className="flex flex-col lg:flex-row-reverse items-center gap-12">
-                <div className="lg:w-1/2 space-y-6">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-r from-accent to-secondary rounded-full flex items-center justify-center flex-shrink-0">
-                      <Brain className="h-6 w-6 text-white" />
-                    </div>
-                    <h3 className="text-2xl font-semibold text-gray-100">Change That's Effortless</h3>
-                  </div>
-                  <p className="text-lg text-gray-300 leading-relaxed">
-                    Therapy, journaling, and self-help all demand time, skill, or discipline. 
-                    Euno uses AI to surface insights so progress feels natural — not forced.
-                  </p>
-                </div>
-                <div className="lg:w-1/2 flex justify-center">
-                  <div className="w-64 h-64 relative">
-                    <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-secondary/20 rounded-xl transform rotate-12 animate-pulse"></div>
-                    <div className="absolute inset-0 bg-gradient-to-tl from-secondary/20 to-accent/20 rounded-xl transform -rotate-12 animate-pulse delay-75"></div>
-                    <div className="absolute inset-8 bg-gradient-to-r from-accent/40 to-secondary/40 rounded-lg flex items-center justify-center backdrop-blur-sm">
-                      <Brain className="h-16 w-16 text-white animate-bounce" />
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <p>
+                <strong className="text-accent">We're not trying to make people more useful. We're trying to help them make progress.</strong>
+              </p>
 
-              <div className="flex flex-col lg:flex-row items-center gap-12">
-                <div className="lg:w-1/2 space-y-6">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center flex-shrink-0">
-                      <Users className="h-6 w-6 text-white" />
-                    </div>
-                    <h3 className="text-2xl font-semibold text-gray-100">For Everyone</h3>
-                  </div>
-                  <p className="text-lg text-gray-300 leading-relaxed">
-                    No goals to set, no jargon to learn, no need to already "be introspective." 
-                    Euno meets you where you are and helps you figure things out.
-                  </p>
-                </div>
-                <div className="lg:w-1/2 flex justify-center">
-                  <div className="w-64 h-64 relative">
-                    <div className="absolute inset-0 bg-gradient-to-r from-secondary/20 to-primary/20 rounded-full"></div>
-                    <div className="absolute inset-2 bg-gradient-to-l from-primary/20 to-secondary/20 rounded-full"></div>
-                    <div className="absolute inset-4 bg-gradient-to-t from-secondary/20 to-primary/20 rounded-full"></div>
-                    <div className="absolute inset-8 bg-gradient-to-br from-secondary/40 to-primary/40 rounded-full flex items-center justify-center animate-pulse">
-                      <Users className="h-16 w-16 text-white" />
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <p>
+                Most AI applications are about utility—helping people be more productive. This is different. This is about progress. About meeting people before they've even articulated a goal. They just know they want to become healthier, or happier, or more present.
+              </p>
+
+              <p>
+                Apps are designed to track quantitative parts of these things—step counts, calories, to-do lists. <strong className="text-white">We're trying to make it so that those decisions are more natural</strong>. We're trying to meet you at the most upstream level of solving these problems.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-
-      {/* Philosophy */}
-      <section className="py-16 px-6 bg-gray-900/50">
+      {/* Statistics */}
+      <section className="py-16 px-6">
         <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto text-center space-y-8">
-            <h2 className="text-4xl font-bold">
-              Our{" "}
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Philosophy
-              </span>
-            </h2>
-            <div className="text-left space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                <strong className="text-accent">We are not a traditional psychology app, nor are we a conventional life app.</strong> 
-                Psychology apps diagnose, treat, or guide individuals through mental health issues, while life apps organize tasks, 
-                plans, and external systems.
-              </p>
-              <p>
-                Our purpose is different; we don't aim to manage symptoms or structure someone's calendar, we aim to provide 
-                the infrastructure for progress itself. The way we do this is through cognitive stimuli: reframes, resonant mirrors, 
-                and subconscious steering that make users feel, reflect, and pivot naturally.
-              </p>
-              <p>
-                <strong className="text-primary">We're building a new category altogether: a progress app.</strong> 
-                Not wellness. Not therapy. Not productivity. Progress. That's the core space we occupy, and the lens we use 
-                internally to guide every feature and every design decision.
-              </p>
+          <div className="max-w-4xl mx-auto space-y-12">
+            <h2 className="text-3xl font-bold text-white text-center mb-12">The Pain Is Universal</h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <Card className="p-8 bg-gradient-to-br from-gray-800/50 to-gray-900/50 border-primary/30">
+                <div className="text-center space-y-4">
+                  <div className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                    64%
+                  </div>
+                  <p className="text-gray-300 leading-relaxed">
+                    of U.S. & Canadians feel stuck in progress toward their goals
+                  </p>
+                </div>
+              </Card>
+
+              <Card className="p-8 bg-gradient-to-br from-gray-800/50 to-gray-900/50 border-accent/30">
+                <div className="text-center space-y-4">
+                  <div className="text-5xl font-bold bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+                    59%
+                  </div>
+                  <p className="text-gray-300 leading-relaxed">
+                    of people believe they are in need of a change in their lives
+                  </p>
+                </div>
+              </Card>
+
+              <Card className="p-8 bg-gradient-to-br from-gray-800/50 to-gray-900/50 border-secondary/30">
+                <div className="text-center space-y-4">
+                  <div className="text-5xl font-bold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
+                    95%
+                  </div>
+                  <p className="text-gray-300 leading-relaxed">
+                    of people who must change their health behaviors to avoid a heart attack can't
+                  </p>
+                </div>
+              </Card>
+
+              <Card className="p-8 bg-gradient-to-br from-gray-800/50 to-gray-900/50 border-primary/30">
+                <div className="text-center space-y-4">
+                  <div className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                    80%
+                  </div>
+                  <p className="text-gray-300 leading-relaxed">
+                    of people ditch their New Year's resolutions by February
+                  </p>
+                </div>
+              </Card>
+
+              <Card className="p-8 bg-gradient-to-br from-gray-800/50 to-gray-900/50 border-accent/30 md:col-span-2">
+                <div className="text-center space-y-4">
+                  <div className="text-5xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
+                    &lt; 50%
+                  </div>
+                  <p className="text-gray-300 leading-relaxed">
+                    of Americans say they're "very satisfied" with their personal lives
+                  </p>
+                </div>
+              </Card>
+            </div>
+
+            <div className="text-center mt-12 text-xl text-gray-300 italic">
+              These aren't just statistics. They're proof that the pain of change is everywhere.
             </div>
           </div>
         </div>
