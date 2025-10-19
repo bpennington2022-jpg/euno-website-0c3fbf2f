@@ -35,31 +35,6 @@ const Index = () => {
                     "things could be different" into clear, actionable insights that make change feel natural.
                   </p>
                 </div>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button 
-                    size="lg" 
-                    className="bg-gradient-to-r from-primary to-accent hover:opacity-90"
-                  >
-                    Join Early Access
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                  <Button 
-                    size="lg"
-                    className="bg-gradient-to-r from-accent/20 to-secondary/20 border border-accent/30 text-white hover:from-accent/30 hover:to-secondary/30"
-                  >
-                    Watch Demo
-                  </Button>
-                </div>
-                <div className="flex items-center space-x-6 pt-4">
-                  <div className="flex items-center space-x-2">
-                    <Users className="h-5 w-5 text-primary" />
-                    <span className="text-sm text-gray-400">1,000+ early users</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <CheckCircle className="h-5 w-5 text-accent" />
-                    <span className="text-sm text-gray-400">No credit card required</span>
-                  </div>
-                </div>
               </div>
               <div className="lg:justify-self-end">
                 <PsychologyAnimation />
