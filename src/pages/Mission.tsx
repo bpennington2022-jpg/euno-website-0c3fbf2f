@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft, Heart, Brain, Users, Target } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const About = () => {
+const Mission = () => {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100">
       {/* Navigation */}
@@ -13,8 +13,11 @@ const About = () => {
             <Link to="/" className="text-gray-300 hover:text-primary transition-colors">
               Home
             </Link>
-            <Link to="/about" className="text-primary font-semibold transition-colors">
-              About
+            <Link to="/mission" className="text-primary font-semibold transition-colors">
+              Mission
+            </Link>
+            <Link to="/us" className="text-gray-300 hover:text-primary transition-colors">
+              Us
             </Link>
             <Link to="/methodology" className="text-gray-300 hover:text-primary transition-colors">
               Methodology
@@ -323,4 +326,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Mission;
