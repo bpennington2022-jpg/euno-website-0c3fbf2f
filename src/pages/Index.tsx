@@ -10,6 +10,9 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-gray-950/80 backdrop-blur-sm border-b border-gray-800/50 z-50">
         <div className="container mx-auto px-6 py-4 flex items-center justify-center">
           <div className="hidden md:flex items-center space-x-8">
+            <a href="/" className="text-primary font-semibold transition-colors">
+              Home
+            </a>
             <a href="/about" className="text-gray-300 hover:text-primary transition-colors">
               About
             </a>
