@@ -12,14 +12,14 @@ const Data = () => {
             <Link to="/mission" className="text-gray-300 hover:text-primary transition-colors">
               Mission
             </Link>
-            <Link to="/us" className="text-gray-300 hover:text-primary transition-colors">
-              Us
-            </Link>
             <Link to="/methodology" className="text-gray-300 hover:text-primary transition-colors">
               Methodology
             </Link>
             <Link to="/data" className="text-primary font-semibold transition-colors">
               Data
+            </Link>
+            <Link to="/us" className="text-gray-300 hover:text-primary transition-colors">
+              Us
             </Link>
           </div>
         </div>

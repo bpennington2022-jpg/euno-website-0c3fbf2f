@@ -16,14 +16,14 @@ const Index = () => {
             <a href="/mission" className="text-gray-300 hover:text-primary transition-colors">
               Mission
             </a>
-            <a href="/us" className="text-gray-300 hover:text-primary transition-colors">
-              Us
-            </a>
             <a href="/methodology" className="text-gray-300 hover:text-primary transition-colors">
               Methodology
             </a>
             <a href="/data" className="text-gray-300 hover:text-primary transition-colors">
               Data
+            </a>
+            <a href="/us" className="text-gray-300 hover:text-primary transition-colors">
+              Us
             </a>
           </div>
         </div>
