@@ -122,7 +122,7 @@ const Index = () => {
               euno uses AI to surface insights and reframe patterns so progress feels natural — not forced.
             </p>
           </div>
-          <div className="grid lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-3 gap-16">
             <Card className="p-8 hover:shadow-lg transition-shadow bg-gray-800/50 border-gray-700 sticky top-24">
               <Sparkles className="h-12 w-12 text-primary mb-6" />
               <h3 className="text-xl font-semibold mb-4 text-gray-100">Effortless Insights</h3>
