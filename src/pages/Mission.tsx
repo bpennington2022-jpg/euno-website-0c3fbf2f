@@ -14,19 +14,19 @@ const Mission = () => {
               euno
             </Link>
             <div className="hidden md:flex items-center gap-8">
-              <Link to="/" className="text-foreground/80 hover:text-foreground transition-colors">
+              <Link to="/" className="text-gray-300 hover:text-white transition-colors">
                 Home
               </Link>
-              <Link to="/mission" className="text-foreground font-medium transition-colors">
+              <Link to="/mission" className="text-white font-medium transition-colors">
                 Mission
               </Link>
-              <Link to="/methodology" className="text-foreground/80 hover:text-foreground transition-colors">
+              <Link to="/methodology" className="text-gray-300 hover:text-white transition-colors">
                 Methodology
               </Link>
-              <Link to="/data" className="text-foreground/80 hover:text-foreground transition-colors">
+              <Link to="/data" className="text-gray-300 hover:text-white transition-colors">
                 Data
               </Link>
-              <Link to="/us" className="text-foreground/80 hover:text-foreground transition-colors">
+              <Link to="/us" className="text-gray-300 hover:text-white transition-colors">
                 Us
               </Link>
               <Button asChild>

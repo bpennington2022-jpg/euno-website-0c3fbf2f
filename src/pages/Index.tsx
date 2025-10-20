@@ -14,19 +14,19 @@ const Index = () => {
               euno
             </a>
             <div className="hidden md:flex items-center gap-8">
-              <a href="/" className="text-foreground font-medium transition-colors">
+              <a href="/" className="text-white font-medium transition-colors">
                 Home
               </a>
-              <a href="/mission" className="text-foreground/80 hover:text-foreground transition-colors">
+              <a href="/mission" className="text-gray-300 hover:text-white transition-colors">
                 Mission
               </a>
-              <a href="/methodology" className="text-foreground/80 hover:text-foreground transition-colors">
+              <a href="/methodology" className="text-gray-300 hover:text-white transition-colors">
                 Methodology
               </a>
-              <a href="/data" className="text-foreground/80 hover:text-foreground transition-colors">
+              <a href="/data" className="text-gray-300 hover:text-white transition-colors">
                 Data
               </a>
-              <a href="/us" className="text-foreground/80 hover:text-foreground transition-colors">
+              <a href="/us" className="text-gray-300 hover:text-white transition-colors">
                 Us
               </a>
               <Button asChild>
