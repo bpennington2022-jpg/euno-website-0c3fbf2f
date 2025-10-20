@@ -7,29 +7,34 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-gray-950/80 backdrop-blur-sm border-b border-gray-800/50 z-50">
-        <div className="container mx-auto px-6 py-4 flex items-center justify-center">
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="/" className="text-primary font-semibold transition-colors">
-              Home
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-accent/20">
+        <div className="container mx-auto px-6 py-4">
+          <div className="flex items-center justify-between">
+            <a href="/" className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+              euno
             </a>
-            <a href="/mission" className="text-gray-300 hover:text-primary transition-colors">
-              Mission
-            </a>
-            <a href="/methodology" className="text-gray-300 hover:text-primary transition-colors">
-              Methodology
-            </a>
-            <a href="/data" className="text-gray-300 hover:text-primary transition-colors">
-              Data
-            </a>
-            <a href="/us" className="text-gray-300 hover:text-primary transition-colors">
-              Us
-            </a>
-            <Button asChild>
-              <a href="/contact">
-                Contact
+            <div className="hidden md:flex items-center gap-8">
+              <a href="/" className="text-foreground font-medium transition-colors">
+                Home
               </a>
-            </Button>
+              <a href="/mission" className="text-foreground/80 hover:text-foreground transition-colors">
+                Mission
+              </a>
+              <a href="/methodology" className="text-foreground/80 hover:text-foreground transition-colors">
+                Methodology
+              </a>
+              <a href="/data" className="text-foreground/80 hover:text-foreground transition-colors">
+                Data
+              </a>
+              <a href="/us" className="text-foreground/80 hover:text-foreground transition-colors">
+                Us
+              </a>
+              <Button asChild>
+                <a href="/contact">
+                  Contact
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </nav>

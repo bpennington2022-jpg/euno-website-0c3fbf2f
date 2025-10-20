@@ -7,29 +7,34 @@ const Mission = () => {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-gray-950/80 backdrop-blur-sm border-b border-gray-800/50 z-50">
-        <div className="container mx-auto px-6 py-4 flex items-center justify-center">
-          <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-gray-300 hover:text-primary transition-colors">
-              Home
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-accent/20">
+        <div className="container mx-auto px-6 py-4">
+          <div className="flex items-center justify-between">
+            <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+              euno
             </Link>
-            <Link to="/mission" className="text-primary font-semibold transition-colors">
-              Mission
-            </Link>
-            <Link to="/methodology" className="text-gray-300 hover:text-primary transition-colors">
-              Methodology
-            </Link>
-            <Link to="/data" className="text-gray-300 hover:text-primary transition-colors">
-              Data
-            </Link>
-            <Link to="/us" className="text-gray-300 hover:text-primary transition-colors">
-              Us
-            </Link>
-            <Button asChild>
-              <Link to="/contact">
-                Contact
+            <div className="hidden md:flex items-center gap-8">
+              <Link to="/" className="text-foreground/80 hover:text-foreground transition-colors">
+                Home
               </Link>
-            </Button>
+              <Link to="/mission" className="text-foreground font-medium transition-colors">
+                Mission
+              </Link>
+              <Link to="/methodology" className="text-foreground/80 hover:text-foreground transition-colors">
+                Methodology
+              </Link>
+              <Link to="/data" className="text-foreground/80 hover:text-foreground transition-colors">
+                Data
+              </Link>
+              <Link to="/us" className="text-foreground/80 hover:text-foreground transition-colors">
+                Us
+              </Link>
+              <Button asChild>
+                <Link to="/contact">
+                  Contact
+                </Link>
+              </Button>
+            </div>
           </div>
         </div>
       </nav>
