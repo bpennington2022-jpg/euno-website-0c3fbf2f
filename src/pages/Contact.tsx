@@ -135,7 +135,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="text-center mt-8 text-foreground/40">
-            <p>&copy; 2024 The Epiphany Company, LLC</p>
+            <p>&copy; 2025 The Epiphany Company, LLC</p>
           </div>
         </div>
       </footer>
