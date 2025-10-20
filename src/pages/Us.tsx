@@ -2,6 +2,8 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Linkedin, Mail } from "lucide-react";
+import teamMember1 from "@/assets/team-member-1.jpeg";
+import teamMember2 from "@/assets/team-member-2.jpeg";
 
 const Us = () => {
   return (
@@ -57,12 +59,12 @@ const Us = () => {
       <section className="py-16 px-6">
         <div className="container mx-auto">
           <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Team Member Card Template */}
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              {/* Team Member 1 */}
               <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)] hover:border-[hsl(250,70%,85%)] transition-all duration-300 hover:transform hover:scale-105">
                 <div className="text-center space-y-4">
-                  <div className="w-32 h-32 mx-auto bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center">
-                    <div className="text-4xl font-bold text-white">?</div>
+                  <div className="w-32 h-32 mx-auto rounded-full overflow-hidden">
+                    <img src={teamMember1} alt="Team Member" className="w-full h-full object-cover" />
                   </div>
                   <h3 className="text-2xl font-semibold text-gray-100">Team Member</h3>
                   <p className="text-gray-400">Role</p>
@@ -80,31 +82,11 @@ const Us = () => {
                 </div>
               </Card>
 
+              {/* Team Member 2 */}
               <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)] hover:border-[hsl(250,70%,85%)] transition-all duration-300 hover:transform hover:scale-105">
                 <div className="text-center space-y-4">
-                  <div className="w-32 h-32 mx-auto bg-gradient-to-r from-accent to-secondary rounded-full flex items-center justify-center">
-                    <div className="text-4xl font-bold text-white">?</div>
-                  </div>
-                  <h3 className="text-2xl font-semibold text-gray-100">Team Member</h3>
-                  <p className="text-gray-400">Role</p>
-                  <p className="text-gray-300 leading-relaxed">
-                    Brief description of team member and their contribution to euno.
-                  </p>
-                  <div className="flex justify-center gap-4 pt-4">
-                    <a href="#" className="text-gray-400 hover:text-primary transition-colors">
-                      <Linkedin className="h-5 w-5" />
-                    </a>
-                    <a href="#" className="text-gray-400 hover:text-primary transition-colors">
-                      <Mail className="h-5 w-5" />
-                    </a>
-                  </div>
-                </div>
-              </Card>
-
-              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)] hover:border-[hsl(250,70%,85%)] transition-all duration-300 hover:transform hover:scale-105">
-                <div className="text-center space-y-4">
-                  <div className="w-32 h-32 mx-auto bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center">
-                    <div className="text-4xl font-bold text-white">?</div>
+                  <div className="w-32 h-32 mx-auto rounded-full overflow-hidden">
+                    <img src={teamMember2} alt="Team Member" className="w-full h-full object-cover" />
                   </div>
                   <h3 className="text-2xl font-semibold text-gray-100">Team Member</h3>
                   <p className="text-gray-400">Role</p>
