@@ -123,7 +123,7 @@ const Index = () => {
             </p>
           </div>
           <div className="grid lg:grid-cols-3 gap-16">
-            <Card className="p-8 hover:shadow-lg transition-shadow bg-gray-800/50 border-gray-700 sticky top-24">
+            <Card className="p-8 hover:shadow-lg transition-shadow bg-gray-800/50 border-gray-700">
               <Sparkles className="h-12 w-12 text-primary mb-6" />
               <h3 className="text-xl font-semibold mb-4 text-gray-100">Effortless Insights</h3>
               <p className="text-gray-300">
@@ -131,7 +131,7 @@ const Index = () => {
                 in your thinking you never noticed.
               </p>
             </Card>
-            <Card className="p-8 hover:shadow-lg transition-shadow bg-gray-800/50 border-gray-700 sticky top-40">
+            <Card className="p-8 hover:shadow-lg transition-shadow bg-gray-800/50 border-gray-700">
               <Brain className="h-12 w-12 text-accent mb-6" />
               <h3 className="text-xl font-semibold mb-4 text-gray-100">Psychological OS</h3>
               <p className="text-gray-300">
@@ -139,7 +139,7 @@ const Index = () => {
                 values, and beliefs shape your reality.
               </p>
             </Card>
-            <Card className="p-8 hover:shadow-lg transition-shadow bg-gray-800/50 border-gray-700 sticky top-56">
+            <Card className="p-8 hover:shadow-lg transition-shadow bg-gray-800/50 border-gray-700">
               <Zap className="h-12 w-12 text-secondary mb-6" />
               <h3 className="text-xl font-semibold mb-4 text-gray-100">Subconscious Priming</h3>
               <p className="text-gray-300">
