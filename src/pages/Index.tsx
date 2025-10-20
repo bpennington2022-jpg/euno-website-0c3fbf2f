@@ -152,7 +152,7 @@ const Index = () => {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center space-y-4">
-              <div className="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center mx-auto text-2xl font-bold text-white">
+              <div className="w-16 h-16 bg-gray-950 border-2 border-[hsl(250,70%,75%)] rounded-full flex items-center justify-center mx-auto text-2xl font-bold text-white">
                 1
               </div>
               <h3 className="text-xl font-semibold text-gray-100">Share Your Thoughts</h3>
@@ -161,7 +161,7 @@ const Index = () => {
               </p>
             </div>
             <div className="text-center space-y-4">
-              <div className="w-16 h-16 bg-gradient-to-r from-accent to-secondary rounded-full flex items-center justify-center mx-auto text-2xl font-bold text-white">
+              <div className="w-16 h-16 bg-gray-950 border-2 border-[hsl(250,70%,75%)] rounded-full flex items-center justify-center mx-auto text-2xl font-bold text-white">
                 2
               </div>
               <h3 className="text-xl font-semibold text-gray-100">AI Reveals Patterns</h3>
@@ -170,7 +170,7 @@ const Index = () => {
               </p>
             </div>
             <div className="text-center space-y-4">
-              <div className="w-16 h-16 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center mx-auto text-2xl font-bold text-white">
+              <div className="w-16 h-16 bg-gray-950 border-2 border-[hsl(250,70%,75%)] rounded-full flex items-center justify-center mx-auto text-2xl font-bold text-white">
                 3
               </div>
               <h3 className="text-xl font-semibold text-gray-100">Natural Progress</h3>
