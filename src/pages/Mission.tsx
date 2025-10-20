@@ -170,9 +170,9 @@ const Mission = () => {
             <h2 className="text-3xl font-bold text-white text-center mb-12">The Pain Is Universal</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
-              <Card className="p-8 bg-[hsl(217,91%,8%)] border-primary/30">
+              <Card className="p-8 bg-accent border-accent/30">
                 <div className="text-center space-y-4">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                  <div className="text-5xl font-bold bg-gradient-to-r from-[hsl(217,91%,20%)] to-[hsl(250,70%,75%)] bg-clip-text text-transparent">
                     64%
                   </div>
                   <p className="text-gray-300 leading-relaxed">
@@ -181,9 +181,9 @@ const Mission = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-[hsl(217,91%,8%)] border-accent/30">
+              <Card className="p-8 bg-accent border-accent/30">
                 <div className="text-center space-y-4">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+                  <div className="text-5xl font-bold bg-gradient-to-r from-[hsl(217,91%,20%)] to-[hsl(250,70%,75%)] bg-clip-text text-transparent">
                     59%
                   </div>
                   <p className="text-gray-300 leading-relaxed">
@@ -192,9 +192,9 @@ const Mission = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-[hsl(217,91%,8%)] border-secondary/30">
+              <Card className="p-8 bg-accent border-secondary/30">
                 <div className="text-center space-y-4">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
+                  <div className="text-5xl font-bold bg-gradient-to-r from-[hsl(217,91%,20%)] to-[hsl(250,70%,75%)] bg-clip-text text-transparent">
                     95%
                   </div>
                   <p className="text-gray-300 leading-relaxed">
@@ -203,9 +203,9 @@ const Mission = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-[hsl(217,91%,8%)] border-primary/30">
+              <Card className="p-8 bg-accent border-primary/30">
                 <div className="text-center space-y-4">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                  <div className="text-5xl font-bold bg-gradient-to-r from-[hsl(217,91%,20%)] to-[hsl(250,70%,75%)] bg-clip-text text-transparent">
                     80%
                   </div>
                   <p className="text-gray-300 leading-relaxed">
@@ -214,9 +214,9 @@ const Mission = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-[hsl(217,91%,8%)] border-accent/30 md:col-span-2">
+              <Card className="p-8 bg-accent border-accent/30 md:col-span-2">
                 <div className="text-center space-y-4">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
+                  <div className="text-5xl font-bold bg-gradient-to-r from-[hsl(217,91%,20%)] to-[hsl(250,70%,75%)] bg-clip-text text-transparent">
                     &lt; 50%
                   </div>
                   <p className="text-gray-300 leading-relaxed">
