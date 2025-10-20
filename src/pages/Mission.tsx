@@ -148,7 +148,7 @@ const Mission = () => {
               </p>
 
               <p>
-                <strong className="text-accent">We're not trying to make people more useful. We're trying to help them make progress.</strong>
+                <strong className="text-[hsl(250,70%,75%)]">We're not trying to make people more useful. We're trying to help them make progress.</strong>
               </p>
 
               <p>
