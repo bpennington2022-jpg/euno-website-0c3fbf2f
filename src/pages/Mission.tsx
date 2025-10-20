@@ -82,7 +82,7 @@ const Mission = () => {
               </p>
 
               <p>
-                Think about that. Even when a life is on the line, change is still nearly impossible. That doesn't mean these people aren't educated enough. Every single one of them knew they needed to change. But <strong className="text-accent">change is hard</strong>.
+                Think about that. Even when a life is on the line, change is still nearly impossible. That doesn't mean these people aren't educated enough. Every single one of them knew they needed to change. But <strong className="text-[hsl(250,70%,75%)]">change is hard</strong>.
               </p>
 
               <p>
