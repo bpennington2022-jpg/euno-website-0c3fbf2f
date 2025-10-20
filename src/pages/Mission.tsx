@@ -170,56 +170,56 @@ const Mission = () => {
             <h2 className="text-3xl font-bold text-white text-center mb-12">The Pain Is Universal</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
-              <Card className="p-8 bg-[hsl(250,70%,75%)] border-primary/30">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)]">
                 <div className="text-center space-y-4">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-[hsl(217,91%,20%)] to-accent bg-clip-text text-transparent">
+                  <div className="text-5xl font-bold text-white">
                     64%
                   </div>
-                  <p className="text-gray-800 leading-relaxed">
+                  <p className="text-gray-300 leading-relaxed">
                     of U.S. & Canadians feel stuck in progress toward their goals
                   </p>
                 </div>
               </Card>
 
-              <Card className="p-8 bg-[hsl(250,70%,75%)] border-accent/30">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)]">
                 <div className="text-center space-y-4">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-[hsl(217,91%,20%)] to-accent bg-clip-text text-transparent">
+                  <div className="text-5xl font-bold text-white">
                     59%
                   </div>
-                  <p className="text-gray-800 leading-relaxed">
+                  <p className="text-gray-300 leading-relaxed">
                     of people believe they are in need of a change in their lives
                   </p>
                 </div>
               </Card>
 
-              <Card className="p-8 bg-[hsl(250,70%,75%)] border-secondary/30">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)]">
                 <div className="text-center space-y-4">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-[hsl(217,91%,20%)] to-accent bg-clip-text text-transparent">
+                  <div className="text-5xl font-bold text-white">
                     95%
                   </div>
-                  <p className="text-gray-800 leading-relaxed">
+                  <p className="text-gray-300 leading-relaxed">
                     of people who must change their health behaviors to avoid a heart attack can't
                   </p>
                 </div>
               </Card>
 
-              <Card className="p-8 bg-[hsl(250,70%,75%)] border-primary/30">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)]">
                 <div className="text-center space-y-4">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-[hsl(217,91%,20%)] to-accent bg-clip-text text-transparent">
+                  <div className="text-5xl font-bold text-white">
                     80%
                   </div>
-                  <p className="text-gray-800 leading-relaxed">
+                  <p className="text-gray-300 leading-relaxed">
                     of people ditch their New Year's resolutions by February
                   </p>
                 </div>
               </Card>
 
-              <Card className="p-8 bg-[hsl(250,70%,75%)] border-accent/30 md:col-span-2">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)] md:col-span-2">
                 <div className="text-center space-y-4">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-[hsl(217,91%,20%)] to-accent bg-clip-text text-transparent">
+                  <div className="text-5xl font-bold text-white">
                     &lt; 50%
                   </div>
-                  <p className="text-gray-800 leading-relaxed">
+                  <p className="text-gray-300 leading-relaxed">
                     of Americans say they're "very satisfied" with their personal lives
                   </p>
                 </div>
