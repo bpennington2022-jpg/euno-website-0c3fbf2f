@@ -29,9 +29,11 @@ const Contact = () => {
               <Link to="/us" className="text-foreground/80 hover:text-foreground transition-colors">
                 Us
               </Link>
-              <Link to="/contact" className="text-primary font-medium">
-                Contact
-              </Link>
+              <Button asChild>
+                <Link to="/contact">
+                  Contact
+                </Link>
+              </Button>
             </div>
           </div>
         </div>
