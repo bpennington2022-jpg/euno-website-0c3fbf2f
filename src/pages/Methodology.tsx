@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Brain, Layers, Lightbulb, RefreshCw, Sparkles, Target } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -24,6 +25,11 @@ const Methodology = () => {
             <Link to="/us" className="text-gray-300 hover:text-primary transition-colors">
               Us
             </Link>
+            <Button asChild>
+              <Link to="/contact">
+                Contact
+              </Link>
+            </Button>
           </div>
         </div>
       </nav>

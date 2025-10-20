@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Linkedin, Mail } from "lucide-react";
 
@@ -24,6 +25,11 @@ const Us = () => {
             <Link to="/us" className="text-primary font-semibold transition-colors">
               Us
             </Link>
+            <Button asChild>
+              <Link to="/contact">
+                Contact
+              </Link>
+            </Button>
           </div>
         </div>
       </nav>

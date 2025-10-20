@@ -25,6 +25,11 @@ const Index = () => {
             <a href="/us" className="text-gray-300 hover:text-primary transition-colors">
               Us
             </a>
+            <Button asChild>
+              <a href="/contact">
+                Contact
+              </a>
+            </Button>
           </div>
         </div>
       </nav>
