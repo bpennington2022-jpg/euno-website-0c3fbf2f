@@ -82,7 +82,7 @@ const Mission = () => {
               <h2 className="text-3xl font-bold text-white mb-8">The Problem We're Solving</h2>
               
               <p>
-                <strong className="text-[hsl(250,70%,75%)]">95% of people who have a heart attack and need to change their health behaviors to avoid another heart attack cannot avoid a second heart attack.</strong>
+                <strong className="text-[hsl(250,70%,75%)]">95% of people who have a heart attack and need to change their health behaviors to avoid another one cannot.</strong>
               </p>
 
               <p>
