@@ -55,7 +55,7 @@ const Mission = () => {
               </p>
 
               <p>
-                But as we talked to physicians, one physician in particular made a comment that changed everything: <strong className="text-primary">"Even if you made the best healthcare app in the world, that would not make people care about their health."</strong>
+                But as we talked to physicians, one physician in particular made a comment that changed everything: <strong className="text-[hsl(250,70%,75%)]">"Even if you made the best healthcare app in the world, that would not make people care about their health."</strong>
               </p>
 
               <p>
@@ -78,7 +78,7 @@ const Mission = () => {
               <h2 className="text-3xl font-bold text-white mb-8">The Problem We're Solving</h2>
               
               <p>
-                <strong className="text-primary">95% of people who have a heart attack and need to change their health behaviors to avoid another heart attack cannot avoid a second heart attack.</strong>
+                <strong className="text-[hsl(250,70%,75%)]">95% of people who have a heart attack and need to change their health behaviors to avoid another heart attack cannot avoid a second heart attack.</strong>
               </p>
 
               <p>
@@ -109,11 +109,11 @@ const Mission = () => {
               <h2 className="text-3xl font-bold text-white mb-8">What We're Building</h2>
               
               <p>
-                We're building for the people who experience the pain of needing to change. Not the people who are super smart or super intellectual and love to intellectualize things. No—<strong className="text-primary">the people who experience the pain of wanting to change</strong>.
+                We're building for the people who experience the pain of needing to change. Not the people who are super smart or super intellectual and love to intellectualize things. No—<strong className="text-[hsl(250,70%,75%)]">the people who experience the pain of wanting to change</strong>.
               </p>
 
               <p>
-                We're making it so those people can access change with the same level of control that someone who is super introspective and thinks all the time can. We're <strong className="text-accent">making metacognition effortless</strong>.
+                We're making it so those people can access change with the same level of control that someone who is super introspective and thinks all the time can. We're <strong className="text-[hsl(250,70%,75%)]">making metacognition effortless</strong>.
               </p>
 
               <p>
@@ -129,7 +129,7 @@ const Mission = () => {
               </p>
 
               <p>
-                There is no system designed to directly target this problem—to make it less hard, to make it democratized, to support not only the people who already introspect, but to <strong className="text-primary">make introspection effortless</strong>.
+                There is no system designed to directly target this problem—to make it less hard, to make it democratized, to support not only the people who already introspect, but to <strong className="text-[hsl(250,70%,75%)]">make introspection effortless</strong>.
               </p>
             </div>
           </div>
