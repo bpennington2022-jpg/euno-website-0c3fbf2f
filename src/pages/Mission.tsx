@@ -59,7 +59,11 @@ const Mission = () => {
               </p>
 
               <p>
-                That statement hit us hard. Because what it really meant was this: <strong className="text-[hsl(45,90%,55%)]">you cannot change the way you behave and the way you feel without changing the way you think.</strong>
+                That statement hit us hard. Because what it really meant was this:
+              </p>
+              
+              <p className="text-center text-[1.15rem]">
+                <strong className="text-[hsl(45,90%,55%)]">you cannot change the way you behave and the way you feel without changing the way you think.</strong>
               </p>
 
               <p>
