@@ -120,7 +120,7 @@ const Mission = () => {
 
               <div className="text-center py-8 my-8 bg-gray-900/70 rounded-xl border-2 border-accent/50">
                 <p className="text-2xl font-bold text-white leading-relaxed px-6">
-                  It is the <span className="text-accent">pain of change</span>—the way you want to feel, the way you want to behave—that we understood as being at the crux of what we wanted to build.
+                  It is the <span className="text-purple-300">pain of change</span>—the way you want to feel, the way you want to behave—that we understood as being at the crux of what we wanted to build.
                 </p>
               </div>
             </div>
