@@ -60,7 +60,7 @@ const Mission = () => {
               </h2>
               
               <p className="text-lg text-gray-300 leading-relaxed">
-                We started with a simple goal: <span className="text-xl font-semibold text-white">build a healthcare app</span>. We wanted to empower people with their health—to make it really easy to understand the intangible elements that affected their wellbeing.
+                We started with a simple goal: <span className="text-xl font-semibold text-white">build a healthcare app</span>. We wanted to empower people with their health—to make it really easy to understand the intangible elements that affected their&nbsp;wellbeing.
               </p>
 
               <p className="text-lg text-gray-300 leading-relaxed">
@@ -84,7 +84,7 @@ const Mission = () => {
               </div>
 
               <p className="text-lg text-gray-300 leading-relaxed">
-                He directed us to an <span className="text-xl font-semibold text-secondary">epiphany psychologist</span> who also worked at our university. That psychologist is <span className="text-xl font-semibold text-white">now on our team</span>. And he was essential in helping us understand what we actually needed to build.
+                He directed us to an <span className="text-xl font-semibold text-secondary">epiphany psychologist</span> who also worked at our university. That psychologist is <span className="text-xl font-semibold text-white">now on our team</span>. And he was essential in helping us understand what we actually needed to&nbsp;build.
               </p>
             </div>
           </div>
@@ -115,12 +115,12 @@ const Mission = () => {
               </p>
 
               <p className="text-lg text-gray-300 leading-relaxed">
-                Only <span className="text-2xl font-bold text-purple-400">12%</span> of Americans go to therapy. Does that mean only 12% of Americans need help changing the way they think? No. But it reflects the <span className="font-bold text-white">pain of wanting to become someone different</span>, the pain of wanting to think differently.
+                Only <span className="text-2xl font-bold text-purple-400">12%</span> of Americans go to therapy. Does that mean only 12% of Americans need help changing the way they think? No. But it reflects the <span className="font-bold text-white">pain of wanting to become someone different</span>, the pain of wanting to think&nbsp;differently.
               </p>
 
               <div className="text-center py-8 my-8 bg-gray-900/70 rounded-xl border-2 border-accent/50">
                 <p className="text-2xl font-bold text-white leading-relaxed px-6">
-                  It is the <span className="text-purple-300">pain of change</span>—the way you want to feel, the way you want to behave—that we understood as being at the crux of what we wanted to build.
+                  It is the <span className="text-purple-300">pain of change</span>—the way you want to feel, the way you want to behave—that we understood as being at the crux of what we wanted to&nbsp;build.
                 </p>
               </div>
             </div>
@@ -138,11 +138,11 @@ const Mission = () => {
               </h2>
               
               <p className="text-lg text-gray-300 leading-relaxed">
-                We're building for <span className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">the people who experience the pain of needing to change</span>. Not the people who are super smart or super intellectual and love to intellectualize things. No—the people who experience the <span className="text-xl font-semibold text-accent">pain of wanting to change</span>.
+                We're building for <span className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">the people who experience the pain of needing to change</span>. Not the people who are super smart or super intellectual and love to intellectualize things. No—the people who experience the <span className="text-xl font-semibold text-accent">pain of wanting to&nbsp;change</span>.
               </p>
 
               <p className="text-lg text-gray-300 leading-relaxed">
-                We're making it so those people can access change with the same level of control that someone who is super introspective and thinks all the time can. We're <span className="text-2xl font-bold text-primary">making metacognition effortless</span>.
+                We're making it so those people can access change with the same level of control that someone who is super introspective and thinks all the time can. We're <span className="text-2xl font-bold text-primary">making metacognition&nbsp;effortless</span>.
               </p>
 
               <div className="bg-gradient-to-r from-secondary/20 to-primary/20 p-8 rounded-xl border border-secondary/50 my-8">
@@ -152,7 +152,7 @@ const Mission = () => {
               </div>
 
               <p className="text-lg text-gray-300 leading-relaxed">
-                This pain is <span className="text-xl font-semibold text-accent">visceral</span> for all of us. And it's <span className="text-xl font-semibold text-primary">everywhere</span>. People who need to be financially responsible. Someone whose daughter came out as gay and is having a hard time accepting their own daughter. Someone who wants to be happy. Someone who wants to call their mom more. Someone who wants to be a better father or mother.
+                This pain is <span className="text-xl font-semibold text-accent">visceral</span> for all of us. And it's <span className="text-xl font-semibold text-primary">everywhere</span>. People who need to be financially responsible. Someone whose daughter came out as gay and is having a hard time accepting their own daughter. Someone who wants to be happy. Someone who wants to call their mom more. Someone who wants to be a better father or&nbsp;mother.
               </p>
 
               <div className="text-center py-10 my-10 bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 rounded-xl border-2 border-primary/40">
@@ -164,7 +164,7 @@ const Mission = () => {
               </div>
 
               <p className="text-lg text-gray-300 leading-relaxed">
-                There is no system designed to directly target this problem—to make it less hard, to make it democratized, to support not only the people who already introspect, but to <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">make introspection effortless</span>.
+                There is no system designed to directly target this problem—to make it less hard, to make it democratized, to support not only the people who already introspect, but to <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">make introspection&nbsp;effortless</span>.
               </p>
             </div>
           </div>
@@ -181,7 +181,7 @@ const Mission = () => {
               </h2>
               
               <p className="text-lg text-gray-300 leading-relaxed">
-                We say <span className="text-2xl font-bold text-accent">"effortlessness"</span> because we recognize the nature of the problem. The current solutions are not effortless—they are <span className="text-xl font-semibold text-gray-400">effortful</span>.
+                We say <span className="text-2xl font-bold text-accent">"effortlessness"</span> because we recognize the nature of the problem. The current solutions are not effortless—they are&nbsp;<span className="text-xl font-semibold text-gray-400">effortful</span>.
               </p>
 
               <div className="bg-gradient-to-r from-primary/20 to-secondary/20 p-8 rounded-xl border border-primary/50 my-8">
@@ -192,11 +192,11 @@ const Mission = () => {
               </div>
 
               <p className="text-lg text-gray-300 leading-relaxed">
-                Most AI applications are about <span className="text-xl font-semibold text-gray-400">utility</span>—helping people be more productive. This is different. This is about <span className="text-2xl font-bold text-primary">progress</span>. About meeting people before they've even articulated a goal. They just know they want to become <span className="text-xl font-semibold text-accent">healthier</span>, or <span className="text-xl font-semibold text-secondary">happier</span>, or <span className="text-xl font-semibold text-primary">more present</span>.
+                Most AI applications are about <span className="text-xl font-semibold text-gray-400">utility</span>—helping people be more productive. This is different. This is about <span className="text-2xl font-bold text-primary">progress</span>. About meeting people before they've even articulated a goal. They just know they want to become <span className="text-xl font-semibold text-accent">healthier</span>, or <span className="text-xl font-semibold text-secondary">happier</span>, or <span className="text-xl font-semibold text-primary">more&nbsp;present</span>.
               </p>
 
               <p className="text-lg text-gray-300 leading-relaxed">
-                Apps are designed to track quantitative parts of these things—step counts, calories, to-do lists. <span className="text-2xl font-bold text-white">We're trying to make it so that those decisions are more natural</span>. We're trying to meet you at the <span className="text-xl font-semibold text-accent">most upstream level</span> of solving these problems.
+                Apps are designed to track quantitative parts of these things—step counts, calories, to-do lists. <span className="text-2xl font-bold text-white">We're trying to make it so that those decisions are more natural</span>. We're trying to meet you at the <span className="text-xl font-semibold text-accent">most upstream level</span> of solving these&nbsp;problems.
               </p>
             </div>
           </div>
@@ -267,7 +267,7 @@ const Mission = () => {
             </div>
 
             <div className="text-center mt-12 text-xl text-gray-300 italic">
-              These aren't just statistics. They're proof that the pain of change is everywhere.
+              These aren't just statistics. They're proof that the pain of change is&nbsp;everywhere.
             </div>
           </div>
         </div>
