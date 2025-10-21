@@ -173,7 +173,7 @@ const Mission = () => {
               </h2>
               
               <p className="text-lg text-white leading-relaxed">
-                We say <span className="text-2xl font-bold text-accent">"effortlessness"</span> because we recognize the nature of the problem. The current solutions are not effortless—they are&nbsp;<span className="text-xl font-semibold text-gray-400">effortful</span>.
+                We say <span className="text-2xl font-bold text-periwinkle">"effortlessness"</span> because we recognize the nature of the problem. The current solutions are not effortless—they are&nbsp;<span className="text-xl font-semibold text-gray-400">effortful</span>.
               </p>
 
               <p className="text-2xl font-bold text-white leading-relaxed text-center">
