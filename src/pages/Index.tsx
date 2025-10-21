@@ -79,21 +79,21 @@ const Index = () => {
               discipline you can't sustain, or time you don't possess.
             </p>
             <div className="grid md:grid-cols-3 gap-8 pt-8">
-              <Card className="p-6 text-left bg-gray-800/50 border-gray-700">
+              <Card className="p-6 text-left bg-gray-800/50 border-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-primary/20 cursor-pointer">
                 <Brain className="h-12 w-12 text-primary mb-4" />
                 <h3 className="text-lg font-semibold mb-2 text-gray-100">Therapy is Limited</h3>
                 <p className="text-gray-300">
                   Once a week sessions can't account for the totality of your experience.
                 </p>
               </Card>
-              <Card className="p-6 text-left bg-gray-800/50 border-gray-700">
+              <Card className="p-6 text-left bg-gray-800/50 border-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-accent/20 cursor-pointer">
                 <Target className="h-12 w-12 text-accent mb-4" />
                 <h3 className="text-lg font-semibold mb-2 text-gray-100">Apps are Fragmented</h3>
                 <p className="text-gray-300">
                   Productivity, wellness, and mindfulness tools address symptoms, not root causes.
                 </p>
               </Card>
-              <Card className="p-6 text-left bg-gray-800/50 border-gray-700">
+              <Card className="p-6 text-left bg-gray-800/50 border-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-secondary/20 cursor-pointer">
                 <Heart className="h-12 w-12 text-secondary mb-4" />
                 <h3 className="text-lg font-semibold mb-2 text-gray-100">Change Feels Effortful</h3>
                 <p className="text-gray-300">
@@ -120,7 +120,7 @@ const Index = () => {
             </p>
           </div>
           <div className="grid lg:grid-cols-3 gap-16">
-            <Card className="p-8 hover:shadow-lg transition-shadow bg-gray-800/50 border-gray-700">
+            <Card className="p-8 hover:shadow-lg transition-all duration-300 bg-gray-800/50 border-gray-700 hover:scale-105 hover:shadow-primary/20 cursor-pointer">
               <Sparkles className="h-12 w-12 text-primary mb-6" />
               <h3 className="text-xl font-semibold mb-4 text-gray-100">Effortless Insights</h3>
               <p className="text-gray-300">
@@ -128,7 +128,7 @@ const Index = () => {
                 in your thinking you never noticed.
               </p>
             </Card>
-            <Card className="p-8 hover:shadow-lg transition-shadow bg-gray-800/50 border-gray-700">
+            <Card className="p-8 hover:shadow-lg transition-all duration-300 bg-gray-800/50 border-gray-700 hover:scale-105 hover:shadow-accent/20 cursor-pointer">
               <Brain className="h-12 w-12 text-accent mb-6" />
               <h3 className="text-xl font-semibold mb-4 text-gray-100">Psychological OS</h3>
               <p className="text-gray-300">
@@ -136,7 +136,7 @@ const Index = () => {
                 values, and beliefs shape your reality.
               </p>
             </Card>
-            <Card className="p-8 hover:shadow-lg transition-shadow bg-gray-800/50 border-gray-700">
+            <Card className="p-8 hover:shadow-lg transition-all duration-300 bg-gray-800/50 border-gray-700 hover:scale-105 hover:shadow-secondary/20 cursor-pointer">
               <Zap className="h-12 w-12 text-secondary mb-6" />
               <h3 className="text-xl font-semibold mb-4 text-gray-100">Subconscious Priming</h3>
               <p className="text-gray-300">
