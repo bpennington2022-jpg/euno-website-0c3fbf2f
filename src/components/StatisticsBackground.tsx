@@ -62,10 +62,10 @@ const StatisticsBackground = ({ children }: { children: React.ReactNode }) => {
           const totalStats = statistics.length;
           const statProgress = (index / totalStats);
           const distanceFromCurrent = Math.abs(statProgress - scrollProgress);
-          const opacity = scrollProgress > 0 ? Math.max(0, 1 - distanceFromCurrent * 5) : 0;
+          const opacity = scrollProgress > 0 ? Math.max(0, 1 - distanceFromCurrent * 2) : 0;
           const translateX = stat.side === "left" 
-            ? `${-100 + (opacity * 100)}%` 
-            : `${100 - (opacity * 100)}%`;
+            ? `${-50 + (opacity * 50)}%` 
+            : `${50 - (opacity * 50)}%`;
           
           return (
             <div
