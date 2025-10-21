@@ -108,12 +108,12 @@ const Mission = () => {
                 Think about that. Even when <span className="font-bold">a life is on the line</span>, change is still nearly impossible. That doesn't mean these people aren't educated enough. Every single one of them knew they needed to change. But <span className="font-bold text-primary">change is hard</span>.
               </p>
 
-              <p className="text-lg text-gray-300 leading-relaxed">
-                Change is inaccessible because sustained behavior change—becoming healthier, becoming more financially responsible, becoming whoever you need to become—is hard because it means <span className="text-xl font-semibold text-white">changing the way we think</span>. And changing the way we think isn't just hard, it's <em className="text-xl text-secondary not-italic font-semibold">effortful</em>. It's <em className="text-xl text-secondary not-italic font-semibold">friction-full</em>.
+              <p className="text-lg text-white leading-relaxed">
+                Change is inaccessible because sustained behavior change—becoming healthier, becoming more financially responsible, becoming whoever you need to become—is hard because it means <span className="text-xl font-semibold">changing the way we think</span>. And changing the way we think isn't just hard, it's <em className="text-xl text-secondary not-italic font-semibold">effortful</em>. It's <em className="text-xl text-secondary not-italic font-semibold">friction-full</em>.
               </p>
 
-              <p className="text-lg text-gray-300 leading-relaxed">
-                Only <span className="text-2xl font-bold text-secondary">12%</span> of Americans go to therapy. Does that mean only 12% of Americans need help changing the way they think? No. But it reflects the <span className="font-bold text-white">pain of wanting to become someone different</span>, the pain of wanting to think&nbsp;differently.
+              <p className="text-lg text-white leading-relaxed">
+                Only <span className="text-2xl font-bold text-secondary">12%</span> of Americans go to therapy. Does that mean only 12% of Americans need help changing the way they think? No. But it reflects the <span className="font-bold">pain of wanting to become someone different</span>, the pain of wanting to think&nbsp;differently.
               </p>
 
               <p className="text-2xl font-bold text-white leading-relaxed px-6">
