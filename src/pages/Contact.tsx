@@ -123,12 +123,6 @@ const Contact = () => {
               euno
             </div>
             <div className="flex gap-6">
-              <Link to="/privacy" className="text-foreground/60 hover:text-foreground transition-colors text-sm">
-                Privacy
-              </Link>
-              <Link to="/terms" className="text-foreground/60 hover:text-foreground transition-colors text-sm">
-                Terms
-              </Link>
               <Link to="/contact" className="text-foreground/60 hover:text-foreground transition-colors text-sm">
                 Contact
               </Link>

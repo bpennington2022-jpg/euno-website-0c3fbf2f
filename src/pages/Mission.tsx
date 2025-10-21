@@ -283,8 +283,6 @@ const Mission = () => {
               </span>
             </div>
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-gray-200">Privacy</a>
-              <a href="#" className="text-gray-400 hover:text-gray-200">Terms</a>
               <Link to="/contact" className="text-gray-400 hover:text-gray-200">Contact</Link>
             </div>
           </div>

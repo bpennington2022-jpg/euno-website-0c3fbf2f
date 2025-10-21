@@ -239,8 +239,6 @@ const Index = () => {
               </span>
             </div>
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-gray-200">Privacy</a>
-              <a href="#" className="text-gray-400 hover:text-gray-200">Terms</a>
               <a href="/contact" className="text-gray-400 hover:text-gray-200">Contact</a>
             </div>
           </div>
