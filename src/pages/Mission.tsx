@@ -101,7 +101,7 @@ const Mission = () => {
               </h2>
               
               <div className="bg-gradient-to-r from-primary/20 via-accent/20 to-secondary/20 p-8 rounded-xl border border-primary/50">
-                <p className="text-3xl font-bold text-primary leading-relaxed">
+                <p className="text-3xl font-bold text-blue-300 leading-relaxed">
                   95% of people who have a heart attack and need to change their health behaviors to avoid another one cannot.
                 </p>
               </div>
