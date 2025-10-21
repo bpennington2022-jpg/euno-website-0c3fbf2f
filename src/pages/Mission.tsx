@@ -151,7 +151,7 @@ const Mission = () => {
 
               <p className="text-3xl font-bold leading-relaxed px-6">
                 <span className="text-periwinkle">Everyone wants to become.</span><br/>
-                <span className="text-white">Everyone needs help becoming.</span><br/>
+                <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">Everyone needs help becoming.</span><br/>
                 <span className="text-white">And the act of becoming is a cognitive, psychological experience.</span>
               </p>
 
