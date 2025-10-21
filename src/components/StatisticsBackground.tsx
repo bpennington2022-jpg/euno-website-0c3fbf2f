@@ -90,34 +90,34 @@ const StatisticsBackground = ({ children }: { children: React.ReactNode }) => {
           const totalStats = statistics.length;
           const statProgress = (index / totalStats);
           const distanceFromCurrent = Math.abs(statProgress - scrollProgress);
-          const opacity = scrollProgress > 0 ? Math.max(0, 1 - distanceFromCurrent * 3.5) : 0;
+          const baseOpacity = scrollProgress > 0 ? Math.max(0, 1 - distanceFromCurrent * 2.5) : 0;
+          
+          // Distribute vertically along edges
+          const yPercent = (index / (totalStats - 1)) * 100;
+          
+          // Calculate visibility multiplier based on vertical position
+          // Full visibility in corners (0-20% and 80-100%), reduced in middle
+          let visibilityMultiplier;
+          if (yPercent < 20 || yPercent > 80) {
+            visibilityMultiplier = 1; // Full visibility in corners
+          } else {
+            visibilityMultiplier = 0.3; // Reduced visibility in middle vertical space
+          }
+          
+          const finalOpacity = baseOpacity * visibilityMultiplier;
+          const translateAmount = yPercent < 20 || yPercent > 80 ? 130 : 60; // Fully emerge only in corners
           const translateX = stat.side === "left" 
-            ? `${-100 + (opacity * 130)}%` 
-            : `${100 - (opacity * 130)}%`;
-          
-          // Determine corner position based on index
-          // Split stats into 4 groups for 4 corners
-          const cornerIndex = index % 4;
-          const isTop = cornerIndex < 2;
-          const isLeft = cornerIndex % 2 === 0;
-          
-          // Position in corners only
-          const topPosition = isTop ? '80px' : 'auto'; // Below navbar
-          const bottomPosition = !isTop ? '20px' : 'auto';
-          const leftPosition = isLeft ? '0' : 'auto';
-          const rightPosition = !isLeft ? '0' : 'auto';
+            ? `${-100 + (finalOpacity * translateAmount)}%` 
+            : `${100 - (finalOpacity * translateAmount)}%`;
           
           return (
             <div
               key={index}
-              className={`fixed py-2 px-3 text-gray-600/40 text-base md:text-lg max-w-[45vw] md:max-w-[40vw] lg:max-w-[35vw] ${isLeft ? "text-left" : "text-right"}`}
+              className={`fixed ${stat.side === "left" ? "left-0 pl-3" : "right-0 pr-3"} text-gray-600/40 text-base md:text-lg py-2 max-w-[45vw] md:max-w-[40vw] lg:max-w-[35vw] ${stat.side === "left" ? "text-left" : "text-right"}`}
               style={{
-                top: topPosition,
-                bottom: bottomPosition,
-                left: leftPosition,
-                right: rightPosition,
-                opacity: opacity * 0.6,
-                transform: `translateX(${translateX})`,
+                top: `${yPercent}%`,
+                transform: `translateX(${translateX}) translateY(-50%)`,
+                opacity: finalOpacity * 0.6,
                 transition: "opacity 0.3s ease-out, transform 0.3s ease-out",
                 whiteSpace: 'normal',
                 wordBreak: 'break-word',
