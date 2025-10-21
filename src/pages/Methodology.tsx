@@ -258,19 +258,19 @@ const Methodology = () => {
             </h2>
             <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
               <p>
-                <strong className="text-[hsl(250,70%,75%)]">Traditional therapy</strong> is limited by time, cost, and availability. 
+                <strong className="text-periwinkle">Traditional therapy</strong> is limited by time, cost, and availability. 
                 Sessions occur once a week, progress is slow, and most people can't afford consistent access.
               </p>
               <p>
-                <strong className="text-accent">Self-help and journaling</strong> require discipline, introspection skills, 
+                <strong className="text-periwinkle">Self-help and journaling</strong> require discipline, introspection skills, 
                 and structured time—resources many people don't have or can't sustain.
               </p>
               <p>
-                <strong className="text-secondary">Productivity apps</strong> organize tasks but don't address the deeper 
+                <strong className="text-periwinkle">Productivity apps</strong> organize tasks but don't address the deeper 
                 psychological patterns that determine whether you follow through.
               </p>
               <p className="pt-4">
-                <strong className="text-[hsl(250,70%,75%)]">Euno is different.</strong> We don't require effort, expertise, or even 
+                <strong className="text-periwinkle">Euno is different.</strong> We don't require effort, expertise, or even 
                 conscious participation. Simply input your thoughts when it feels natural, and let AI surface the insights 
                 that spark months of subconscious restructuring. Progress becomes effortless.
               </p>
