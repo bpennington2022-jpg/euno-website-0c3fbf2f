@@ -84,13 +84,13 @@ const StatisticsBackground = ({ children }: { children: React.ReactNode }) => {
           const distanceFromCurrent = Math.abs(statProgress - scrollProgress);
           const opacity = scrollProgress > 0 ? Math.max(0, 1 - distanceFromCurrent * 2) : 0;
           const translateX = stat.side === "left" 
-            ? `${-100 + (opacity * 100)}%` 
-            : `${100 - (opacity * 100)}%`;
+            ? `${-100 + (opacity * 130)}%` 
+            : `${100 - (opacity * 130)}%`;
           
           return (
             <div
               key={index}
-              className={`absolute ${stat.side === "left" ? "left-0 pl-4" : "right-0 pr-4"} text-gray-600/40 text-sm py-2 max-w-xs ${stat.side === "left" ? "text-left" : "text-right"}`}
+              className={`absolute ${stat.side === "left" ? "left-0 pl-6" : "right-0 pr-6"} text-gray-600/40 text-base py-2 max-w-sm ${stat.side === "left" ? "text-left" : "text-right"}`}
               style={{
                 top: `${(index / totalStats) * 100}%`,
                 opacity: opacity * 0.6,
