@@ -84,7 +84,7 @@ const Index = () => {
               </div>
               <div className="flex flex-col items-center gap-6">
                 <AppMockup />
-                <div className="inline-flex items-center gap-3 bg-gradient-to-r from-[hsl(220,70%,15%)] to-[hsl(240,70%,20%)] rounded-full px-6 py-3 shadow-lg border border-gray-800/50">
+                <div className="inline-flex items-center gap-3 bg-gradient-to-r from-[hsl(220,30%,10%)] to-[hsl(240,35%,12%)] rounded-full px-6 py-3 shadow-lg border border-gray-800/50">
                   <span className="text-sm font-semibold text-white">Launching in November!</span>
                   <div className="flex items-center gap-2 text-sm font-mono">
                     <span className="text-white font-semibold">{timeLeft.days}d</span>
