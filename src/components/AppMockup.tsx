@@ -1,4 +1,4 @@
-import { Sparkles, ChevronRight, Plus, ChevronLeft, Briefcase, GraduationCap, Users, Brain, DollarSign, Heart, Building } from "lucide-react";
+import { Sparkles, ChevronRight, Plus, ChevronLeft, Briefcase, GraduationCap, Users, Brain, DollarSign, Activity, Globe } from "lucide-react";
 import { useRef, useEffect } from "react";
 
 const AppMockup = () => {
@@ -36,10 +36,10 @@ const AppMockup = () => {
     };
   }, []);
   const lifeAreas = [
-    { icon: Heart, label: "Health", rotation: 0 },
+    { icon: Activity, label: "Health", rotation: 0 },
     { icon: Users, label: "Relationships", rotation: 51.4 },
     { icon: GraduationCap, label: "Education", rotation: 102.8 },
-    { icon: Building, label: "Society", rotation: 154.2 },
+    { icon: Globe, label: "Society", rotation: 154.2 },
     { icon: Brain, label: "Thoughts", rotation: 205.6 },
     { icon: DollarSign, label: "Money", rotation: 257 },
     { icon: Briefcase, label: "Career", rotation: 308.4 },
