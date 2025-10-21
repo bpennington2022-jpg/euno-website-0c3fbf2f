@@ -66,24 +66,24 @@ export default {
       keyframes: {
         orbit: {
           "0%": {
-            transform: "rotate(0deg) translateX(180px) rotate(0deg)",
-            opacity: "0.2",
+            transform: "rotate(0deg) translateX(240px) rotate(0deg)",
+            opacity: "0.3",
           },
           "15%": {
-            opacity: "0.7",
+            opacity: "0.8",
           },
           "35%": {
-            opacity: "0.2",
+            opacity: "0.3",
           },
           "65%": {
-            opacity: "0.2",
+            opacity: "0.3",
           },
           "85%": {
-            opacity: "0.7",
+            opacity: "0.8",
           },
           "100%": {
-            transform: "rotate(360deg) translateX(180px) rotate(-360deg)",
-            opacity: "0.2",
+            transform: "rotate(360deg) translateX(240px) rotate(-360deg)",
+            opacity: "0.3",
           },
         },
         "accordion-down": {
