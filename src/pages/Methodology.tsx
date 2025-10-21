@@ -74,8 +74,8 @@ const Methodology = () => {
             <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-accent via-primary to-secondary bg-clip-text text-transparent">
               How It Works
             </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <Card className="p-8 bg-gray-950 border-0 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-primary/20 cursor-pointer">
+            <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 justify-items-center max-w-4xl mx-auto">
+              <Card className="p-8 bg-gray-950 border-0 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-primary/20 cursor-pointer w-full max-w-md">
                 <div className="space-y-4">
                   <div className="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center">
                     <Layers className="h-8 w-8 text-white" />
@@ -88,7 +88,7 @@ const Methodology = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gray-950 border-0 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-accent/20 cursor-pointer">
+              <Card className="p-8 bg-gray-950 border-0 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-accent/20 cursor-pointer w-full max-w-md">
                 <div className="space-y-4">
                   <div className="w-16 h-16 bg-gradient-to-r from-accent to-secondary rounded-full flex items-center justify-center">
                     <Brain className="h-8 w-8 text-white" />
@@ -101,7 +101,7 @@ const Methodology = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gray-950 border-0 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-secondary/20 cursor-pointer md:col-span-2 lg:col-span-3">
+              <Card className="p-8 bg-gray-950 border-0 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-secondary/20 cursor-pointer md:col-span-2 lg:col-span-2 w-full">
                 <div className="grid lg:grid-cols-[1fr,auto] gap-8 items-start">
                   <div className="space-y-4">
                     <div className="w-16 h-16 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center">
