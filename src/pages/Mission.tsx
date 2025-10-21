@@ -54,27 +54,37 @@ const Mission = () => {
       <section className="py-16 px-6">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto space-y-12">
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <h2 className="text-3xl font-bold text-white mb-8">How We Got Here</h2>
+            <div className="space-y-8">
+              <h2 className="text-4xl font-bold text-white mb-8 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+                How We Got Here
+              </h2>
               
-              <p>
-                We started with a simple goal: build a healthcare app. We wanted to empower people with their health—to make it really easy to understand the intangible elements that affected their wellbeing.
+              <p className="text-lg text-gray-300 leading-relaxed">
+                We started with a simple goal: <span className="text-xl font-semibold text-white">build a healthcare app</span>. We wanted to empower people with their health—to make it really easy to understand the intangible elements that affected their wellbeing.
               </p>
 
-              <p>
-                But as we talked to physicians, one physician in particular made a comment that changed everything: <strong className="text-[hsl(250,70%,75%)]">"Even if you made the best healthcare app in the world, that would not make people care about their health."</strong>
+              <p className="text-lg text-gray-300 leading-relaxed">
+                But as we talked to physicians, one physician in particular made a comment that <span className="text-xl font-semibold text-accent">changed everything:</span>
               </p>
+              
+              <blockquote className="border-l-4 border-primary pl-6 py-4 my-8 bg-gray-900/50 rounded-r-lg">
+                <p className="text-2xl font-bold text-primary leading-relaxed">
+                  "Even if you made the best healthcare app in the world, that would not make people care about their health."
+                </p>
+              </blockquote>
 
-              <p>
+              <p className="text-lg text-gray-300 leading-relaxed">
                 That statement hit us hard. Because what it really meant was this:
               </p>
               
-              <p className="text-center text-[1.15rem]">
-                <strong className="text-[hsl(45,90%,55%)]">you cannot change the way you behave and the way you feel without changing the way you think.</strong>
-              </p>
+              <div className="text-center py-8 my-8 bg-gradient-to-r from-accent/10 via-primary/10 to-secondary/10 rounded-xl border border-accent/30">
+                <p className="text-3xl font-bold bg-gradient-to-r from-accent via-primary to-secondary bg-clip-text text-transparent leading-relaxed px-6">
+                  You cannot change the way you behave and the way you feel without changing the way you think.
+                </p>
+              </div>
 
-              <p>
-                He directed us to an epiphany psychologist who also worked at our university. That psychologist is now on our team. And he was essential in helping us understand what we actually needed to build.
+              <p className="text-lg text-gray-300 leading-relaxed">
+                He directed us to an <span className="text-xl font-semibold text-secondary">epiphany psychologist</span> who also worked at our university. That psychologist is <span className="text-xl font-semibold text-white">now on our team</span>. And he was essential in helping us understand what we actually needed to build.
               </p>
             </div>
           </div>
@@ -85,28 +95,34 @@ const Mission = () => {
       <section className="py-16 px-6 bg-gray-900/30">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto space-y-12">
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <h2 className="text-3xl font-bold text-white mb-8">The Problem We're Solving</h2>
+            <div className="space-y-8">
+              <h2 className="text-4xl font-bold text-white mb-8 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+                The Problem We're Solving
+              </h2>
               
-              <p>
-                <strong className="text-[hsl(250,70%,75%)]">95% of people who have a heart attack and need to change their health behaviors to avoid another one cannot.</strong>
+              <div className="bg-gradient-to-r from-primary/20 via-accent/20 to-secondary/20 p-8 rounded-xl border border-primary/50">
+                <p className="text-3xl font-bold text-primary leading-relaxed">
+                  95% of people who have a heart attack and need to change their health behaviors to avoid another one cannot.
+                </p>
+              </div>
+
+              <p className="text-lg text-gray-300 leading-relaxed">
+                Think about that. Even when <span className="text-2xl font-bold text-accent">a life is on the line</span>, change is still nearly impossible. That doesn't mean these people aren't educated enough. Every single one of them knew they needed to change. But <span className="text-2xl font-bold text-primary">change is hard</span>.
               </p>
 
-              <p>
-                Think about that. Even when a life is on the line, change is still nearly impossible. That doesn't mean these people aren't educated enough. Every single one of them knew they needed to change. But <strong className="text-[hsl(250,70%,75%)]">change is hard</strong>.
+              <p className="text-lg text-gray-300 leading-relaxed">
+                Change is inaccessible because sustained behavior change—becoming healthier, becoming more financially responsible, becoming whoever you need to become—is hard because it means <span className="text-xl font-semibold text-white">changing the way we think</span>. And changing the way we think isn't just hard, it's <em className="text-xl text-accent not-italic font-semibold">effortful</em>. It's <em className="text-xl text-secondary not-italic font-semibold">friction-full</em>.
               </p>
 
-              <p>
-                Change is inaccessible because sustained behavior change—becoming healthier, becoming more financially responsible, becoming whoever you need to become—is hard because it means changing the way we think. And changing the way we think isn't just hard, it's <em>effortful</em>. It's <em>friction-full</em>.
+              <p className="text-lg text-gray-300 leading-relaxed">
+                Only <span className="text-2xl font-bold text-primary">12%</span> of Americans go to therapy. Does that mean only 12% of Americans need help changing the way they think? No. But it reflects the <span className="text-xl font-semibold text-accent">pain of wanting to become someone different</span>, the pain of wanting to think differently.
               </p>
 
-              <p>
-                Only 12% of Americans go to therapy. Does that mean only 12% of Americans need help changing the way they think? No. But it reflects the pain of wanting to become someone different, the pain of wanting to think differently.
-              </p>
-
-              <p>
-                <strong className="text-white">It is the pain of change—the way you want to feel, the way you want to behave—that we understood as being at the crux of what we wanted to build.</strong>
-              </p>
+              <div className="text-center py-8 my-8 bg-gray-900/70 rounded-xl border-2 border-accent/50">
+                <p className="text-2xl font-bold text-white leading-relaxed px-6">
+                  It is the <span className="text-accent">pain of change</span>—the way you want to feel, the way you want to behave—that we understood as being at the crux of what we wanted to build.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -116,31 +132,39 @@ const Mission = () => {
       <section className="py-16 px-6">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto space-y-12">
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <h2 className="text-3xl font-bold text-white mb-8">What We're Building</h2>
+            <div className="space-y-8">
+              <h2 className="text-4xl font-bold text-white mb-8 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+                What We're Building
+              </h2>
               
-              <p>
-                We're building for the people who experience the pain of needing to change. Not the people who are super smart or super intellectual and love to intellectualize things. No—<strong className="text-[hsl(250,70%,75%)]">the people who experience the pain of wanting to change</strong>.
+              <p className="text-lg text-gray-300 leading-relaxed">
+                We're building for <span className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">the people who experience the pain of needing to change</span>. Not the people who are super smart or super intellectual and love to intellectualize things. No—the people who experience the <span className="text-xl font-semibold text-accent">pain of wanting to change</span>.
               </p>
 
-              <p>
-                We're making it so those people can access change with the same level of control that someone who is super introspective and thinks all the time can. We're <strong className="text-[hsl(250,70%,75%)]">making metacognition effortless</strong>.
+              <p className="text-lg text-gray-300 leading-relaxed">
+                We're making it so those people can access change with the same level of control that someone who is super introspective and thinks all the time can. We're <span className="text-2xl font-bold text-primary">making metacognition effortless</span>.
               </p>
 
-              <p>
-                We recognize that we are not an AI company. We're not building AI and finding a place to put it. <strong className="text-white">We're not leveraging tech—we're leveraging an understanding of the problem.</strong>
+              <div className="bg-gradient-to-r from-secondary/20 to-primary/20 p-8 rounded-xl border border-secondary/50 my-8">
+                <p className="text-2xl font-bold text-white leading-relaxed">
+                  We're not leveraging tech—we're leveraging an <span className="text-accent">understanding of the problem</span>.
+                </p>
+              </div>
+
+              <p className="text-lg text-gray-300 leading-relaxed">
+                This pain is <span className="text-xl font-semibold text-accent">visceral</span> for all of us. And it's <span className="text-xl font-semibold text-primary">everywhere</span>. People who need to be financially responsible. Someone whose daughter came out as gay and is having a hard time accepting their own daughter. Someone who wants to be happy. Someone who wants to call their mom more. Someone who wants to be a better father or mother.
               </p>
 
-              <p>
-                This pain is visceral for all of us. And it's everywhere. People who need to be financially responsible. Someone whose daughter came out as gay and is having a hard time accepting their own daughter. Someone who wants to be happy. Someone who wants to call their mom more. Someone who wants to be a better father or mother.
-              </p>
+              <div className="text-center py-10 my-10 bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 rounded-xl border-2 border-primary/40">
+                <p className="text-3xl font-bold leading-relaxed px-6">
+                  <span className="text-primary">Everyone wants to become.</span><br/>
+                  <span className="text-accent">Everyone needs help becoming.</span><br/>
+                  <span className="text-white">And the act of becoming is a cognitive, psychological experience.</span>
+                </p>
+              </div>
 
-              <p className="text-xl font-semibold text-white">
-                Everyone wants to become. Everyone needs help becoming. And the act of becoming is a cognitive, psychological experience.
-              </p>
-
-              <p>
-                There is no system designed to directly target this problem—to make it less hard, to make it democratized, to support not only the people who already introspect, but to <strong className="text-[hsl(250,70%,75%)]">make introspection effortless</strong>.
+              <p className="text-lg text-gray-300 leading-relaxed">
+                There is no system designed to directly target this problem—to make it less hard, to make it democratized, to support not only the people who already introspect, but to <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">make introspection effortless</span>.
               </p>
             </div>
           </div>
@@ -151,23 +175,28 @@ const Mission = () => {
       <section className="py-16 px-6 bg-gray-900/30">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto space-y-12">
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <h2 className="text-3xl font-bold text-white mb-8">Why Effortlessness?</h2>
+            <div className="space-y-8">
+              <h2 className="text-4xl font-bold text-white mb-8 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+                Why Effortlessness?
+              </h2>
               
-              <p>
-                We say "effortlessness" because we recognize the nature of the problem. The current solutions are not effortless—they are effortful.
+              <p className="text-lg text-gray-300 leading-relaxed">
+                We say <span className="text-2xl font-bold text-accent">"effortlessness"</span> because we recognize the nature of the problem. The current solutions are not effortless—they are <span className="text-xl font-semibold text-gray-400">effortful</span>.
               </p>
 
-              <p>
-                <strong className="text-[hsl(250,70%,75%)]">We're not trying to make people more useful. We're trying to help them make progress.</strong>
+              <div className="bg-gradient-to-r from-primary/20 to-secondary/20 p-8 rounded-xl border border-primary/50 my-8">
+                <p className="text-2xl font-bold text-primary leading-relaxed text-center">
+                  We're not trying to make people more <span className="line-through text-gray-500">useful</span>.<br/>
+                  We're trying to help them make <span className="text-accent">progress</span>.
+                </p>
+              </div>
+
+              <p className="text-lg text-gray-300 leading-relaxed">
+                Most AI applications are about <span className="text-xl font-semibold text-gray-400">utility</span>—helping people be more productive. This is different. This is about <span className="text-2xl font-bold text-primary">progress</span>. About meeting people before they've even articulated a goal. They just know they want to become <span className="text-xl font-semibold text-accent">healthier</span>, or <span className="text-xl font-semibold text-secondary">happier</span>, or <span className="text-xl font-semibold text-primary">more present</span>.
               </p>
 
-              <p>
-                Most AI applications are about utility—helping people be more productive. This is different. This is about progress. About meeting people before they've even articulated a goal. They just know they want to become healthier, or happier, or more present.
-              </p>
-
-              <p>
-                Apps are designed to track quantitative parts of these things—step counts, calories, to-do lists. <strong className="text-white">We're trying to make it so that those decisions are more natural</strong>. We're trying to meet you at the most upstream level of solving these problems.
+              <p className="text-lg text-gray-300 leading-relaxed">
+                Apps are designed to track quantitative parts of these things—step counts, calories, to-do lists. <span className="text-2xl font-bold text-white">We're trying to make it so that those decisions are more natural</span>. We're trying to meet you at the <span className="text-xl font-semibold text-accent">most upstream level</span> of solving these problems.
               </p>
             </div>
           </div>
