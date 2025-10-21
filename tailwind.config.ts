@@ -67,23 +67,23 @@ export default {
         orbit: {
           "0%": {
             transform: "rotate(0deg) translateX(180px) rotate(0deg)",
-            opacity: "0",
+            opacity: "0.2",
           },
           "15%": {
-            opacity: "0.5",
+            opacity: "0.7",
           },
           "35%": {
-            opacity: "0",
+            opacity: "0.2",
           },
           "65%": {
-            opacity: "0",
+            opacity: "0.2",
           },
           "85%": {
-            opacity: "0.5",
+            opacity: "0.7",
           },
           "100%": {
             transform: "rotate(360deg) translateX(180px) rotate(-360deg)",
-            opacity: "0",
+            opacity: "0.2",
           },
         },
         "accordion-down": {
