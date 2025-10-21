@@ -102,7 +102,7 @@ const Methodology = () => {
               </Card>
 
               <Card className="p-8 bg-gray-950 border-0 transition-all duration-300 md:col-span-2 lg:col-span-3">
-                <div className="grid lg:grid-cols-2 gap-8 items-center">
+                <div className="grid lg:grid-cols-[1fr,auto] gap-8 items-start">
                   <div className="space-y-4">
                     <div className="w-16 h-16 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center">
                       <Lightbulb className="h-8 w-8 text-white" />
@@ -116,7 +116,7 @@ const Methodology = () => {
                       Try interacting with the insight example →
                     </p>
                   </div>
-                  <div className="flex justify-center lg:justify-end">
+                  <div className="flex justify-center lg:justify-start">
                     <InsightPhone />
                   </div>
                 </div>
