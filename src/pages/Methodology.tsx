@@ -55,58 +55,75 @@ const Methodology = () => {
         </div>
       </section>
 
-      {/* The Problem */}
+      {/* Paradigm Shift */}
       <section className="py-16 px-6 bg-gray-900/30">
         <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto space-y-8">
+          <div className="max-w-6xl mx-auto space-y-12">
             <h2 className="text-4xl font-bold text-center bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-              The Problem
+              A Paradigm Shift
             </h2>
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                You cannot change the way you behave or feel without changing the way you <em>think</em>.
-              </p>
-              <p>
-                This is why most "change solutions" are insufficient. They target behavior or mood without addressing cognition. 
-                Productivity apps organize tasks. Meditation apps calm the mind. Therapy offers support. But without fundamentally 
-                shifting the thought patterns driving your actions, progress remains temporary.
-              </p>
-              <p>
-                Of the limited solutions that <em>do</em> focus on cognition—therapy, self-help, journaling—they too fail at scale, 
-                because cognitive change is (or at least <em>feels</em>) effortful. It requires time, discipline, introspection skills, 
-                and often, expensive professional guidance.
-              </p>
-              <p className="text-xl text-white pt-4">
-                These core barriers explain why, despite copious solutions, lasting change remains out of reach for so many.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Current Paradigm */}
+              <Card className="p-8 bg-gray-950/50 border-gray-800/50 space-y-6">
+                <div className="space-y-4">
+                  <div className="flex items-center gap-3">
+                    <div className="w-12 h-12 rounded-full bg-gray-800/50 flex items-center justify-center">
+                      <RefreshCw className="h-6 w-6 text-gray-400" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-gray-300">Current Paradigm</h3>
+                  </div>
+                  <div className="h-1 bg-gradient-to-r from-gray-700 to-gray-800 rounded-full" />
+                </div>
+                
+                <div className="space-y-4 text-gray-400 leading-relaxed">
+                  <p className="text-lg">
+                    <strong className="text-gray-300">Change must be effortful.</strong>
+                  </p>
+                  <p>
+                    The prevailing belief is that meaningful psychological change requires grinding through exercises, 
+                    maintaining strict discipline, and investing significant time and money.
+                  </p>
+                  <p>
+                    Even solutions that <em>do</em> address cognition—therapy, self-help, journaling—remain inaccessible 
+                    at scale because they demand sustained effort, introspection skills, and resources most people lack.
+                  </p>
+                  <p className="text-gray-300 pt-2">
+                    This is why lasting change remains out of reach for most people, despite countless solutions.
+                  </p>
+                </div>
+              </Card>
 
-      {/* Core Insight */}
-      <section className="py-16 px-6">
-        <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto space-y-8">
-            <h2 className="text-4xl font-bold text-center bg-gradient-to-r from-accent via-primary to-secondary bg-clip-text text-transparent">
-              Our Core Insight
-            </h2>
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p className="text-xl text-white">
-                Change does not <em>need</em> to be or feel effortful.
-              </p>
-              <p>
-                Psychology has long understood that a single, resonant stimulus can spark months of subconscious restructuring. 
-                An epiphany. A reframe that clicks. A mirror held up at the right moment. Change that, in practice, feels natural—if not inevitable.
-              </p>
-              <p>
-                This is <strong className="text-secondary">epiphany psychology</strong>: the understanding that cognitive transformation 
-                doesn't require grinding through exercises or willpower. It requires <em>resonance</em>—the right insight, delivered in 
-                the right way, at the right time.
-              </p>
-              <p className="text-xl text-white pt-4">
-                Imbued into an app, we can make this kind of change accessible to everyone.
-              </p>
+              {/* Our Paradigm */}
+              <Card className="p-8 bg-gradient-to-br from-primary/5 to-accent/5 border-primary/20 space-y-6 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
+                <div className="relative space-y-4">
+                  <div className="flex items-center gap-3">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-r from-primary to-accent flex items-center justify-center">
+                      <Sparkles className="h-6 w-6 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">Our Paradigm</h3>
+                  </div>
+                  <div className="h-1 bg-gradient-to-r from-primary via-accent to-secondary rounded-full" />
+                </div>
+                
+                <div className="relative space-y-4 text-gray-300 leading-relaxed">
+                  <p className="text-lg">
+                    <strong className="text-white">Change can be effortless.</strong>
+                  </p>
+                  <p>
+                    A single resonant stimulus—an epiphany, a reframe that clicks, a mirror held up at the right moment—can 
+                    spark months of natural, subconscious restructuring.
+                  </p>
+                  <p>
+                    This is <strong className="text-secondary">epiphany psychology</strong>: cognitive transformation doesn't 
+                    require willpower or grinding. It requires <em>resonance</em>—the right insight, delivered at the right time.
+                  </p>
+                  <p className="text-white pt-2">
+                    Through AI, we make this kind of change accessible and effortless for everyone.
+                  </p>
+                </div>
+              </Card>
             </div>
           </div>
         </div>
