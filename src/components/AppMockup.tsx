@@ -34,7 +34,7 @@ const AppMockup = () => {
               }}
             >
               <Icon 
-                className="w-20 h-20 text-gray-600/60" 
+                className="w-28 h-28 text-gray-600/60" 
                 strokeWidth={1.5}
               />
             </div>
