@@ -5,19 +5,19 @@ const InsightPhone = () => {
   const [activeResonance, setActiveResonance] = useState<'star' | 'moon' | null>(null);
 
   return (
-    <div className="relative w-full max-w-[240px] mx-auto">
-      {/* Phone Frame */}
-      <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-[2.5rem] p-2.5 shadow-2xl border border-gray-700">
+    <div className="relative w-full max-w-[240px] mx-auto overflow-hidden">
+      {/* Phone Frame - Top Half Only */}
+      <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-t-[2.5rem] p-2.5 shadow-2xl border-t border-l border-r border-gray-700 pb-0">
         {/* Notch */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-5 bg-gray-950 rounded-b-2xl z-10"></div>
         
-        {/* Screen Content */}
-        <div className="relative bg-gray-950 rounded-[2rem] overflow-hidden pt-8 pb-6 px-4">
+        {/* Screen Content - Cut off at bottom */}
+        <div className="relative bg-gray-950 rounded-t-[2rem] overflow-hidden pt-8 pb-12 px-4">
           {/* Insight Header */}
           <h1 className="text-2xl font-bold text-white mb-4">Insight</h1>
 
           {/* Insight Card */}
-          <div className="bg-gray-900/50 border border-gray-800 rounded-2xl p-4 relative">
+          <div className="bg-gray-900/50 border border-gray-800 rounded-2xl p-4 relative mb-4">
             <p className="text-white text-sm leading-relaxed mb-8">
               When you and your partner talk about 'settling down,' the language often frames it as a trade-off between freedom and control.
             </p>
@@ -58,13 +58,15 @@ const InsightPhone = () => {
             </div>
           </div>
 
-          {/* Home indicator */}
-          <div className="absolute bottom-2 left-1/2 -translate-x-1/2 w-24 h-1 bg-gray-700 rounded-full"></div>
+          {/* Partial Next Card - to show there's more content below */}
+          <div className="bg-gray-900/50 border border-gray-800 rounded-t-2xl p-4 pt-3">
+            <h2 className="text-white text-base font-semibold opacity-60">Insight</h2>
+          </div>
         </div>
       </div>
 
       {/* Gradient Glow */}
-      <div className="absolute -inset-3 bg-gradient-to-r from-secondary/10 via-primary/10 to-accent/10 rounded-[2.5rem] blur-xl -z-10 opacity-50"></div>
+      <div className="absolute -inset-3 bg-gradient-to-r from-secondary/10 via-primary/10 to-accent/10 rounded-t-[2.5rem] blur-xl -z-10 opacity-50"></div>
     </div>
   );
 };
