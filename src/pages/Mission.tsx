@@ -115,7 +115,7 @@ const Mission = () => {
               </p>
 
               <p className="text-lg text-gray-300 leading-relaxed">
-                Only <span className="text-2xl font-bold text-primary">12%</span> of Americans go to therapy. Does that mean only 12% of Americans need help changing the way they think? No. But it reflects the <span className="text-xl font-semibold text-accent">pain of wanting to become someone different</span>, the pain of wanting to think differently.
+                Only <span className="text-2xl font-bold text-purple-400">12%</span> of Americans go to therapy. Does that mean only 12% of Americans need help changing the way they think? No. But it reflects the <span className="text-xl font-semibold text-accent">pain of wanting to become someone different</span>, the pain of wanting to think differently.
               </p>
 
               <div className="text-center py-8 my-8 bg-gray-900/70 rounded-xl border-2 border-accent/50">
