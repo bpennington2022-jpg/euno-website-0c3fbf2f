@@ -111,7 +111,7 @@ const Mission = () => {
               </p>
 
               <p className="text-lg text-gray-300 leading-relaxed">
-                Change is inaccessible because sustained behavior change—becoming healthier, becoming more financially responsible, becoming whoever you need to become—is hard because it means <span className="text-xl font-semibold text-white">changing the way we think</span>. And changing the way we think isn't just hard, it's <em className="text-xl text-accent not-italic font-semibold">effortful</em>. It's <em className="text-xl text-secondary not-italic font-semibold">friction-full</em>.
+                Change is inaccessible because sustained behavior change—becoming healthier, becoming more financially responsible, becoming whoever you need to become—is hard because it means <span className="text-xl font-semibold text-white">changing the way we think</span>. And changing the way we think isn't just hard, it's <em className="text-xl text-purple-400 not-italic font-semibold">effortful</em>. It's <em className="text-xl text-purple-400 not-italic font-semibold">friction-full</em>.
               </p>
 
               <p className="text-lg text-gray-300 leading-relaxed">
