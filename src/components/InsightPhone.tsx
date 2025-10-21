@@ -12,12 +12,12 @@ const InsightPhone = () => {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-5 bg-gray-950 rounded-b-2xl z-10"></div>
         
         {/* Screen Content - Cut off at bottom */}
-        <div className="relative bg-gray-950 rounded-t-[2rem] overflow-hidden pt-8 pb-12 px-4">
+        <div className="relative bg-gray-950 rounded-t-[2rem] overflow-hidden pt-8 pb-6 px-4">
           {/* Insight Header */}
           <h1 className="text-2xl font-bold text-white mb-4">Insight</h1>
 
           {/* Insight Card */}
-          <div className="bg-gray-900/50 border border-gray-800 rounded-2xl p-4 relative mb-4">
+          <div className="bg-gray-900/50 border border-gray-800 rounded-2xl p-4 relative">
             <p className="text-white text-sm leading-relaxed mb-8">
               When you and your partner talk about 'settling down,' the language often frames it as a trade-off between freedom and control.
             </p>
@@ -56,11 +56,6 @@ const InsightPhone = () => {
                 </button>
               </div>
             </div>
-          </div>
-
-          {/* Partial Next Card - to show there's more content below */}
-          <div className="bg-gray-900/50 border border-gray-800 rounded-t-2xl p-4 pt-3">
-            <h2 className="text-white text-base font-semibold opacity-60">Insight</h2>
           </div>
         </div>
       </div>
