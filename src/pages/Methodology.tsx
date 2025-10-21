@@ -2,6 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Brain, Layers, Lightbulb, RefreshCw, Sparkles, Target } from "lucide-react";
 import { Link } from "react-router-dom";
+import InsightPhone from "@/components/InsightPhone";
 
 const Methodology = () => {
   return (
@@ -100,16 +101,24 @@ const Methodology = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gray-950 border-0 transition-all duration-300">
-                <div className="space-y-4">
-                  <div className="w-16 h-16 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center">
-                    <Lightbulb className="h-8 w-8 text-white" />
+              <Card className="p-8 bg-gray-950 border-0 transition-all duration-300 md:col-span-2 lg:col-span-3">
+                <div className="grid lg:grid-cols-2 gap-8 items-center">
+                  <div className="space-y-4">
+                    <div className="w-16 h-16 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center">
+                      <Lightbulb className="h-8 w-8 text-white" />
+                    </div>
+                    <h3 className="text-xl font-semibold text-gray-100">Resonant Reframing</h3>
+                    <p className="text-gray-300 leading-relaxed">
+                      Instead of prescriptive advice, we offer gentle reframes and mirrors that resonate 
+                      with your unique psychology, sparking natural reflection.
+                    </p>
+                    <p className="text-sm text-gray-400 italic mt-4">
+                      Try interacting with the insight example →
+                    </p>
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-100">Resonant Reframing</h3>
-                  <p className="text-gray-300 leading-relaxed">
-                    Instead of prescriptive advice, we offer gentle reframes and mirrors that resonate 
-                    with your unique psychology, sparking natural reflection.
-                  </p>
+                  <div className="flex justify-center lg:justify-end">
+                    <InsightPhone />
+                  </div>
                 </div>
               </Card>
 
