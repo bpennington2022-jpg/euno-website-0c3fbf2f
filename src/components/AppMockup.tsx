@@ -1,34 +1,38 @@
 import { Sparkles, ChevronRight, Plus, ChevronLeft, Briefcase, GraduationCap, Users, Brain, DollarSign, Heart, Building } from "lucide-react";
-import { useEffect, useRef } from "react";
+import { useRef, useEffect } from "react";
 
 const AppMockup = () => {
-  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const phoneContentRef = useRef<HTMLDivElement>(null);
+  const wrapperRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const handleWheel = (e: WheelEvent) => {
-      const container = scrollContainerRef.current;
-      if (!container) return;
+    const handleScroll = (e: WheelEvent) => {
+      const phoneContent = phoneContentRef.current;
+      if (!phoneContent) return;
 
-      const { scrollTop, scrollHeight, clientHeight } = container;
-      const isAtTop = scrollTop === 0;
-      const isAtBottom = scrollTop + clientHeight >= scrollHeight - 1;
+      const { scrollTop, scrollHeight, clientHeight } = phoneContent;
+      const atBottom = scrollTop + clientHeight >= scrollHeight - 1;
+      const atTop = scrollTop <= 0;
 
-      // If scrolling down and not at bottom, or scrolling up and not at top
-      if ((e.deltaY > 0 && !isAtBottom) || (e.deltaY < 0 && !isAtTop)) {
+      // If scrolling down and phone not at bottom, scroll phone instead
+      if (e.deltaY > 0 && !atBottom) {
         e.preventDefault();
-        container.scrollTop += e.deltaY;
+        e.stopPropagation();
+        phoneContent.scrollTop += e.deltaY;
+      }
+      // If scrolling up and phone not at top, scroll phone instead
+      else if (e.deltaY < 0 && !atTop) {
+        e.preventDefault();
+        e.stopPropagation();
+        phoneContent.scrollTop += e.deltaY;
       }
     };
 
-    const container = scrollContainerRef.current;
-    if (container) {
-      container.addEventListener('wheel', handleWheel, { passive: false });
-    }
+    const wrapper = wrapperRef.current;
+    wrapper?.addEventListener('wheel', handleScroll, { passive: false });
 
     return () => {
-      if (container) {
-        container.removeEventListener('wheel', handleWheel);
-      }
+      wrapper?.removeEventListener('wheel', handleScroll);
     };
   }, []);
   const lifeAreas = [
@@ -50,7 +54,7 @@ const AppMockup = () => {
   const categories = ["Body", "Habits", "Nutrition", "Movement", "Sleep"];
 
   return (
-    <div className="relative w-full max-w-[350px] mx-auto min-h-[680px]">
+    <div ref={wrapperRef} className="relative w-full max-w-[350px] mx-auto min-h-[680px]">
       {/* Rotating life area icons */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-visible">
         {lifeAreas.map((area, index) => {
@@ -89,7 +93,7 @@ const AppMockup = () => {
           </div>
 
           {/* Content */}
-          <div ref={scrollContainerRef} className="absolute top-12 left-0 right-0 bottom-0 overflow-y-auto px-6 pb-8">
+          <div ref={phoneContentRef} className="absolute top-12 left-0 right-0 bottom-0 overflow-y-auto px-6 pb-8">
             {/* Header */}
             <div className="flex items-center justify-between mb-3 pt-4">
               <div className="flex items-center gap-3">
