@@ -182,7 +182,7 @@ const Mission = () => {
               </p>
 
               <p className="text-lg text-white leading-relaxed">
-                Most AI applications are about <span className="text-xl font-semibold text-gray-400">utility</span>—helping people be more productive. This is different. This is about <span className="text-2xl font-bold text-periwinkle">progress</span>. About meeting people before they've even articulated a goal. They just know they want to become <span className="text-xl font-semibold text-accent">healthier</span>, or <span className="text-xl font-semibold text-secondary">happier</span>, or <span className="text-xl font-semibold text-primary">more&nbsp;present</span>.
+                Most AI applications are about <span className="text-xl font-semibold text-gray-400">utility</span>—helping people be more productive. This is different. This is about <span className="text-2xl font-bold text-periwinkle">progress</span>. About meeting people before they've even articulated a goal. They just know they want to become <span className="text-xl font-semibold text-white">healthier</span>, or <span className="text-xl font-semibold text-white">happier</span>, or <span className="text-xl font-semibold text-white">more&nbsp;present</span>.
               </p>
 
               <p className="text-lg text-white leading-relaxed">
