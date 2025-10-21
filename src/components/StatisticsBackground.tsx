@@ -90,27 +90,31 @@ const StatisticsBackground = ({ children }: { children: React.ReactNode }) => {
           const totalStats = statistics.length;
           const statProgress = (index / totalStats);
           const distanceFromCurrent = Math.abs(statProgress - scrollProgress);
-          const opacity = scrollProgress > 0 ? Math.max(0, 1 - distanceFromCurrent * 2) : 0;
+          const opacity = scrollProgress > 0 ? Math.max(0, 1 - distanceFromCurrent * 1.2) : 0;
           const translateX = stat.side === "left" 
             ? `${-100 + (opacity * 130)}%` 
             : `${100 - (opacity * 130)}%`;
           
-          // Top and bottom bands only; reserve middle gap
-          const half = Math.ceil(totalStats / 2);
-          const isTop = index < half;
-          const posInHalf = isTop ? index : index - half;
-          const bandHeight = Math.max(vh * 0.33, 180);
-          const bandPadding = 16;
-          const yPx = bandPadding + (posInHalf / Math.max(half - 1, 1)) * (bandHeight - 2 * bandPadding);
+          // Distribute across full height, but concentrate more at edges
+          const normalPos = (index / totalStats) * 100;
+          // Apply curve to push toward edges: 0-20% stays near top, 80-100% stays near bottom
+          let yPercent;
+          if (normalPos < 40) {
+            yPercent = normalPos * 0.5; // Top 40% compressed to 0-20%
+          } else if (normalPos > 60) {
+            yPercent = 80 + (normalPos - 60) * 0.5; // Bottom 40% compressed to 80-100%
+          } else {
+            yPercent = 20 + (normalPos - 40) * 3; // Middle 20% stretched to 20-80%
+          }
           
           return (
             <div
               key={index}
               className={`fixed ${stat.side === "left" ? "left-0 pl-3" : "right-0 pr-3"} text-gray-600/40 text-base md:text-lg py-2 max-w-[50vw] md:max-w-[45vw] lg:max-w-[42vw] ${stat.side === "left" ? "text-left" : "text-right"}`}
               style={{
-                ...(isTop ? { top: `${yPx}px` } : { bottom: `${yPx}px` }),
+                top: `${yPercent}%`,
                 opacity: opacity * 0.6,
-                transform: `translateX(${translateX})`,
+                transform: `translateX(${translateX}) translateY(-50%)`,
                 transition: "opacity 0.3s ease-out, transform 0.3s ease-out",
                 whiteSpace: 'normal',
                 wordBreak: 'break-word',
