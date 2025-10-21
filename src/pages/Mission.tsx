@@ -184,7 +184,7 @@ const Mission = () => {
             <h2 className="text-3xl font-bold text-white text-center mb-12">The Pain Is Universal</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
-              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,40%,45%)]">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(220,70%,60%)]">
                 <div className="text-center space-y-4">
                   <div className="text-5xl font-bold text-white">
                     64%
@@ -195,7 +195,7 @@ const Mission = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,40%,45%)]">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(270,70%,60%)]">
                 <div className="text-center space-y-4">
                   <div className="text-5xl font-bold text-white">
                     59%
@@ -206,7 +206,7 @@ const Mission = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,40%,45%)]">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(220,70%,60%)]">
                 <div className="text-center space-y-4">
                   <div className="text-5xl font-bold text-white">
                     95%
@@ -217,7 +217,7 @@ const Mission = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,40%,45%)]">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(270,70%,60%)]">
                 <div className="text-center space-y-4">
                   <div className="text-5xl font-bold text-white">
                     80%
@@ -228,7 +228,7 @@ const Mission = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,40%,45%)] md:col-span-2">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(245,70%,60%)] md:col-span-2">
                 <div className="text-center space-y-4">
                   <div className="text-5xl font-bold text-white">
                     &lt; 50%
