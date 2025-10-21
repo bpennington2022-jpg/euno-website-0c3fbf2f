@@ -1,6 +1,36 @@
 import { Sparkles, ChevronRight, Plus, ChevronLeft, Briefcase, GraduationCap, Users, Brain, DollarSign, Heart, Building } from "lucide-react";
+import { useEffect, useRef } from "react";
 
 const AppMockup = () => {
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleWheel = (e: WheelEvent) => {
+      const container = scrollContainerRef.current;
+      if (!container) return;
+
+      const { scrollTop, scrollHeight, clientHeight } = container;
+      const isAtTop = scrollTop === 0;
+      const isAtBottom = scrollTop + clientHeight >= scrollHeight - 1;
+
+      // If scrolling down and not at bottom, or scrolling up and not at top
+      if ((e.deltaY > 0 && !isAtBottom) || (e.deltaY < 0 && !isAtTop)) {
+        e.preventDefault();
+        container.scrollTop += e.deltaY;
+      }
+    };
+
+    const container = scrollContainerRef.current;
+    if (container) {
+      container.addEventListener('wheel', handleWheel, { passive: false });
+    }
+
+    return () => {
+      if (container) {
+        container.removeEventListener('wheel', handleWheel);
+      }
+    };
+  }, []);
   const lifeAreas = [
     { icon: Heart, label: "Health", rotation: 0 },
     { icon: Users, label: "Relationships", rotation: 51.4 },
@@ -59,7 +89,7 @@ const AppMockup = () => {
           </div>
 
           {/* Content */}
-          <div className="absolute top-12 left-0 right-0 bottom-0 overflow-y-auto px-6 pb-8">
+          <div ref={scrollContainerRef} className="absolute top-12 left-0 right-0 bottom-0 overflow-y-auto px-6 pb-8">
             {/* Header */}
             <div className="flex items-center justify-between mb-3 pt-4">
               <div className="flex items-center gap-3">
