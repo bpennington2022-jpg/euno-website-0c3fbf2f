@@ -64,6 +64,25 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        orbit: {
+          "0%": {
+            transform: "rotate(0deg) translateX(220px) rotate(0deg)",
+            opacity: "0",
+          },
+          "25%": {
+            opacity: "0.3",
+          },
+          "50%": {
+            opacity: "0",
+          },
+          "75%": {
+            opacity: "0.3",
+          },
+          "100%": {
+            transform: "rotate(360deg) translateX(220px) rotate(-360deg)",
+            opacity: "0",
+          },
+        },
         "accordion-down": {
           from: {
             height: "0",
@@ -82,6 +101,7 @@ export default {
         },
       },
       animation: {
+        orbit: "orbit 20s linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },

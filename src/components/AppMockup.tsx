@@ -1,6 +1,15 @@
-import { Sparkles, ChevronRight, Plus, ChevronLeft } from "lucide-react";
+import { Sparkles, ChevronRight, Plus, ChevronLeft, Briefcase, GraduationCap, Users, Brain, DollarSign, Heart, Building } from "lucide-react";
 
 const AppMockup = () => {
+  const lifeAreas = [
+    { icon: Heart, label: "Health", rotation: 0 },
+    { icon: Users, label: "Relationships", rotation: 51.4 },
+    { icon: GraduationCap, label: "Education", rotation: 102.8 },
+    { icon: Building, label: "Society", rotation: 154.2 },
+    { icon: Brain, label: "Thoughts", rotation: 205.6 },
+    { icon: DollarSign, label: "Money", rotation: 257 },
+    { icon: Briefcase, label: "Career", rotation: 308.4 },
+  ];
   const insights = [
     "You speak about health in an aesthetic way",
     "You often frame rest as something to be earned, not a baseline need",
@@ -12,8 +21,29 @@ const AppMockup = () => {
 
   return (
     <div className="relative w-full max-w-[350px] mx-auto">
+      {/* Rotating life area icons */}
+      <div className="absolute inset-0 flex items-center justify-center">
+        {lifeAreas.map((area, index) => {
+          const Icon = area.icon;
+          return (
+            <div
+              key={area.label}
+              className="absolute animate-orbit"
+              style={{
+                animationDelay: `${-index * (360 / lifeAreas.length) * (20 / 360)}s`,
+              }}
+            >
+              <Icon 
+                className="w-16 h-16 text-gray-800/40" 
+                strokeWidth={1.5}
+              />
+            </div>
+          );
+        })}
+      </div>
+      
       {/* Phone mockup frame */}
-      <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-[3rem] p-3 shadow-2xl border border-gray-700">
+      <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-[3rem] p-3 shadow-2xl border border-gray-700 z-10">
         {/* Notch */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-gray-950 rounded-b-2xl z-10"></div>
         
