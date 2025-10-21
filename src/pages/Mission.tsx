@@ -105,7 +105,7 @@ const Mission = () => {
               </div>
 
               <p className="text-lg text-white leading-relaxed">
-                Think about that. Even when <span className="font-bold">a life is on the line</span>, change is still nearly impossible. That doesn't mean these people aren't educated enough. Every single one of them knew they needed to change. But <span className="font-bold text-primary">change is hard</span>.
+                Think about that. Even when <span className="font-bold">a life is on the line</span>, change is still nearly impossible. That doesn't mean these people aren't educated enough. Every single one of them knew they needed to change. But <span className="font-bold">change is hard</span>.
               </p>
 
               <p className="text-lg text-white leading-relaxed">
