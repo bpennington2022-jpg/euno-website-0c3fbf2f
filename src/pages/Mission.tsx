@@ -282,9 +282,6 @@ const Mission = () => {
                 <span className="relative -ml-1">o</span>
               </span>
             </div>
-            <div className="flex space-x-6">
-              <Link to="/contact" className="text-gray-400 hover:text-gray-200">Contact</Link>
-            </div>
           </div>
           <div className="text-center mt-8 text-gray-400">
             <p>&copy; 2025 The Epiphany Company, LLC</p>

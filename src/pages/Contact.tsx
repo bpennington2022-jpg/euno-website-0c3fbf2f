@@ -122,11 +122,6 @@ const Contact = () => {
             <div className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
               euno
             </div>
-            <div className="flex gap-6">
-              <Link to="/contact" className="text-foreground/60 hover:text-foreground transition-colors text-sm">
-                Contact
-              </Link>
-            </div>
           </div>
           <div className="text-center mt-8 text-foreground/40">
             <p>&copy; 2025 The Epiphany Company, LLC</p>
