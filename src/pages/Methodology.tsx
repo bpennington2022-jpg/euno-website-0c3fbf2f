@@ -110,6 +110,15 @@ const Methodology = () => {
                     Instead of prescriptive advice, we offer gentle reframes and mirrors that resonate 
                     with your unique psychology, sparking natural reflection.
                   </p>
+                  <div className="mt-6 p-4 bg-gray-900/70 border border-gray-800 rounded-xl">
+                    <div className="flex items-start gap-2 mb-2">
+                      <Sparkles className="w-4 h-4 text-purple-400 flex-shrink-0 mt-0.5" />
+                      <p className="text-sm text-gray-200 leading-relaxed italic">
+                        "When you and your partner talk about 'settling down,' the language often frames it as a trade-off between freedom and control."
+                      </p>
+                    </div>
+                    <p className="text-xs text-gray-500 mt-2">Example insight</p>
+                  </div>
                 </div>
               </Card>
 
