@@ -29,7 +29,7 @@ const Mission = () => {
               <Link to="/us" className="text-gray-300 hover:text-white transition-colors">
                 Us
               </Link>
-              <Button asChild>
+              <Button asChild className="bg-gradient-to-r from-primary to-primary/60 hover:opacity-90">
                 <Link to="/contact">
                   Contact
                 </Link>
