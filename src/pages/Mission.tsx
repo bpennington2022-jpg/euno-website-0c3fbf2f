@@ -134,11 +134,11 @@ const Mission = () => {
               </h2>
               
               <p className="text-lg text-gray-300 leading-relaxed">
-                We're building for <span className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">the people who experience the pain of needing to change</span>. Not the people who are super smart or super intellectual and love to intellectualize things. No—the people who experience the <span className="text-xl font-semibold text-accent">pain of wanting to&nbsp;change</span>.
+                We're building for <span className="font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">the people who experience the pain of needing to change</span>. Not the people who are super smart or super intellectual and love to intellectualize things. No—the people who experience the <span className="font-semibold text-accent">pain of wanting to&nbsp;change</span>.
               </p>
 
               <p className="text-lg text-gray-300 leading-relaxed">
-                We're making it so those people can access change with the same level of control that someone who is super introspective and thinks all the time can. We're <span className="text-lg font-bold text-primary">making metacognition&nbsp;effortless</span>.
+                We're making it so those people can access change with the same level of control that someone who is super introspective and thinks all the time can. We're <span className="font-bold text-primary">making metacognition&nbsp;effortless</span>.
               </p>
 
               <p className="text-2xl font-bold text-white leading-relaxed">
@@ -146,7 +146,7 @@ const Mission = () => {
               </p>
 
               <p className="text-lg text-gray-300 leading-relaxed">
-                This pain is <span className="text-xl font-semibold text-accent">visceral</span> for all of us. And it's <span className="text-xl font-semibold text-periwinkle">everywhere</span>. People who need to be financially responsible. Someone whose daughter came out as gay and is having a hard time accepting their own daughter. Someone who wants to be happy. Someone who wants to call their mom more. Someone who wants to be a better father or&nbsp;mother.
+                This pain is <span className="font-semibold text-accent">visceral</span> for all of us. And it's <span className="font-semibold text-periwinkle">everywhere</span>. People who need to be financially responsible. Someone whose daughter came out as gay and is having a hard time accepting their own daughter. Someone who wants to be happy. Someone who wants to call their mom more. Someone who wants to be a better father or&nbsp;mother.
               </p>
 
               <p className="text-3xl font-bold leading-relaxed px-6">
