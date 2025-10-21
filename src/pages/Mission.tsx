@@ -142,7 +142,7 @@ const Mission = () => {
               </p>
 
               <p className="text-2xl font-bold text-white leading-relaxed">
-                We're not leveraging tech—we're leveraging an <span className="text-accent">understanding of the problem</span>.
+                We're not leveraging tech—we're leveraging an <span className="text-periwinkle">understanding of the problem</span>.
               </p>
 
               <p className="text-lg text-white leading-relaxed">
