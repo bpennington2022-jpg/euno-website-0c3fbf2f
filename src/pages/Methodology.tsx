@@ -59,7 +59,7 @@ const Methodology = () => {
               The Foundation
             </h2>
             <p className="text-xl text-gray-300 leading-relaxed text-center">
-              Real change happens through cognitive restructuring—the process of identifying and reframing 
+              Real change happens through cognitive restructuring— the process of identifying and reframing 
               the thought patterns, beliefs, and narratives that shape our behavior. Traditional methods require 
               intense effort, discipline, and awareness. Euno makes this process effortless through AI-powered insights.
             </p>
@@ -82,7 +82,7 @@ const Methodology = () => {
                   </div>
                   <h3 className="text-xl font-semibold text-gray-100">Pattern Recognition</h3>
                   <p className="text-gray-300 leading-relaxed">
-                    Our AI analyzes your inputs—text, audio, or data—to surface recurring cognitive patterns 
+                    Our AI analyzes your inputs— text, audio, or data— to surface recurring cognitive patterns 
                     across different life domains: work, relationships, identity, and more.
                   </p>
                 </div>
@@ -95,7 +95,7 @@ const Methodology = () => {
                   </div>
                   <h3 className="text-xl font-semibold text-gray-100">Psychological Mapping</h3>
                   <p className="text-gray-300 leading-relaxed">
-                    We visualize your inner world as a "Psychological OS"—showing how beliefs, values, 
+                    We visualize your inner world as a "Psychological OS"— showing how beliefs, values, 
                     and thought patterns interconnect and influence your decisions.
                   </p>
                 </div>
@@ -129,7 +129,7 @@ const Methodology = () => {
                   </div>
                   <h3 className="text-xl font-semibold text-gray-100">Subconscious Priming</h3>
                   <p className="text-gray-300 leading-relaxed">
-                    Carefully crafted stimuli—questions, prompts, visual cues—that prime your subconscious 
+                    Carefully crafted stimuli— questions, prompts, visual cues— that prime your subconscious 
                     mind for gradual, sustainable change over weeks and months.
                   </p>
                 </div>
@@ -182,7 +182,7 @@ const Methodology = () => {
                     </span>
                   </h3>
                   <p className="text-lg text-gray-300 leading-relaxed">
-                    Research shows that cognitive restructuring—identifying and changing thought patterns—is 
+                    Research shows that cognitive restructuring— identifying and changing thought patterns— is 
                     one of the most effective methods for lasting behavioral change. Traditional CBT requires 
                     skilled therapists and significant time. AI can now democratize this process.
                   </p>
@@ -230,7 +230,7 @@ const Methodology = () => {
                   </h3>
                   <p className="text-lg text-gray-300 leading-relaxed">
                     Generic advice rarely sticks. By deeply understanding your unique psychological makeup, 
-                    we craft insights that feel personally true—increasing the likelihood of integration and change.
+                    we craft insights that feel personally true— increasing the likelihood of integration and change.
                   </p>
                 </div>
                 <div className="flex justify-center">
@@ -263,7 +263,7 @@ const Methodology = () => {
               </p>
               <p>
                 <strong className="text-secondary">Self-help and journaling</strong> require discipline, introspection skills, 
-                and structured time—resources many people don't have or can't sustain.
+                and structured time— resources many people don't have or can't sustain.
               </p>
               <p>
                 <strong className="text-secondary">Productivity apps</strong> organize tasks but don't address the deeper 
