@@ -66,20 +66,23 @@ export default {
       keyframes: {
         orbit: {
           "0%": {
-            transform: "rotate(0deg) translateX(220px) rotate(0deg)",
+            transform: "rotate(0deg) translateX(180px) rotate(0deg)",
             opacity: "0",
           },
-          "25%": {
-            opacity: "0.3",
+          "15%": {
+            opacity: "0.5",
           },
-          "50%": {
+          "35%": {
             opacity: "0",
           },
-          "75%": {
-            opacity: "0.3",
+          "65%": {
+            opacity: "0",
+          },
+          "85%": {
+            opacity: "0.5",
           },
           "100%": {
-            transform: "rotate(360deg) translateX(220px) rotate(-360deg)",
+            transform: "rotate(360deg) translateX(180px) rotate(-360deg)",
             opacity: "0",
           },
         },

@@ -20,9 +20,9 @@ const AppMockup = () => {
   const categories = ["Body", "Habits", "Nutrition", "Movement", "Sleep"];
 
   return (
-    <div className="relative w-full max-w-[350px] mx-auto">
+    <div className="relative w-full max-w-[350px] mx-auto min-h-[680px]">
       {/* Rotating life area icons */}
-      <div className="absolute inset-0 flex items-center justify-center">
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-visible">
         {lifeAreas.map((area, index) => {
           const Icon = area.icon;
           return (
@@ -30,11 +30,11 @@ const AppMockup = () => {
               key={area.label}
               className="absolute animate-orbit"
               style={{
-                animationDelay: `${-index * (360 / lifeAreas.length) * (20 / 360)}s`,
+                animationDelay: `${-index * (20 / lifeAreas.length)}s`,
               }}
             >
               <Icon 
-                className="w-16 h-16 text-gray-800/40" 
+                className="w-14 h-14 text-gray-700/25" 
                 strokeWidth={1.5}
               />
             </div>
@@ -43,7 +43,7 @@ const AppMockup = () => {
       </div>
       
       {/* Phone mockup frame */}
-      <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-[3rem] p-3 shadow-2xl border border-gray-700 z-10">
+      <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-[3rem] p-3 shadow-2xl border border-gray-700">
         {/* Notch */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-gray-950 rounded-b-2xl z-10"></div>
         
