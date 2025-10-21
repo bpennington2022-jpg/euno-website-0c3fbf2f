@@ -64,18 +64,18 @@ const Us = () => {
               <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)] hover:border-[hsl(250,70%,85%)] transition-all duration-300 hover:transform hover:scale-105">
                 <div className="text-center space-y-4">
                   <div className="w-32 h-32 mx-auto rounded-full overflow-hidden">
-                    <img src={teamMember1} alt="Team Member" className="w-full h-full object-cover" />
+                    <img src={teamMember1} alt="Brent Pennington" className="w-full h-full object-cover" />
                   </div>
-                  <h3 className="text-2xl font-semibold text-gray-100">Team Member</h3>
-                  <p className="text-gray-400">Role</p>
+                  <h3 className="text-2xl font-semibold text-gray-100">Brent Pennington</h3>
+                  <p className="text-gray-400">CEO</p>
                   <p className="text-gray-300 leading-relaxed">
-                    Brief description of team member and their contribution to euno.
+                    WashU '26, Finance, Anthropology | JPM
                   </p>
                   <div className="flex justify-center gap-4 pt-4">
-                    <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+                    <a href="https://linkedin.com/in/brent-pennington" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors">
                       <Linkedin className="h-5 w-5" />
                     </a>
-                    <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+                    <a href="mailto:brent@euno.life" className="text-gray-400 hover:text-primary transition-colors">
                       <Mail className="h-5 w-5" />
                     </a>
                   </div>
@@ -86,18 +86,18 @@ const Us = () => {
               <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)] hover:border-[hsl(250,70%,85%)] transition-all duration-300 hover:transform hover:scale-105">
                 <div className="text-center space-y-4">
                   <div className="w-32 h-32 mx-auto rounded-full overflow-hidden">
-                    <img src={teamMember2} alt="Team Member" className="w-full h-full object-cover" />
+                    <img src={teamMember2} alt="Bianca Rodriguez Pagano" className="w-full h-full object-cover" />
                   </div>
-                  <h3 className="text-2xl font-semibold text-gray-100">Team Member</h3>
-                  <p className="text-gray-400">Role</p>
+                  <h3 className="text-2xl font-semibold text-gray-100">Bianca Rodriguez Pagano</h3>
+                  <p className="text-gray-400">CMO</p>
                   <p className="text-gray-300 leading-relaxed">
-                    Brief description of team member and their contribution to euno.
+                    WashU '25, Marketing, Human Computer Interaction | Accenture
                   </p>
                   <div className="flex justify-center gap-4 pt-4">
-                    <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+                    <a href="https://linkedin.com/in/biancarpagano" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors">
                       <Linkedin className="h-5 w-5" />
                     </a>
-                    <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+                    <a href="mailto:bianca@euno.life" className="text-gray-400 hover:text-primary transition-colors">
                       <Mail className="h-5 w-5" />
                     </a>
                   </div>
