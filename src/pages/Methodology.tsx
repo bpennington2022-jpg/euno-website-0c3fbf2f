@@ -42,10 +42,14 @@ const Methodology = () => {
         <div className="container mx-auto">
           <div className="max-w-5xl mx-auto text-center space-y-8">
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-white">
-              Our Methodology
+              Effortless.
             </h1>
-            <p className="text-2xl text-gray-300 leading-relaxed max-w-3xl mx-auto">
-              Epiphany psychology imbued into technology. A fundamentally different approach to cognitive change.
+            <p className="text-2xl text-gray-300 leading-relaxed">
+              We know. It's a striking word to use when talking about psychological change.
+            </p>
+            <p className="text-xl text-gray-400 leading-relaxed max-w-3xl mx-auto">
+              The entire paradigm of the change industry—especially within psychology—assumes that change <em>must</em> be effortful. 
+              That belief is precisely why the problem of lasting personal change remains unsolved, despite countless solutions.
             </p>
           </div>
         </div>
