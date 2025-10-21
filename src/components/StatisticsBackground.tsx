@@ -87,14 +87,18 @@ const StatisticsBackground = ({ children }: { children: React.ReactNode }) => {
             ? `${-100 + (opacity * 130)}%` 
             : `${100 - (opacity * 130)}%`;
           
+          // Calculate vertical position - alternate between top and bottom
+          const verticalPosition = index % 2 === 0 ? 'top-8' : 'bottom-8';
+          const verticalOffset = Math.floor(index / 2) * 60; // Stack multiple stats
+          
           return (
             <div
               key={index}
-              className={`absolute ${stat.side === "left" ? "left-0 pl-6" : "right-0 pr-6"} text-gray-600/40 text-base py-2 max-w-sm ${stat.side === "left" ? "text-left" : "text-right"}`}
+              className={`fixed ${verticalPosition} ${stat.side === "left" ? "left-0 pl-6" : "right-0 pr-6"} text-gray-600/40 text-base py-2 max-w-[40vw] lg:max-w-md ${stat.side === "left" ? "text-left" : "text-right"}`}
               style={{
-                top: `${(index / totalStats) * 100}%`,
+                [index % 2 === 0 ? 'top' : 'bottom']: `${32 + verticalOffset}px`,
                 opacity: opacity * 0.6,
-                transform: `translateX(${translateX}) translateY(-50%)`,
+                transform: `translateX(${translateX})`,
                 transition: "opacity 0.3s ease-out, transform 0.3s ease-out",
               }}
             >
