@@ -186,7 +186,7 @@ const Mission = () => {
               </p>
 
               <p className="text-lg text-white leading-relaxed">
-                Apps are designed to track quantitative parts of these things—step counts, calories, to-do lists. <span className="text-2xl font-bold">We're trying to make it so that those decisions are more natural</span>. We're trying to meet you at the <span className="text-xl font-semibold text-accent">most upstream level</span> of solving these&nbsp;problems.
+                Apps are designed to track quantitative parts of these things—step counts, calories, to-do lists. <span className="text-2xl font-bold">We're trying to make it so that those decisions are more natural</span>. We're trying to meet you at the <span className="text-xl font-semibold text-white">most upstream level</span> of solving these&nbsp;problems.
               </p>
             </div>
           </div>
