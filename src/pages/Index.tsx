@@ -106,32 +106,44 @@ const Index = () => {
       {/* Problem Section */}
       <section className="py-20 px-6 bg-gray-900/50">
         <div className="container mx-auto text-center">
-          <StatisticsBackground />
-          <div className="max-w-4xl mx-auto pt-8">
-            <div className="grid md:grid-cols-3 gap-8">
-              <Card className="p-6 text-left bg-gray-800/50 border-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-primary/30 hover:border-primary/50 cursor-pointer">
-                <Brain className="h-12 w-12 text-primary mb-4" />
-                <h3 className="text-lg font-semibold mb-2 text-gray-100">Therapy is Limited</h3>
-                <p className="text-gray-300">
-                  Once a week sessions can't account for the totality of your experience.
-                </p>
-              </Card>
-              <Card className="p-6 text-left bg-gray-800/50 border-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-accent/30 hover:border-accent/50 cursor-pointer">
-                <Target className="h-12 w-12 text-accent mb-4" />
-                <h3 className="text-lg font-semibold mb-2 text-gray-100">Apps are Fragmented</h3>
-                <p className="text-gray-300">
-                  Productivity, wellness, and mindfulness tools address symptoms, not root causes.
-                </p>
-              </Card>
-              <Card className="p-6 text-left bg-gray-800/50 border-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-secondary/30 hover:border-secondary/50 cursor-pointer">
-                <Heart className="h-12 w-12 text-secondary mb-4" />
-                <h3 className="text-lg font-semibold mb-2 text-gray-100">Change Feels Effortful</h3>
-                <p className="text-gray-300">
-                  Real transformation requires cognitive restructuring, but current methods are inaccessible.
-                </p>
-              </Card>
+          <StatisticsBackground>
+            <div className="max-w-4xl mx-auto space-y-8">
+              <h2 className="text-4xl font-bold text-center">
+                Everyone feels it: things could be{" "}
+                <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+                  different
+                </span>
+              </h2>
+              <p className="text-xl text-gray-300 leading-relaxed text-center">
+                That restless feeling. The quiet voice saying "I just need to figure my shit out." 
+                It's universal, recurring, and often unnamed. Traditional tools demand clarity you don't have, 
+                discipline you can't sustain, or time you don't possess.
+              </p>
+              <div className="grid md:grid-cols-3 gap-8 pt-8">
+                <Card className="p-6 text-left bg-gray-800/50 border-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-primary/30 hover:border-primary/50 cursor-pointer">
+                  <Brain className="h-12 w-12 text-primary mb-4" />
+                  <h3 className="text-lg font-semibold mb-2 text-gray-100">Therapy is Limited</h3>
+                  <p className="text-gray-300">
+                    Once a week sessions can't account for the totality of your experience.
+                  </p>
+                </Card>
+                <Card className="p-6 text-left bg-gray-800/50 border-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-accent/30 hover:border-accent/50 cursor-pointer">
+                  <Target className="h-12 w-12 text-accent mb-4" />
+                  <h3 className="text-lg font-semibold mb-2 text-gray-100">Apps are Fragmented</h3>
+                  <p className="text-gray-300">
+                    Productivity, wellness, and mindfulness tools address symptoms, not root causes.
+                  </p>
+                </Card>
+                <Card className="p-6 text-left bg-gray-800/50 border-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-secondary/30 hover:border-secondary/50 cursor-pointer">
+                  <Heart className="h-12 w-12 text-secondary mb-4" />
+                  <h3 className="text-lg font-semibold mb-2 text-gray-100">Change Feels Effortful</h3>
+                  <p className="text-gray-300">
+                    Real transformation requires cognitive restructuring, but current methods are inaccessible.
+                  </p>
+                </Card>
+              </div>
             </div>
-          </div>
+          </StatisticsBackground>
         </div>
       </section>
 

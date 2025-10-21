@@ -18,7 +18,7 @@ const statistics = [
   { text: "Smartphone use is 4-5 hours/day on average", side: "left" },
 ];
 
-const StatisticsBackground = () => {
+const StatisticsBackground = ({ children }: { children: React.ReactNode }) => {
   const [scrollProgress, setScrollProgress] = useState(0);
   const sectionRef = useRef<HTMLDivElement>(null);
 
@@ -84,21 +84,9 @@ const StatisticsBackground = () => {
         })}
       </div>
 
-      {/* Main content with narrower width */}
-      <div className="relative z-10 max-w-4xl mx-auto">
-        <div className="space-y-8">
-          <h2 className="text-4xl font-bold text-center">
-            Everyone feels it: things could be{" "}
-            <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
-              different
-            </span>
-          </h2>
-          <p className="text-xl text-gray-300 leading-relaxed text-center">
-            That restless feeling. The quiet voice saying "I just need to figure my shit out." 
-            It's universal, recurring, and often unnamed. Traditional tools demand clarity you don't have, 
-            discipline you can't sustain, or time you don't possess.
-          </p>
-        </div>
+      {/* Main content */}
+      <div className="relative z-10">
+        {children}
       </div>
     </div>
   );
