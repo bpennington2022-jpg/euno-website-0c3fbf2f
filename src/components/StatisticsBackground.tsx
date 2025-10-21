@@ -18,6 +18,26 @@ const statistics = [
   { text: "Smartphone use is 4-5 hours/day on average", side: "left" },
 ];
 
+// Function to bold numbers but not years in parentheses
+const formatStatText = (text: string) => {
+  // Split by parentheses to avoid bolding years
+  const parts = text.split(/(\([^)]+\))/);
+  return parts.map((part, i) => {
+    if (part.startsWith('(') && part.endsWith(')')) {
+      // This is content in parentheses (years) - don't bold
+      return <span key={i}>{part}</span>;
+    }
+    // Bold numbers and percentages outside parentheses
+    const segments = part.split(/(\d+[-+]?\d*%?)/);
+    return segments.map((segment, j) => {
+      if (/\d+[-+]?\d*%?/.test(segment)) {
+        return <strong key={`${i}-${j}`}>{segment}</strong>;
+      }
+      return segment;
+    });
+  });
+};
+
 const StatisticsBackground = ({ children }: { children: React.ReactNode }) => {
   const [scrollProgress, setScrollProgress] = useState(0);
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -57,20 +77,20 @@ const StatisticsBackground = ({ children }: { children: React.ReactNode }) => {
   return (
     <div ref={sectionRef} className="relative">
       {/* Statistics floating on the sides */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+      <div className="fixed inset-0 pointer-events-none overflow-hidden">
         {statistics.map((stat, index) => {
           const totalStats = statistics.length;
           const statProgress = (index / totalStats);
           const distanceFromCurrent = Math.abs(statProgress - scrollProgress);
           const opacity = scrollProgress > 0 ? Math.max(0, 1 - distanceFromCurrent * 2) : 0;
           const translateX = stat.side === "left" 
-            ? `${-50 + (opacity * 50)}%` 
-            : `${50 - (opacity * 50)}%`;
+            ? `${-100 + (opacity * 100)}%` 
+            : `${100 - (opacity * 100)}%`;
           
           return (
             <div
               key={index}
-              className={`absolute ${stat.side === "left" ? "left-0" : "right-0"} text-gray-600/40 text-sm px-4 py-2 max-w-xs ${stat.side === "left" ? "text-left" : "text-right"}`}
+              className={`absolute ${stat.side === "left" ? "left-0 pl-4" : "right-0 pr-4"} text-gray-600/40 text-sm py-2 max-w-xs ${stat.side === "left" ? "text-left" : "text-right"}`}
               style={{
                 top: `${(index / totalStats) * 100}%`,
                 opacity: opacity * 0.6,
@@ -78,7 +98,7 @@ const StatisticsBackground = ({ children }: { children: React.ReactNode }) => {
                 transition: "opacity 0.3s ease-out, transform 0.3s ease-out",
               }}
             >
-              {stat.text}
+              {formatStatText(stat.text)}
             </div>
           );
         })}
