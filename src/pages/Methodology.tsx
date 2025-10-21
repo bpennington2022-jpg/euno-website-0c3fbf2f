@@ -201,7 +201,7 @@ const Methodology = () => {
                     <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-secondary/20 rounded-xl transform rotate-12 animate-pulse"></div>
                     <div className="absolute inset-0 bg-gradient-to-tl from-secondary/20 to-accent/20 rounded-xl transform -rotate-12 animate-pulse delay-75"></div>
                     <div className="absolute inset-8 bg-gradient-to-r from-accent/40 to-secondary/40 rounded-lg flex items-center justify-center backdrop-blur-sm">
-                      <Sparkles className="h-16 w-16 text-white animate-bounce" />
+                      <Sparkles className="h-16 w-16 text-white" />
                     </div>
                   </div>
                 </div>
