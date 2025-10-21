@@ -61,7 +61,7 @@ const Us = () => {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               {/* Team Member 1 */}
-              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)] hover:border-[hsl(250,70%,85%)] transition-all duration-300 hover:transform hover:scale-105">
+              <Card className="p-8 bg-gray-950 border-0 transition-all duration-300 hover:transform hover:scale-105">
                 <div className="text-center space-y-4">
                   <div className="w-32 h-32 mx-auto rounded-full overflow-hidden">
                     <img src={teamMember1} alt="Brent Pennington" className="w-full h-full object-cover" />
@@ -83,7 +83,7 @@ const Us = () => {
               </Card>
 
               {/* Team Member 2 */}
-              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)] hover:border-[hsl(250,70%,85%)] transition-all duration-300 hover:transform hover:scale-105">
+              <Card className="p-8 bg-gray-950 border-0 transition-all duration-300 hover:transform hover:scale-105">
                 <div className="text-center space-y-4">
                   <div className="w-32 h-32 mx-auto rounded-full overflow-hidden">
                     <img src={teamMember2} alt="Bianca Rodriguez Pagano" className="w-full h-full object-cover" />
