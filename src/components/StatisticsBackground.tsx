@@ -90,31 +90,34 @@ const StatisticsBackground = ({ children }: { children: React.ReactNode }) => {
           const totalStats = statistics.length;
           const statProgress = (index / totalStats);
           const distanceFromCurrent = Math.abs(statProgress - scrollProgress);
-          const opacity = scrollProgress > 0 ? Math.max(0, 1 - distanceFromCurrent * 1.2) : 0;
+          const opacity = scrollProgress > 0 ? Math.max(0, 1 - distanceFromCurrent * 3.5) : 0;
           const translateX = stat.side === "left" 
             ? `${-100 + (opacity * 130)}%` 
             : `${100 - (opacity * 130)}%`;
           
-          // Distribute across full height, but concentrate more at edges
-          const normalPos = (index / totalStats) * 100;
-          // Apply curve to push toward edges: 0-20% stays near top, 80-100% stays near bottom
-          let yPercent;
-          if (normalPos < 40) {
-            yPercent = normalPos * 0.5; // Top 40% compressed to 0-20%
-          } else if (normalPos > 60) {
-            yPercent = 80 + (normalPos - 60) * 0.5; // Bottom 40% compressed to 80-100%
-          } else {
-            yPercent = 20 + (normalPos - 40) * 3; // Middle 20% stretched to 20-80%
-          }
+          // Determine corner position based on index
+          // Split stats into 4 groups for 4 corners
+          const cornerIndex = index % 4;
+          const isTop = cornerIndex < 2;
+          const isLeft = cornerIndex % 2 === 0;
+          
+          // Position in corners only
+          const topPosition = isTop ? '80px' : 'auto'; // Below navbar
+          const bottomPosition = !isTop ? '20px' : 'auto';
+          const leftPosition = isLeft ? '0' : 'auto';
+          const rightPosition = !isLeft ? '0' : 'auto';
           
           return (
             <div
               key={index}
-              className={`fixed ${stat.side === "left" ? "left-0 pl-3" : "right-0 pr-3"} text-gray-600/40 text-base md:text-lg py-2 max-w-[50vw] md:max-w-[45vw] lg:max-w-[42vw] ${stat.side === "left" ? "text-left" : "text-right"}`}
+              className={`fixed py-2 px-3 text-gray-600/40 text-base md:text-lg max-w-[45vw] md:max-w-[40vw] lg:max-w-[35vw] ${isLeft ? "text-left" : "text-right"}`}
               style={{
-                top: `${yPercent}%`,
+                top: topPosition,
+                bottom: bottomPosition,
+                left: leftPosition,
+                right: rightPosition,
                 opacity: opacity * 0.6,
-                transform: `translateX(${translateX}) translateY(-50%)`,
+                transform: `translateX(${translateX})`,
                 transition: "opacity 0.3s ease-out, transform 0.3s ease-out",
                 whiteSpace: 'normal',
                 wordBreak: 'break-word',
