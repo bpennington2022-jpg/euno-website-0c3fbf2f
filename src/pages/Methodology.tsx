@@ -95,8 +95,8 @@ const Methodology = () => {
               </Card>
 
               {/* Our Paradigm */}
-              <Card className="p-8 bg-gradient-to-br from-primary/5 to-accent/5 border-primary/20 space-y-6 relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
+              <Card className="p-8 bg-gray-900/50 border-primary/20 space-y-6 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10" />
                 <div className="relative space-y-4">
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-primary to-accent flex items-center justify-center">
