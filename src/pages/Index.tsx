@@ -9,11 +9,11 @@ const Index = () => {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-950/80 backdrop-blur-lg border-b border-gray-800/50">
         <div className="container mx-auto px-6 py-4">
-          <div className="flex items-center justify-center">
-            <a href="/" className="absolute left-6 text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+          <div className="flex items-center justify-between w-full">
+            <a href="/" className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
               euno
             </a>
-            <div className="hidden md:flex items-center gap-8">
+            <div className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
               <a href="/" className="text-white font-medium transition-colors">
                 Home
               </a>
@@ -29,12 +29,12 @@ const Index = () => {
               <a href="/us" className="text-gray-300 hover:text-white transition-colors">
                 Us
               </a>
-              <Button asChild variant="ghost" className="bg-gradient-to-r from-primary to-primary/60 hover:opacity-90 text-primary-foreground">
-                <a href="/contact">
-                  Contact
-                </a>
-              </Button>
             </div>
+            <Button asChild variant="ghost" className="bg-gradient-to-r from-primary to-primary/60 hover:opacity-90 text-primary-foreground">
+              <a href="/contact">
+                Contact
+              </a>
+            </Button>
           </div>
         </div>
       </nav>

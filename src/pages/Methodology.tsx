@@ -9,11 +9,11 @@ const Methodology = () => {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-950/80 backdrop-blur-lg border-b border-gray-800/50">
         <div className="container mx-auto px-6 py-4">
-          <div className="flex items-center justify-center">
-            <Link to="/" className="absolute left-6 text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+          <div className="flex items-center justify-between w-full">
+            <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
               euno
             </Link>
-            <div className="hidden md:flex items-center gap-8">
+            <div className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
               <Link to="/" className="text-gray-300 hover:text-white transition-colors">
                 Home
               </Link>
@@ -29,12 +29,12 @@ const Methodology = () => {
               <Link to="/us" className="text-gray-300 hover:text-white transition-colors">
                 Us
               </Link>
-              <Button asChild variant="ghost" className="bg-gradient-to-r from-primary to-primary/60 hover:opacity-90 text-primary-foreground">
-                <Link to="/contact">
-                  Contact
-                </Link>
-              </Button>
             </div>
+            <Button asChild variant="ghost" className="bg-gradient-to-r from-primary to-primary/60 hover:opacity-90 text-primary-foreground">
+              <Link to="/contact">
+                Contact
+              </Link>
+            </Button>
           </div>
         </div>
       </nav>
