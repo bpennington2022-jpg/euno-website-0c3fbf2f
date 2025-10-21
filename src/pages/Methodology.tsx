@@ -40,29 +40,102 @@ const Methodology = () => {
       {/* Hero Section */}
       <section className="pt-24 pb-16 px-6">
         <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto text-center space-y-8">
-            <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-white">
-              Our Methodology
+          <div className="max-w-5xl mx-auto text-center space-y-8">
+            <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-white">
+              Effortless.
             </h1>
-            <p className="text-xl text-gray-300 leading-relaxed">
-              The science and philosophy behind effortless progress
+            <p className="text-2xl text-gray-300 leading-relaxed">
+              We know. It's a striking word to use when talking about psychological change.
+            </p>
+            <p className="text-xl text-gray-400 leading-relaxed max-w-3xl mx-auto">
+              The entire paradigm of the change industry—especially within psychology—assumes that change <em>must</em> be effortful. 
+              That belief is precisely why the problem of lasting personal change remains unsolved, despite countless solutions.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Core Principle */}
-      <section className="py-16 px-6">
+      {/* The Problem */}
+      <section className="py-16 px-6 bg-gray-900/30">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto space-y-8">
             <h2 className="text-4xl font-bold text-center bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-              The Foundation
+              The Problem
             </h2>
-            <p className="text-xl text-gray-300 leading-relaxed text-center">
-              Real change happens through cognitive restructuring— the process of identifying and reframing 
-              the thought patterns, beliefs, and narratives that shape our behavior. Traditional methods require 
-              intense effort, discipline, and awareness. Euno makes this process effortless through AI-powered insights.
-            </p>
+            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+              <p>
+                You cannot change the way you behave or feel without changing the way you <em>think</em>.
+              </p>
+              <p>
+                This is why most "change solutions" are insufficient. They target behavior or mood without addressing cognition. 
+                Productivity apps organize tasks. Meditation apps calm the mind. Therapy offers support. But without fundamentally 
+                shifting the thought patterns driving your actions, progress remains temporary.
+              </p>
+              <p>
+                Of the limited solutions that <em>do</em> focus on cognition—therapy, self-help, journaling—they too fail at scale, 
+                because cognitive change is (or at least <em>feels</em>) effortful. It requires time, discipline, introspection skills, 
+                and often, expensive professional guidance.
+              </p>
+              <p className="text-xl text-white pt-4">
+                These core barriers explain why, despite copious solutions, lasting change remains out of reach for so many.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Core Insight */}
+      <section className="py-16 px-6">
+        <div className="container mx-auto">
+          <div className="max-w-4xl mx-auto space-y-8">
+            <h2 className="text-4xl font-bold text-center bg-gradient-to-r from-accent via-primary to-secondary bg-clip-text text-transparent">
+              Our Core Insight
+            </h2>
+            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+              <p className="text-xl text-white">
+                Change does not <em>need</em> to be or feel effortful.
+              </p>
+              <p>
+                Psychology has long understood that a single, resonant stimulus can spark months of subconscious restructuring. 
+                An epiphany. A reframe that clicks. A mirror held up at the right moment. Change that, in practice, feels natural—if not inevitable.
+              </p>
+              <p>
+                This is <strong className="text-secondary">epiphany psychology</strong>: the understanding that cognitive transformation 
+                doesn't require grinding through exercises or willpower. It requires <em>resonance</em>—the right insight, delivered in 
+                the right way, at the right time.
+              </p>
+              <p className="text-xl text-white pt-4">
+                Imbued into an app, we can make this kind of change accessible to everyone.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Approach */}
+      <section className="py-16 px-6 bg-gray-900/30">
+        <div className="container mx-auto">
+          <div className="max-w-4xl mx-auto space-y-8">
+            <h2 className="text-4xl font-bold text-center bg-gradient-to-r from-secondary via-accent to-primary bg-clip-text text-transparent">
+              Our Approach
+            </h2>
+            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+              <p>
+                Our core innovation derives directly from our core insight: <strong className="text-white">we make accessing 
+                resonant stimuli feel effortless</strong>.
+              </p>
+              <p>
+                Through AI-driven pattern recognition, psychological mapping, and personalized reframing, we surface the exact insights 
+                your mind needs to begin restructuring—without requiring you to consciously work for them.
+              </p>
+              <p>
+                This solves the core barriers keeping cognitive change from scaling. It's a technological advancement we will continue 
+                to refine through ongoing UX and psychology research.
+              </p>
+              <p className="text-xl text-white pt-4">
+                This is not incremental improvement. This is a paradigm shift.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -162,114 +235,84 @@ const Methodology = () => {
         </div>
       </section>
 
-      {/* Why This Works */}
+      {/* Why We're Disruptive */}
       <section className="py-16 px-6">
         <div className="container mx-auto">
-          <div className="max-w-5xl mx-auto space-y-12">
+          <div className="max-w-5xl mx-auto space-y-8">
             <h2 className="text-4xl font-bold text-center bg-gradient-to-r from-secondary via-accent to-primary bg-clip-text text-transparent">
-              Why This Works
+              Why This Is Disruptive
             </h2>
-            
-            <div className="space-y-8">
-              <div className="grid lg:grid-cols-2 gap-8 items-center">
-                <div className="space-y-4">
-                  <h3 className="text-2xl font-semibold text-gray-100">
-                    <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                      Cognitive Science
-                    </span>
-                  </h3>
-                  <p className="text-lg text-gray-300 leading-relaxed">
-                    Research shows that cognitive restructuring— identifying and changing thought patterns— is 
-                    one of the most effective methods for lasting behavioral change. Traditional CBT requires 
-                    skilled therapists and significant time. AI can now democratize this process.
-                  </p>
-                </div>
-                <div className="flex justify-center">
-                  <div className="w-48 h-48 relative">
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-full animate-pulse"></div>
-                    <div className="absolute inset-4 bg-gradient-to-l from-accent/30 to-primary/30 rounded-full animate-pulse delay-100"></div>
-                    <div className="absolute inset-8 bg-gradient-to-t from-primary/40 to-accent/40 rounded-full flex items-center justify-center">
-                      <Brain className="h-16 w-16 text-white" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="grid lg:grid-cols-2 gap-8 items-center">
-                <div className="order-2 lg:order-1 flex justify-center">
-                  <div className="w-48 h-48 relative">
-                    <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-secondary/20 rounded-xl transform rotate-12 animate-pulse"></div>
-                    <div className="absolute inset-0 bg-gradient-to-tl from-secondary/20 to-accent/20 rounded-xl transform -rotate-12 animate-pulse delay-75"></div>
-                    <div className="absolute inset-8 bg-gradient-to-r from-accent/40 to-secondary/40 rounded-lg flex items-center justify-center backdrop-blur-sm">
-                      <Sparkles className="h-16 w-16 text-white" />
-                    </div>
-                  </div>
-                </div>
-                <div className="order-1 lg:order-2 space-y-4">
-                  <h3 className="text-2xl font-semibold text-gray-100">
-                    <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
-                      Subconscious Processing
-                    </span>
-                  </h3>
-                  <p className="text-lg text-gray-300 leading-relaxed">
-                    Most change happens below conscious awareness. By providing the right stimuli at the right time, 
-                    we prime your subconscious to do the heavy lifting while you go about your life.
-                  </p>
-                </div>
-              </div>
-
-              <div className="grid lg:grid-cols-2 gap-8 items-center">
-                <div className="space-y-4">
-                  <h3 className="text-2xl font-semibold text-gray-100">
-                    <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
-                      Personalized Resonance
-                    </span>
-                  </h3>
-                  <p className="text-lg text-gray-300 leading-relaxed">
-                    Generic advice rarely sticks. By deeply understanding your unique psychological makeup, 
-                    we craft insights that feel personally true— increasing the likelihood of integration and change.
-                  </p>
-                </div>
-                <div className="flex justify-center">
-                  <div className="w-48 h-48 relative">
-                    <div className="absolute inset-0 bg-gradient-to-r from-secondary/20 to-primary/20 rounded-full"></div>
-                    <div className="absolute inset-2 bg-gradient-to-l from-primary/20 to-secondary/20 rounded-full"></div>
-                    <div className="absolute inset-4 bg-gradient-to-t from-secondary/20 to-primary/20 rounded-full"></div>
-                    <div className="absolute inset-8 bg-gradient-to-br from-secondary/40 to-primary/40 rounded-full flex items-center justify-center animate-pulse">
-                      <Target className="h-16 w-16 text-white" />
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+              <p>
+                The change industry is crowded. AI therapists exist. Traditional therapy exists. Behavior change apps, mental health apps, 
+                meditation apps, astrology apps—they all exist.
+              </p>
+              <p>
+                <strong className="text-white">And yet, the problem remains unsolved.</strong>
+              </p>
+              <p>
+                Why? Because none of these solutions address the fundamental issue: <em>you cannot change the way you behave or feel 
+                without changing the way you think</em>, and making cognitive change accessible requires making it effortless.
+              </p>
+              <p>
+                Current solutions cannot conceive of effortless cognitive change because it runs counter to the prevailing paradigm. 
+                The paradigm assumes change <em>must</em> be hard. That you must work for it. Grind through it. Pay for it. Schedule it.
+              </p>
+              <p className="text-xl text-white pt-4">
+                Euno represents an opportunity in this space precisely because we operate from a different paradigm entirely.
+              </p>
+              <p>
+                Through epiphany psychology—imbued into technology—we make cognitive change feel natural, inevitable, and accessible. 
+                This isn't about making therapy slightly cheaper or meditation slightly easier. This is about fundamentally changing 
+                what's possible in the domain of personal change.
+              </p>
+              <p>
+                This methodology is at the core of our disruption. It's why we can genuinely believe we might solve a problem that 
+                has always felt unsolvable: the problem of personal becoming.
+              </p>
+              <p className="text-xl text-white pt-4">
+                And it doesn't stop at one life domain. This extends across relationships, work, identity, health—anywhere cognition 
+                shapes experience.
+              </p>
+              <p>
+                <strong className="text-secondary">That</strong> is why our methodology matters. It's not just a feature. It's the reason 
+                we exist.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* The Difference */}
+      {/* Existing Solutions Landscape */}
       <section className="py-16 px-6 bg-gray-900/50">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto space-y-8">
             <h2 className="text-4xl font-bold text-center bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Beyond Traditional Approaches
+              What Already Exists—And Why It's Not Enough
             </h2>
             <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
               <p>
-                <strong className="text-secondary">Traditional therapy</strong> is limited by time, cost, and availability. 
-                Sessions occur once a week, progress is slow, and most people can't afford consistent access.
+                <strong className="text-secondary">AI Therapists:</strong> Provide conversational support but lack the depth to drive 
+                subconscious restructuring. They're reactive, not proactive.
               </p>
               <p>
-                <strong className="text-secondary">Self-help and journaling</strong> require discipline, introspection skills, 
-                and structured time— resources many people don't have or can't sustain.
+                <strong className="text-secondary">Traditional Therapy:</strong> Effective for those who can afford it and commit to 
+                regular sessions—but inaccessible for most, and progress remains slow.
               </p>
               <p>
-                <strong className="text-secondary">Productivity apps</strong> organize tasks but don't address the deeper 
-                psychological patterns that determine whether you follow through.
+                <strong className="text-secondary">Behavior Change Apps:</strong> Track habits and nudge action, but don't address the 
+                cognitive patterns determining whether you follow through.
               </p>
-              <p className="pt-4">
-                <strong className="text-secondary">Euno is different.</strong> We don't require effort, expertise, or even 
-                conscious participation. Simply input your thoughts when it feels natural, and let AI surface the insights 
-                that spark months of subconscious restructuring. Progress becomes effortless.
+              <p>
+                <strong className="text-secondary">Mental Health & Meditation Apps:</strong> Manage symptoms and provide temporary relief, 
+                but don't create lasting cognitive shifts.
+              </p>
+              <p>
+                <strong className="text-secondary">Self-Help & Journaling:</strong> Require discipline, time, and introspection skills 
+                most people don't have or can't sustain.
+              </p>
+              <p className="pt-4 text-xl text-white">
+                None of these make cognitive change <em>effortless</em>. That's the gap we're filling.
               </p>
             </div>
           </div>
