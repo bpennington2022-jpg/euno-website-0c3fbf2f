@@ -2,13 +2,13 @@ import { Sparkles, ChevronRight, Plus } from "lucide-react";
 
 const AppMockup = () => {
   const insights = [
-    "You frame progress as something to achieve, not something to experience",
-    "You connect self-worth more to productivity than presence",
-    "You often treat rest as something to be earned, not a baseline need",
-    "You speak about change in an all-or-nothing way"
+    "You speak about health in an aesthetic way",
+    "You often frame rest as something to be earned, not a baseline need",
+    "You connect healthy eating more to control than to nourishment",
+    "You often frame stress management in terms of productivity, not recovery"
   ];
 
-  const categories = ["Identity", "Growth", "Habits", "Beliefs", "Values"];
+  const categories = ["Body", "Habits", "Nutrition", "Movement", "Sleep"];
 
   return (
     <div className="relative w-full max-w-[350px] mx-auto">
@@ -32,7 +32,7 @@ const AppMockup = () => {
           <div className="absolute top-12 left-0 right-0 bottom-0 overflow-y-auto px-6 pb-8">
             {/* Header */}
             <div className="flex items-center justify-between mb-3 pt-4">
-              <h1 className="text-3xl font-bold text-white">Progress</h1>
+              <h1 className="text-3xl font-bold text-white">Health</h1>
               <button className="w-10 h-10 rounded-full bg-gradient-to-r from-primary to-primary/60 flex items-center justify-center">
                 <Plus className="w-5 h-5 text-white" />
               </button>
@@ -40,32 +40,32 @@ const AppMockup = () => {
 
             {/* Subtitle */}
             <p className="text-gray-400 text-sm mb-6">
-              Recent insights, prompting deeper awareness
+              Recent health scare, prompting renewed focus
             </p>
 
             {/* Cluster Goal */}
             <div className="mb-6">
               <h2 className="text-lg font-semibold text-white mb-2">Cluster Goal</h2>
-              <p className="text-white text-base mb-3">Be more present with loved ones</p>
+              <p className="text-white text-base mb-3">Sleep 8h and stretch 10m daily</p>
               
               {/* Stats */}
               <div className="flex gap-4 text-xs">
                 <div className="flex items-center gap-1.5 text-purple-400">
                   <Sparkles className="w-3.5 h-3.5" />
-                  <span>127 insights</span>
+                  <span>185 insights</span>
                 </div>
                 <div className="text-blue-400">
-                  <span>18 refined this week</span>
+                  <span>20 refined this week</span>
                 </div>
                 <div className="text-gray-500">
-                  <span>3 new this week</span>
+                  <span>4 new this week</span>
                 </div>
               </div>
             </div>
 
             {/* Insight Categories */}
             <div className="mb-6">
-              <h3 className="text-base font-semibold text-white mb-3">Insight Categories</h3>
+              <h3 className="text-base font-semibold text-white mb-3">Insight Organizations</h3>
               <div className="flex flex-wrap gap-2">
                 {categories.map((category) => (
                   <button
