@@ -80,22 +80,22 @@ const Index = () => {
                     The first progress app of its kind. euno transforms that universal ache of 
                     "things could be different" into clear, actionable insights that make change feel natural.
                   </p>
-                  <div className="inline-flex items-center gap-3 bg-gradient-to-r from-primary/20 to-accent/20 border border-primary/30 rounded-full px-6 py-3 backdrop-blur-sm">
-                    <span className="text-sm font-semibold text-primary">Launching in November!</span>
-                    <div className="flex items-center gap-2 text-sm font-mono">
-                      <span className="text-white">{timeLeft.days}d</span>
-                      <span className="text-gray-400">:</span>
-                      <span className="text-white">{timeLeft.hours}h</span>
-                      <span className="text-gray-400">:</span>
-                      <span className="text-white">{timeLeft.minutes}m</span>
-                      <span className="text-gray-400">:</span>
-                      <span className="text-white">{timeLeft.seconds}s</span>
-                    </div>
-                  </div>
                 </div>
               </div>
-              <div className="flex justify-center lg:justify-center">
+              <div className="flex flex-col items-center gap-6">
                 <AppMockup />
+                <div className="inline-flex items-center gap-3 bg-gradient-to-r from-primary/20 to-accent/20 border border-primary/30 rounded-full px-6 py-3 backdrop-blur-sm">
+                  <span className="text-sm font-semibold text-primary">Launching in November!</span>
+                  <div className="flex items-center gap-2 text-sm font-mono">
+                    <span className="text-white">{timeLeft.days}d</span>
+                    <span className="text-gray-400">:</span>
+                    <span className="text-white">{timeLeft.hours}h</span>
+                    <span className="text-gray-400">:</span>
+                    <span className="text-white">{timeLeft.minutes}m</span>
+                    <span className="text-gray-400">:</span>
+                    <span className="text-white">{timeLeft.seconds}s</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
