@@ -23,9 +23,6 @@ const Index = () => {
               <a href="/methodology" className="text-gray-300 hover:text-white transition-colors">
                 Methodology
               </a>
-              <a href="/data" className="text-gray-300 hover:text-white transition-colors">
-                Data
-              </a>
               <a href="/us" className="text-gray-300 hover:text-white transition-colors">
                 Us
               </a>

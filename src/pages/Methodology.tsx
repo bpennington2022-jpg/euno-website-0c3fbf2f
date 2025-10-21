@@ -23,9 +23,6 @@ const Methodology = () => {
               <Link to="/methodology" className="text-white font-medium transition-colors">
                 Methodology
               </Link>
-              <Link to="/data" className="text-gray-300 hover:text-white transition-colors">
-                Data
-              </Link>
               <Link to="/us" className="text-gray-300 hover:text-white transition-colors">
                 Us
               </Link>
