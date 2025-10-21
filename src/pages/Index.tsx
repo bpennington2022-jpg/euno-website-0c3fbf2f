@@ -84,16 +84,16 @@ const Index = () => {
               </div>
               <div className="flex flex-col items-center gap-6">
                 <AppMockup />
-                <div className="flex flex-col items-center gap-2">
-                  <span className="text-sm text-gray-400 uppercase tracking-wide">Launching in November</span>
-                  <div className="flex items-center gap-3 text-2xl font-bold font-mono">
-                    <span className="text-white">{timeLeft.days}<span className="text-xs text-gray-500 ml-1">d</span></span>
-                    <span className="text-gray-600">:</span>
-                    <span className="text-white">{timeLeft.hours}<span className="text-xs text-gray-500 ml-1">h</span></span>
-                    <span className="text-gray-600">:</span>
-                    <span className="text-white">{timeLeft.minutes}<span className="text-xs text-gray-500 ml-1">m</span></span>
-                    <span className="text-gray-600">:</span>
-                    <span className="text-white">{timeLeft.seconds}<span className="text-xs text-gray-500 ml-1">s</span></span>
+                <div className="inline-flex items-center gap-3 bg-gradient-to-r from-[hsl(220,70%,15%)] to-[hsl(240,70%,20%)] rounded-full px-6 py-3 shadow-lg border border-gray-800/50">
+                  <span className="text-sm font-semibold text-white">Launching in November!</span>
+                  <div className="flex items-center gap-2 text-sm font-mono">
+                    <span className="text-white font-semibold">{timeLeft.days}d</span>
+                    <span className="text-gray-400">:</span>
+                    <span className="text-white font-semibold">{timeLeft.hours}h</span>
+                    <span className="text-gray-400">:</span>
+                    <span className="text-white font-semibold">{timeLeft.minutes}m</span>
+                    <span className="text-gray-400">:</span>
+                    <span className="text-white font-semibold">{timeLeft.seconds}s</span>
                   </div>
                 </div>
               </div>
