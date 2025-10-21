@@ -90,34 +90,27 @@ const StatisticsBackground = ({ children }: { children: React.ReactNode }) => {
           const totalStats = statistics.length;
           const statProgress = (index / totalStats);
           const distanceFromCurrent = Math.abs(statProgress - scrollProgress);
-          const baseOpacity = scrollProgress > 0 ? Math.max(0, 1 - distanceFromCurrent * 2.5) : 0;
-          
-          // Distribute vertically along edges
-          const yPercent = (index / (totalStats - 1)) * 100;
-          
-          // Calculate visibility multiplier based on vertical position
-          // Full visibility in corners (0-20% and 80-100%), reduced in middle
-          let visibilityMultiplier;
-          if (yPercent < 20 || yPercent > 80) {
-            visibilityMultiplier = 1; // Full visibility in corners
-          } else {
-            visibilityMultiplier = 0.3; // Reduced visibility in middle vertical space
-          }
-          
-          const finalOpacity = baseOpacity * visibilityMultiplier;
-          const translateAmount = yPercent < 20 || yPercent > 80 ? 130 : 60; // Fully emerge only in corners
+          const opacity = scrollProgress > 0 ? Math.max(0, 1 - distanceFromCurrent * 2) : 0;
           const translateX = stat.side === "left" 
-            ? `${-100 + (finalOpacity * translateAmount)}%` 
-            : `${100 - (finalOpacity * translateAmount)}%`;
+            ? `${-100 + (opacity * 130)}%` 
+            : `${100 - (opacity * 130)}%`;
+          
+          // Top and bottom bands only; reserve middle gap
+          const half = Math.ceil(totalStats / 2);
+          const isTop = index < half;
+          const posInHalf = isTop ? index : index - half;
+          const bandHeight = Math.max(vh * 0.33, 180);
+          const bandPadding = 16;
+          const yPx = bandPadding + (posInHalf / Math.max(half - 1, 1)) * (bandHeight - 2 * bandPadding);
           
           return (
             <div
               key={index}
-              className={`fixed ${stat.side === "left" ? "left-0 pl-3" : "right-0 pr-3"} text-gray-600/40 text-base md:text-lg py-2 max-w-[45vw] md:max-w-[40vw] lg:max-w-[35vw] ${stat.side === "left" ? "text-left" : "text-right"}`}
+              className={`fixed ${stat.side === "left" ? "left-0 pl-3" : "right-0 pr-3"} text-gray-600/40 text-base md:text-lg py-2 max-w-[50vw] md:max-w-[45vw] lg:max-w-[42vw] ${stat.side === "left" ? "text-left" : "text-right"}`}
               style={{
-                top: `${yPercent}%`,
-                transform: `translateX(${translateX}) translateY(-50%)`,
-                opacity: finalOpacity * 0.6,
+                ...(isTop ? { top: `${yPx}px` } : { bottom: `${yPx}px` }),
+                opacity: opacity * 0.6,
+                transform: `translateX(${translateX})`,
                 transition: "opacity 0.3s ease-out, transform 0.3s ease-out",
                 whiteSpace: 'normal',
                 wordBreak: 'break-word',
