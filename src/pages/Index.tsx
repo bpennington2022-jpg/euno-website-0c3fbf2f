@@ -2,8 +2,35 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Brain, Sparkles, Zap, CheckCircle, Users, Target, Heart } from "lucide-react";
 import AppMockup from "@/components/AppMockup";
+import { useState, useEffect } from "react";
 
 const Index = () => {
+  const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+
+  useEffect(() => {
+    const calculateTimeLeft = () => {
+      const launchDate = new Date('2025-11-30T00:00:00');
+      const now = new Date();
+      const difference = launchDate.getTime() - now.getTime();
+
+      if (difference > 0) {
+        return {
+          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+          minutes: Math.floor((difference / 1000 / 60) % 60),
+          seconds: Math.floor((difference / 1000) % 60)
+        };
+      }
+      return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+    };
+
+    setTimeLeft(calculateTimeLeft());
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100">
       {/* Navigation */}
@@ -53,6 +80,18 @@ const Index = () => {
                     The first progress app of its kind. euno transforms that universal ache of 
                     "things could be different" into clear, actionable insights that make change feel natural.
                   </p>
+                  <div className="inline-flex items-center gap-3 bg-gradient-to-r from-primary/20 to-accent/20 border border-primary/30 rounded-full px-6 py-3 backdrop-blur-sm">
+                    <span className="text-sm font-semibold text-primary">Launching in November!</span>
+                    <div className="flex items-center gap-2 text-sm font-mono">
+                      <span className="text-white">{timeLeft.days}d</span>
+                      <span className="text-gray-400">:</span>
+                      <span className="text-white">{timeLeft.hours}h</span>
+                      <span className="text-gray-400">:</span>
+                      <span className="text-white">{timeLeft.minutes}m</span>
+                      <span className="text-gray-400">:</span>
+                      <span className="text-white">{timeLeft.seconds}s</span>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="flex justify-center lg:justify-center">
