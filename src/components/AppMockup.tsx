@@ -1,33 +1,14 @@
-import { useState, useEffect } from "react";
+import { Sparkles, ChevronRight, Plus } from "lucide-react";
 
 const AppMockup = () => {
-  const [activeNodes, setActiveNodes] = useState<number[]>([]);
+  const insights = [
+    "You frame progress as something to achieve, not something to experience",
+    "You connect self-worth more to productivity than presence",
+    "You often treat rest as something to be earned, not a baseline need",
+    "You speak about change in an all-or-nothing way"
+  ];
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveNodes(prev => {
-        const newActive = [];
-        for (let i = 0; i < 3; i++) {
-          if (Math.random() > 0.6) {
-            newActive.push(Math.floor(Math.random() * 12));
-          }
-        }
-        return newActive;
-      });
-    }, 2000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  const nodes = Array.from({ length: 12 }, (_, i) => {
-    const angle = (i * 30) * (Math.PI / 180);
-    const radius = 80;
-    const x = 150 + radius * Math.cos(angle);
-    const y = 200 + radius * Math.sin(angle);
-    return { x, y, id: i };
-  });
-
-  const centerNode = { x: 150, y: 200 };
+  const categories = ["Identity", "Growth", "Habits", "Beliefs", "Values"];
 
   return (
     <div className="relative w-full max-w-[350px] mx-auto">
@@ -47,90 +28,74 @@ const AppMockup = () => {
             </div>
           </div>
 
-          {/* App header */}
-          <div className="absolute top-12 left-0 right-0 z-10 px-6 py-4">
-            <h3 className="text-xl font-bold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-              Your Psychological OS
-            </h3>
-            <p className="text-xs text-gray-400 mt-1">Live cognitive mapping</p>
-          </div>
-
-          {/* Animation content */}
-          <div className="absolute inset-0 flex items-center justify-center pt-8">
-            <div className="relative w-full h-full flex items-center justify-center">
-              <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-accent/5 to-secondary/5 rounded-3xl blur-3xl"></div>
-              
-              <svg 
-                width="300" 
-                height="400" 
-                className="relative"
-                viewBox="0 0 300 400"
-              >
-                {/* Connection lines */}
-                {nodes.map((node, i) => (
-                  <line
-                    key={`line-${i}`}
-                    x1={centerNode.x}
-                    y1={centerNode.y}
-                    x2={node.x}
-                    y2={node.y}
-                    stroke="hsl(var(--primary))"
-                    strokeWidth="1"
-                    opacity={activeNodes.includes(i) ? "0.6" : "0.2"}
-                    className="transition-all duration-1000"
-                  />
-                ))}
-                
-                {/* Outer nodes */}
-                {nodes.map((node, i) => (
-                  <circle
-                    key={`node-${i}`}
-                    cx={node.x}
-                    cy={node.y}
-                    r={activeNodes.includes(i) ? "6" : "3"}
-                    fill={activeNodes.includes(i) ? "hsl(var(--accent))" : "hsl(var(--primary))"}
-                    className="transition-all duration-1000"
-                  />
-                ))}
-                
-                {/* Center node */}
-                <circle
-                  cx={centerNode.x}
-                  cy={centerNode.y}
-                  r="10"
-                  fill="hsl(var(--secondary))"
-                  className="animate-pulse"
-                />
-                
-                {/* Flowing particles */}
-                {activeNodes.map((nodeIndex, i) => {
-                  const node = nodes[nodeIndex];
-                  return (
-                    <circle
-                      key={`particle-${nodeIndex}-${i}`}
-                      cx={node.x}
-                      cy={node.y}
-                      r="2"
-                      fill="hsl(var(--accent))"
-                      className="animate-pulse"
-                    >
-                      <animateMotion
-                        dur="3s"
-                        repeatCount="indefinite"
-                        path={`M ${node.x},${node.y} L ${centerNode.x},${centerNode.y}`}
-                      />
-                    </circle>
-                  );
-                })}
-              </svg>
+          {/* Content */}
+          <div className="absolute top-12 left-0 right-0 bottom-0 overflow-y-auto px-6 pb-8">
+            {/* Header */}
+            <div className="flex items-center justify-between mb-3 pt-4">
+              <h1 className="text-3xl font-bold text-white">Progress</h1>
+              <button className="w-10 h-10 rounded-full bg-gradient-to-r from-primary to-primary/60 flex items-center justify-center">
+                <Plus className="w-5 h-5 text-white" />
+              </button>
             </div>
-          </div>
 
-          {/* Bottom indicator */}
-          <div className="absolute bottom-8 left-0 right-0 text-center px-6">
-            <p className="text-xs text-muted-foreground">
-              Real-time cognitive pattern mapping
+            {/* Subtitle */}
+            <p className="text-gray-400 text-sm mb-6">
+              Recent insights, prompting deeper awareness
             </p>
+
+            {/* Cluster Goal */}
+            <div className="mb-6">
+              <h2 className="text-lg font-semibold text-white mb-2">Cluster Goal</h2>
+              <p className="text-white text-base mb-3">Be more present with loved ones</p>
+              
+              {/* Stats */}
+              <div className="flex gap-4 text-xs">
+                <div className="flex items-center gap-1.5 text-purple-400">
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span>127 insights</span>
+                </div>
+                <div className="text-blue-400">
+                  <span>18 refined this week</span>
+                </div>
+                <div className="text-gray-500">
+                  <span>3 new this week</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Insight Categories */}
+            <div className="mb-6">
+              <h3 className="text-base font-semibold text-white mb-3">Insight Categories</h3>
+              <div className="flex flex-wrap gap-2">
+                {categories.map((category) => (
+                  <button
+                    key={category}
+                    className="px-4 py-2 rounded-full bg-gray-800/50 border border-gray-700 text-white text-sm hover:bg-gray-800 transition-colors"
+                  >
+                    {category}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* New Insights */}
+            <div>
+              <h3 className="text-base font-semibold text-white mb-3">New Insights</h3>
+              <div className="space-y-2">
+                {insights.map((insight, index) => (
+                  <button
+                    key={index}
+                    className="w-full bg-gray-900/50 border border-gray-800 rounded-2xl p-4 flex items-start gap-3 hover:bg-gray-900 transition-colors group"
+                  >
+                    <Sparkles className="w-4 h-4 text-purple-400 flex-shrink-0 mt-0.5" />
+                    <span className="text-white text-sm text-left flex-1 leading-relaxed">
+                      {insight}
+                    </span>
+                    <ChevronRight className="w-4 h-4 text-gray-600 flex-shrink-0 mt-0.5 group-hover:text-gray-400 transition-colors" />
+                  </button>
+                ))}
+              </div>
+            </div>
           </div>
 
           {/* Home indicator */}
