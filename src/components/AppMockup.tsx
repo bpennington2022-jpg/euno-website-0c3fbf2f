@@ -1,4 +1,4 @@
-import { Sparkles, ChevronRight, Plus } from "lucide-react";
+import { Sparkles, ChevronRight, Plus, ChevronLeft } from "lucide-react";
 
 const AppMockup = () => {
   const insights = [
@@ -32,7 +32,10 @@ const AppMockup = () => {
           <div className="absolute top-12 left-0 right-0 bottom-0 overflow-y-auto px-6 pb-8">
             {/* Header */}
             <div className="flex items-center justify-between mb-3 pt-4">
-              <h1 className="text-3xl font-bold text-white">Health</h1>
+              <div className="flex items-center gap-3">
+                <ChevronLeft className="w-6 h-6 text-gray-400" />
+                <h1 className="text-3xl font-bold text-white">Health</h1>
+              </div>
               <button className="w-10 h-10 rounded-full bg-gradient-to-r from-primary to-primary/60 flex items-center justify-center">
                 <Plus className="w-5 h-5 text-white" />
               </button>
