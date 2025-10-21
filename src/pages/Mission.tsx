@@ -157,7 +157,7 @@ const Mission = () => {
 
               <div className="text-center py-10 my-10 bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 rounded-xl border-2 border-primary/40">
                 <p className="text-3xl font-bold leading-relaxed px-6">
-                  <span className="text-primary">Everyone wants to become.</span><br/>
+                  <span className="text-blue-300">Everyone wants to become.</span><br/>
                   <span className="text-accent">Everyone needs help becoming.</span><br/>
                   <span className="text-white">And the act of becoming is a cognitive, psychological experience.</span>
                 </p>
