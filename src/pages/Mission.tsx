@@ -134,7 +134,7 @@ const Mission = () => {
               </h2>
               
               <p className="text-lg text-white leading-relaxed">
-                We're building for <span className="font-bold text-white">the people who experience the pain of needing to change</span>. Not the people who are super smart or super intellectual and love to intellectualize things. No—the people who experience the <span className="font-semibold text-white">pain of wanting to&nbsp;change</span>.
+                We're building for <span className="font-bold text-white">the people who experience the pain of needing to change</span>. Not the people who are <em>super smart or super intellectual and love to intellectualize things</em>. No—the people who experience the <span className="font-semibold text-white">pain of wanting to&nbsp;change</span>.
               </p>
 
               <p className="text-lg text-white leading-relaxed">
