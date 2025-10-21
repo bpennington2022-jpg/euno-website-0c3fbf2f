@@ -156,7 +156,7 @@ const Mission = () => {
               </p>
 
               <p className="text-lg text-white leading-relaxed">
-                There is no system designed to directly target this problem—to make it less hard, to make it democratized, to support not only the people who already introspect, but to <span className="text-lg font-bold text-white">make introspection&nbsp;effortless</span>.
+                There is no system designed to directly target this problem—to make it easy, democratized, to support everyone regardless of self-awareness - to <span className="text-lg font-bold text-white">make introspection&nbsp;effortless</span>.
               </p>
             </div>
           </div>
