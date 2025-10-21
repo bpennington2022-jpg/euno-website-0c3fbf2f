@@ -55,7 +55,7 @@ const Index = () => {
                   </p>
                 </div>
               </div>
-              <div className="lg:justify-self-end">
+              <div className="flex justify-center lg:justify-center">
                 <AppMockup />
               </div>
             </div>
