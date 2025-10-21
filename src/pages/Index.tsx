@@ -10,7 +10,7 @@ const Index = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-950/80 backdrop-blur-lg border-b border-gray-800/50">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between w-full">
-            <a href="/" className="text-2xl font-bold bg-gradient-to-r from-accent to-periwinkle bg-clip-text text-transparent">
+            <a href="/" className="text-2xl font-bold bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
               euno
             </a>
             <div className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
