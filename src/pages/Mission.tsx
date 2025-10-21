@@ -67,8 +67,8 @@ const Mission = () => {
                 But as we talked to physicians, one physician in particular made a comment that <span className="text-xl font-semibold text-accent">changed everything:</span>
               </p>
               
-              <blockquote className="border-l-4 border-primary pl-6 py-4 my-8 bg-gray-900/50 rounded-r-lg">
-                <p className="text-2xl font-bold text-primary leading-relaxed">
+              <blockquote className="border-l-4 border-purple-500 pl-6 py-4 my-8 bg-gradient-to-r from-purple-950/50 to-purple-900/30 rounded-r-lg">
+                <p className="text-2xl font-bold bg-gradient-to-r from-purple-400 via-purple-300 to-pink-400 bg-clip-text text-transparent leading-relaxed">
                   "Even if you made the best healthcare app in the world, that would not make people care about their health."
                 </p>
               </blockquote>
