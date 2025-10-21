@@ -18,7 +18,7 @@ const InsightPhone = () => {
 
           {/* Insight Card */}
           <div className="bg-gray-900/50 border border-gray-800 rounded-2xl p-4 relative">
-            <p className="text-white text-sm leading-relaxed mb-8">
+            <p className="text-white text-sm leading-relaxed mb-4">
               When you and your partner talk about 'settling down,' the language often frames it as a trade-off between freedom and control.
             </p>
 

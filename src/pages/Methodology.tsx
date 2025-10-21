@@ -112,9 +112,6 @@ const Methodology = () => {
                       Instead of prescriptive advice, we offer gentle reframes and mirrors that resonate 
                       with your unique psychology, sparking natural reflection.
                     </p>
-                    <p className="text-sm text-gray-400 italic mt-4">
-                      Try interacting with the insight example →
-                    </p>
                   </div>
                   <div className="flex justify-center md:justify-end shrink-0">
                     <InsightPhone />
