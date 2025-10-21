@@ -121,7 +121,7 @@ const AppMockup = () => {
                   <Sparkles className="w-3.5 h-3.5" />
                   <span>185 insights</span>
                 </div>
-                <div className="text-blue-400">
+                <div className="text-periwinkle">
                   <span>20 refined this week</span>
                 </div>
                 <div className="text-gray-500">

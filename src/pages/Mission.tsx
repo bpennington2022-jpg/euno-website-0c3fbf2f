@@ -101,7 +101,7 @@ const Mission = () => {
               </h2>
               
               <div className="bg-gradient-to-r from-primary/20 via-accent/20 to-secondary/20 p-8 rounded-xl border border-primary/50">
-                <p className="text-3xl font-bold text-blue-300 leading-relaxed">
+                <p className="text-3xl font-bold text-periwinkle leading-relaxed">
                   95% of people who have a heart attack and need to change their health behaviors to avoid another one cannot.
                 </p>
               </div>
@@ -152,12 +152,12 @@ const Mission = () => {
               </div>
 
               <p className="text-lg text-gray-300 leading-relaxed">
-                This pain is <span className="text-xl font-semibold text-accent">visceral</span> for all of us. And it's <span className="text-xl font-semibold text-blue-300">everywhere</span>. People who need to be financially responsible. Someone whose daughter came out as gay and is having a hard time accepting their own daughter. Someone who wants to be happy. Someone who wants to call their mom more. Someone who wants to be a better father or&nbsp;mother.
+                This pain is <span className="text-xl font-semibold text-accent">visceral</span> for all of us. And it's <span className="text-xl font-semibold text-periwinkle">everywhere</span>. People who need to be financially responsible. Someone whose daughter came out as gay and is having a hard time accepting their own daughter. Someone who wants to be happy. Someone who wants to call their mom more. Someone who wants to be a better father or&nbsp;mother.
               </p>
 
               <div className="text-center py-10 my-10 bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 rounded-xl border-2 border-primary/40">
                 <p className="text-3xl font-bold leading-relaxed px-6">
-                  <span className="text-blue-300">Everyone wants to become.</span><br/>
+                  <span className="text-periwinkle">Everyone wants to become.</span><br/>
                   <span className="text-accent">Everyone needs help becoming.</span><br/>
                   <span className="text-white">And the act of becoming is a cognitive, psychological experience.</span>
                 </p>

@@ -27,6 +27,10 @@ Euno brand colors: deep blue, light purple/blue, violet gradients for effortless
     --secondary: 240 50% 70%;
     --secondary-foreground: 0 0% 100%;
 
+    /* Periwinkle - light blue-purple */
+    --periwinkle: 240 70% 75%;
+    --periwinkle-foreground: 222.2 84% 4.9%;
+
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
@@ -91,6 +95,10 @@ Euno brand colors: deep blue, light purple/blue, violet gradients for effortless
     /* Dark mode light purple/blue */
     --secondary: 240 60% 75%;
     --secondary-foreground: 222.2 84% 4.9%;
+
+    /* Periwinkle - light blue-purple */
+    --periwinkle: 240 75% 80%;
+    --periwinkle-foreground: 222.2 84% 4.9%;
 
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
