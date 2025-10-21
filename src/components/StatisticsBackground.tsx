@@ -41,6 +41,7 @@ const formatStatText = (text: string) => {
 const StatisticsBackground = ({ children }: { children: React.ReactNode }) => {
   const [scrollProgress, setScrollProgress] = useState(0);
   const sectionRef = useRef<HTMLDivElement>(null);
+  const [vh, setVh] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -74,6 +75,13 @@ const StatisticsBackground = ({ children }: { children: React.ReactNode }) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    const setSize = () => setVh(window.innerHeight);
+    setSize();
+    window.addEventListener('resize', setSize);
+    return () => window.removeEventListener('resize', setSize);
+  }, []);
+
   return (
     <div ref={sectionRef} className="relative">
       {/* Statistics floating on the sides */}
@@ -87,20 +95,25 @@ const StatisticsBackground = ({ children }: { children: React.ReactNode }) => {
             ? `${-100 + (opacity * 130)}%` 
             : `${100 - (opacity * 130)}%`;
           
-          // Position at top or bottom only - distribute evenly
-          const isTopHalf = index < totalStats / 2;
-          const positionInHalf = isTopHalf ? index : index - Math.floor(totalStats / 2);
-          const offset = positionInHalf * 70; // Space them out vertically
+          // Top and bottom bands only; reserve middle gap
+          const half = Math.ceil(totalStats / 2);
+          const isTop = index < half;
+          const posInHalf = isTop ? index : index - half;
+          const bandHeight = Math.max(vh * 0.33, 180);
+          const bandPadding = 16;
+          const yPx = bandPadding + (posInHalf / Math.max(half - 1, 1)) * (bandHeight - 2 * bandPadding);
           
           return (
             <div
               key={index}
-              className={`fixed ${stat.side === "left" ? "left-0 pl-6" : "right-0 pr-6"} text-gray-600/40 text-base py-2 max-w-[40vw] lg:max-w-md ${stat.side === "left" ? "text-left" : "text-right"}`}
+              className={`fixed ${stat.side === "left" ? "left-0 pl-3" : "right-0 pr-3"} text-gray-600/40 text-base md:text-lg py-2 max-w-[50vw] md:max-w-[45vw] lg:max-w-[42vw] ${stat.side === "left" ? "text-left" : "text-right"}`}
               style={{
-                [isTopHalf ? 'top' : 'bottom']: `${offset}px`,
+                ...(isTop ? { top: `${yPx}px` } : { bottom: `${yPx}px` }),
                 opacity: opacity * 0.6,
                 transform: `translateX(${translateX})`,
                 transition: "opacity 0.3s ease-out, transform 0.3s ease-out",
+                whiteSpace: 'normal',
+                wordBreak: 'break-word',
               }}
             >
               {formatStatText(stat.text)}
