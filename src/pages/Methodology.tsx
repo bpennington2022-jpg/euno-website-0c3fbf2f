@@ -77,7 +77,7 @@ const Methodology = () => {
               How It Works
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)] hover:border-[hsl(250,70%,85%)] transition-all duration-300">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,40%,45%)] hover:border-[hsl(250,50%,55%)] transition-all duration-300">
                 <div className="space-y-4">
                   <div className="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center">
                     <Layers className="h-8 w-8 text-white" />
@@ -90,7 +90,7 @@ const Methodology = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)] hover:border-[hsl(250,70%,85%)] transition-all duration-300">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,40%,45%)] hover:border-[hsl(250,50%,55%)] transition-all duration-300">
                 <div className="space-y-4">
                   <div className="w-16 h-16 bg-gradient-to-r from-accent to-secondary rounded-full flex items-center justify-center">
                     <Brain className="h-8 w-8 text-white" />
@@ -103,7 +103,7 @@ const Methodology = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)] hover:border-[hsl(250,70%,85%)] transition-all duration-300">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,40%,45%)] hover:border-[hsl(250,50%,55%)] transition-all duration-300">
                 <div className="space-y-4">
                   <div className="w-16 h-16 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center">
                     <Lightbulb className="h-8 w-8 text-white" />
@@ -116,7 +116,7 @@ const Methodology = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)] hover:border-[hsl(250,70%,85%)] transition-all duration-300">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,40%,45%)] hover:border-[hsl(250,50%,55%)] transition-all duration-300">
                 <div className="space-y-4">
                   <div className="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center">
                     <Target className="h-8 w-8 text-white" />
@@ -129,7 +129,7 @@ const Methodology = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)] hover:border-[hsl(250,70%,85%)] transition-all duration-300">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,40%,45%)] hover:border-[hsl(250,50%,55%)] transition-all duration-300">
                 <div className="space-y-4">
                   <div className="w-16 h-16 bg-gradient-to-r from-accent to-secondary rounded-full flex items-center justify-center">
                     <RefreshCw className="h-8 w-8 text-white" />
@@ -142,7 +142,7 @@ const Methodology = () => {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,70%,75%)] hover:border-[hsl(250,70%,85%)] transition-all duration-300">
+              <Card className="p-8 bg-gray-950 border-2 border-[hsl(250,40%,45%)] hover:border-[hsl(250,50%,55%)] transition-all duration-300">
                 <div className="space-y-4">
                   <div className="w-16 h-16 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center">
                     <Sparkles className="h-8 w-8 text-white" />
