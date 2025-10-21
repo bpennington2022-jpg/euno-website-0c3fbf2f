@@ -244,28 +244,6 @@ const Mission = () => {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-16 px-6">
-        <div className="container mx-auto text-center">
-          <div className="max-w-3xl mx-auto space-y-8">
-            <h2 className="text-4xl font-bold">
-              Ready to experience{" "}
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                effortless progress?
-              </span>
-            </h2>
-            <p className="text-xl text-gray-300">
-              Join the movement to make change feel natural, not forced.
-            </p>
-            <Button 
-              size="lg" 
-              className="bg-gradient-to-r from-primary to-accent hover:opacity-90"
-            >
-              Get Early Access
-            </Button>
-          </div>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="py-12 px-6 border-t border-gray-800">
