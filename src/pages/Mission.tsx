@@ -77,8 +77,8 @@ const Mission = () => {
                 That statement hit us hard. Because what it really meant was this:
               </p>
               
-              <div className="text-center py-8 my-8 bg-gradient-to-r from-accent/10 via-primary/10 to-secondary/10 rounded-xl border border-accent/30">
-                <p className="text-3xl font-bold bg-gradient-to-r from-accent via-primary to-secondary bg-clip-text text-transparent leading-relaxed px-6">
+              <div className="text-center py-8 my-8 bg-gradient-to-r from-yellow-950/50 via-amber-950/50 to-orange-950/50 rounded-xl border border-yellow-600/50">
+                <p className="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-amber-300 to-orange-400 bg-clip-text text-transparent leading-relaxed px-6">
                   You cannot change the way you behave and the way you feel without changing the way you think.
                 </p>
               </div>
