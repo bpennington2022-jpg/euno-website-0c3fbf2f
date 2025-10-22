@@ -51,7 +51,7 @@ const AppMockup = () => {
     "You often frame stress management in terms of productivity, not recovery"
   ];
 
-  const categories = ["Body", "Habits", "Nutrition", "Movement", "Sleep"];
+  const categories = ["not working out", "motivation", "health scare", "...", "mortality"];
 
   return (
     <div ref={wrapperRef} className="relative w-full max-w-[350px] mx-auto min-h-[680px]">
@@ -132,7 +132,6 @@ const AppMockup = () => {
 
             {/* Insight Categories */}
             <div className="mb-6">
-              <h3 className="text-base font-semibold text-white mb-3">Insight Organizations</h3>
               <div className="flex flex-wrap gap-2">
                 {categories.map((category) => (
                   <button
