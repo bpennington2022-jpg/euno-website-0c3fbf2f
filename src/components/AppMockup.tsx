@@ -123,7 +123,7 @@ const AppMockup = () => {
                     <path d="M18.5 5.5 L17 7" strokeWidth="2.5" />
                   </svg>
                 </div>
-                <p className="text-white text-base">Workout each day & eat healthier</p>
+                <p className="text-white text-base">Workout each day & eat better</p>
               </div>
               
               {/* Stats */}
