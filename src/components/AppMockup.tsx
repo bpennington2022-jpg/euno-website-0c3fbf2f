@@ -1,4 +1,4 @@
-import { Sparkles, ChevronRight, Plus, ChevronLeft, Briefcase, GraduationCap, Users, Brain, DollarSign, HeartPulse, UsersRound, Target, RefreshCw, PlusCircle } from "lucide-react";
+import { Sparkles, ChevronRight, Plus, ChevronLeft, Briefcase, GraduationCap, Users, Brain, DollarSign, HeartPulse, UsersRound, Crosshair, RefreshCw, PlusCircle } from "lucide-react";
 import { useRef, useEffect } from "react";
 
 const AppMockup = () => {
@@ -114,7 +114,7 @@ const AppMockup = () => {
             <div className="mb-6">
               <div className="flex items-center gap-2 mb-3">
                 <div className="w-8 h-8 rounded-full bg-gradient-to-r from-primary to-primary/60 flex items-center justify-center flex-shrink-0">
-                  <Target className="w-4 h-4 text-white" />
+                  <Crosshair className="w-4 h-4 text-white" />
                 </div>
                 <p className="text-white text-base">Sleep 8h and stretch 10m daily</p>
               </div>
