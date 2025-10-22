@@ -80,8 +80,8 @@ const Index = () => {
                   <p className="text-xl text-gray-300 leading-relaxed">
                     The final piece of ai-human interaction: helping people not just be more productive, but make progress in their life. euno transforms the desire for personal change into clear, actionable insights that make change feel natural across every domain of life.
                   </p>
-                  <p className="text-lg leading-relaxed">
-                    <strong className="bg-gradient-to-r from-[#5B6FD6] to-[#B8A4FF] bg-clip-text text-transparent">Our goal is to make progress as effortless as opening Instagram or using ChatGPT.</strong>
+                  <p className="text-lg text-gray-300 leading-relaxed">
+                    <strong className="text-accent/90">Our goal is to make progress as effortless as opening Instagram or using ChatGPT.</strong>
                   </p>
                 </div>
               </div>
