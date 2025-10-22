@@ -128,7 +128,7 @@ const Mission = () => {
       <section className="py-16 px-6">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto space-y-16">
-            <h2 className="text-4xl font-bold text-white text-center bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+            <h2 className="text-4xl font-bold text-white mb-8 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
               What We're Building
             </h2>
             
