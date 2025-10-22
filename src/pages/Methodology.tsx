@@ -139,7 +139,7 @@ const Methodology = () => {
             <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
               <p>
                 Our core innovation derives directly from our core insight: <strong className="text-white">we make accessing 
-                resonant stimuli feel effortless</strong>.
+                resonant stimuli as effortless as opening up Instagram</strong>.
               </p>
               <p>
                 Through AI-driven pattern recognition, psychological mapping, and personalized reframing, we surface the exact insights 
