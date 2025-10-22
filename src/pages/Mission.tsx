@@ -64,7 +64,7 @@ const Mission = () => {
               </p>
 
               <p className="text-lg text-white leading-relaxed">
-                But as we talked to physicians, one physician in particular made a comment that <span className="text-xl font-semibold text-white">changed everything:</span>
+                But as we talked to physicians, one in particular made a comment that <span className="text-xl font-semibold text-white">changed everything:</span>
               </p>
               
               <blockquote className="border-l-4 border-secondary/50 pl-6 py-4 my-8 bg-gradient-to-r from-secondary/30 to-secondary/10 rounded-r-lg">
