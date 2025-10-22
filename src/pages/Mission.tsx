@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Heart, Brain, Users, Target } from "lucide-react";
+import { ArrowLeft, Heart, Brain, Users, Target, Smile, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Mission = () => {
@@ -171,42 +171,90 @@ const Mission = () => {
               
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <Card className="p-6 bg-gray-800/50 border-gray-700 hover:border-primary/50 transition-all">
-                  <Target className="h-10 w-10 text-primary mb-4" />
+                  <Target className="h-10 w-10 mb-4 [&>*]:stroke-[url(#gradient1)]" />
+                  <svg width="0" height="0" className="absolute">
+                    <defs>
+                      <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" className="[stop-color:hsl(var(--primary))]" />
+                        <stop offset="100%" className="[stop-color:hsl(var(--accent))]" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
                   <p className="text-gray-300 leading-relaxed">
                     Someone who needs to be <span className="font-semibold text-white">financially responsible</span>
                   </p>
                 </Card>
 
                 <Card className="p-6 bg-gray-800/50 border-gray-700 hover:border-accent/50 transition-all">
-                  <Heart className="h-10 w-10 text-accent mb-4" />
+                  <Heart className="h-10 w-10 mb-4 [&>*]:stroke-[url(#gradient2)]" />
+                  <svg width="0" height="0" className="absolute">
+                    <defs>
+                      <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" className="[stop-color:hsl(var(--accent))]" />
+                        <stop offset="100%" className="[stop-color:hsl(var(--secondary))]" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
                   <p className="text-gray-300 leading-relaxed">
                     A parent struggling to <span className="font-semibold text-white">accept their child</span> coming out
                   </p>
                 </Card>
 
                 <Card className="p-6 bg-gray-800/50 border-gray-700 hover:border-secondary/50 transition-all">
-                  <Users className="h-10 w-10 text-secondary mb-4" />
+                  <Users className="h-10 w-10 mb-4 [&>*]:stroke-[url(#gradient3)]" />
+                  <svg width="0" height="0" className="absolute">
+                    <defs>
+                      <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" className="[stop-color:hsl(var(--secondary))]" />
+                        <stop offset="100%" className="[stop-color:hsl(var(--primary))]" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
                   <p className="text-gray-300 leading-relaxed">
                     Someone who wants to <span className="font-semibold text-white">be happy</span>
                   </p>
                 </Card>
 
                 <Card className="p-6 bg-gray-800/50 border-gray-700 hover:border-primary/50 transition-all">
-                  <Brain className="h-10 w-10 text-primary mb-4" />
+                  <Brain className="h-10 w-10 mb-4 [&>*]:stroke-[url(#gradient4)]" />
+                  <svg width="0" height="0" className="absolute">
+                    <defs>
+                      <linearGradient id="gradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" className="[stop-color:hsl(var(--primary))]" />
+                        <stop offset="100%" className="[stop-color:hsl(var(--secondary))]" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
                   <p className="text-gray-300 leading-relaxed">
                     Someone who wants to <span className="font-semibold text-white">call their mom more</span>
                   </p>
                 </Card>
 
                 <Card className="p-6 bg-gray-800/50 border-gray-700 hover:border-accent/50 transition-all">
-                  <Heart className="h-10 w-10 text-accent mb-4" />
+                  <Smile className="h-10 w-10 mb-4 [&>*]:stroke-[url(#gradient5)]" />
+                  <svg width="0" height="0" className="absolute">
+                    <defs>
+                      <linearGradient id="gradient5" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" className="[stop-color:hsl(var(--accent))]" />
+                        <stop offset="100%" className="[stop-color:hsl(var(--primary))]" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
                   <p className="text-gray-300 leading-relaxed">
                     Someone who wants to be a <span className="font-semibold text-white">better parent</span>
                   </p>
                 </Card>
 
                 <Card className="p-6 bg-gray-800/50 border-gray-700 hover:border-secondary/50 transition-all">
-                  <Target className="h-10 w-10 text-secondary mb-4" />
+                  <Clock className="h-10 w-10 mb-4 [&>*]:stroke-[url(#gradient6)]" />
+                  <svg width="0" height="0" className="absolute">
+                    <defs>
+                      <linearGradient id="gradient6" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" className="[stop-color:hsl(var(--secondary))]" />
+                        <stop offset="100%" className="[stop-color:hsl(var(--accent))]" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
                   <p className="text-gray-300 leading-relaxed">
                     Someone who wants to be <span className="font-semibold text-white">more present</span>
                   </p>
