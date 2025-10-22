@@ -81,7 +81,7 @@ const Index = () => {
                     The final piece of ai-human interaction: helping people not just be more productive, but make progress in their life. euno transforms the desire for personal change into clear, actionable insights that make change feel natural across every domain of life.
                   </p>
                   <p className="text-lg text-gray-300 leading-relaxed">
-                    <strong>Our goal is to make progress as effortless as opening Instagram or using ChatGPT.</strong>
+                    <strong className="text-accent/90">Our goal is to make progress as effortless as opening Instagram or using ChatGPT.</strong>
                   </p>
                 </div>
               </div>
