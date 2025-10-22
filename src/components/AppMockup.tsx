@@ -114,7 +114,14 @@ const AppMockup = () => {
             <div className="mb-6">
               <div className="flex items-center gap-2 mb-3">
                 <div className="w-8 h-8 rounded-full bg-gradient-to-r from-primary to-primary/60 flex items-center justify-center flex-shrink-0">
-                  <Crosshair className="w-4 h-4 text-white" />
+                  <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <circle cx="12" cy="12" r="6" />
+                    <circle cx="12" cy="12" r="2" />
+                    <path d="M16 2 L12 12" />
+                    <path d="M16 2 L18 4" />
+                    <path d="M16 2 L14 4" />
+                  </svg>
                 </div>
                 <p className="text-white text-base">Sleep 8h and stretch 10m daily</p>
               </div>
