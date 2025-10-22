@@ -46,7 +46,7 @@ const Contact = () => {
             Get in Touch
           </h1>
           <p className="text-xl text-foreground/70 max-w-2xl mx-auto">
-            Whether you're an individual seeking self-understanding, a researcher exploring human behavior, or an organization building better environments— let's connect.
+            Whether you're an individual seeking self-understanding, a researcher exploring human behavior, or an organization building better environments, let's connect.
           </p>
         </div>
       </section>

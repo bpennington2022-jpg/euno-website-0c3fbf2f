@@ -160,7 +160,7 @@ const Index = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              euno uses AI to surface insights and reframe patterns so progress feels natural — <span className="whitespace-nowrap">not forced.</span>
+              euno uses AI to surface insights and reframe patterns so progress feels natural, <span className="whitespace-nowrap">not forced.</span>
             </p>
           </div>
           <div className="grid lg:grid-cols-3 gap-16">
@@ -208,7 +208,7 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-100">Share Your Thoughts</h3>
               <p className="text-gray-300">
-                Input text, audio, or connect external data. No structure required — just be yourself.
+                Input text, audio, or connect external data. No structure required; just be yourself.
               </p>
             </div>
             <div className="text-center space-y-4">

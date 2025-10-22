@@ -48,7 +48,7 @@ const Methodology = () => {
               We know. It's a striking word to use when talking about psychological change.
             </p>
             <p className="text-xl text-gray-400 leading-relaxed max-w-3xl mx-auto">
-              The entire paradigm of the change industry—especially within psychology—assumes that change <em>must</em> be effortful. 
+              The entire paradigm of the change industry (especially within psychology) assumes that change <em>must</em> be effortful. 
               That belief is precisely why the problem of lasting personal change remains unsolved, despite countless solutions.
             </p>
           </div>
@@ -85,7 +85,7 @@ const Methodology = () => {
                     maintaining strict discipline, and investing significant time and money.
                   </p>
                   <p>
-                    Even solutions that <em>do</em> address cognition—therapy, self-help, journaling—remain inaccessible 
+                    Even solutions that <em>do</em> address cognition (therapy, self-help, journaling) remain inaccessible 
                     at scale because they demand sustained effort, introspection skills, and resources most people lack.
                   </p>
                   <p className="text-gray-300 pt-2">
@@ -112,12 +112,12 @@ const Methodology = () => {
                     <strong className="text-white">Change can be effortless.</strong>
                   </p>
                   <p>
-                    A single resonant stimulus—an epiphany, a reframe that clicks, a mirror held up at the right moment—can 
+                    A single resonant stimulus (an epiphany, a reframe that clicks, a mirror held up at the right moment) can 
                     spark months of natural, subconscious restructuring.
                   </p>
                   <p>
                     This is <strong className="text-secondary">epiphany psychology</strong>: cognitive transformation doesn't 
-                    require willpower or grinding. It requires <em>resonance</em>—the right insight, delivered at the right time.
+                    require willpower or grinding. It requires <em>resonance</em>, the right insight delivered at the right time.
                   </p>
                   <p className="text-white pt-2">
                     Through AI, we make this kind of change accessible and effortless for everyone.
@@ -143,7 +143,7 @@ const Methodology = () => {
               </p>
               <p>
                 Through AI-driven pattern recognition, psychological mapping, and personalized reframing, we surface the exact insights 
-                your mind needs to begin restructuring—without requiring you to consciously work for them.
+                your mind needs to begin restructuring without requiring you to consciously work for them.
               </p>
               <p>
                 This solves the core barriers keeping cognitive change from scaling. It's a technological advancement we will continue 
@@ -172,7 +172,7 @@ const Methodology = () => {
                   </div>
                   <h3 className="text-xl font-semibold text-gray-100">Pattern Recognition</h3>
                   <p className="text-gray-300 leading-relaxed">
-                    Our AI analyzes your inputs— text, audio, or data— to surface recurring cognitive patterns 
+                    Our AI analyzes your inputs (text, audio, or data) to surface recurring cognitive patterns 
                     across different life domains: work, relationships, identity, and more.
                   </p>
                 </div>
@@ -185,7 +185,7 @@ const Methodology = () => {
                   </div>
                   <h3 className="text-xl font-semibold text-gray-100">Psychological Mapping</h3>
                   <p className="text-gray-300 leading-relaxed">
-                    We visualize your inner world as a "Psychological OS"— showing how beliefs, values, 
+                    We visualize your inner world as a "Psychological OS," showing how beliefs, values, 
                     and thought patterns interconnect and influence your decisions.
                   </p>
                 </div>
@@ -216,7 +216,7 @@ const Methodology = () => {
                   </div>
                   <h3 className="text-xl font-semibold text-gray-100">Subconscious Priming</h3>
                   <p className="text-gray-300 leading-relaxed">
-                    Carefully crafted stimuli— questions, prompts, visual cues— that prime your subconscious 
+                    Carefully crafted stimuli (questions, prompts, visual cues) that prime your subconscious 
                     mind for gradual, sustainable change over weeks and months.
                   </p>
                 </div>
@@ -262,7 +262,7 @@ const Methodology = () => {
             <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
               <p>
                 The change industry is crowded. AI therapists exist. Traditional therapy exists. Behavior change apps, mental health apps, 
-                meditation apps, astrology apps—they all exist.
+                meditation apps, astrology apps: they all exist.
               </p>
               <p>
                 <strong className="text-white">And yet, the problem remains unsolved.</strong>
@@ -279,7 +279,7 @@ const Methodology = () => {
                 Euno represents an opportunity in this space precisely because we operate from a different paradigm entirely.
               </p>
               <p>
-                Through epiphany psychology—imbued into technology—we make cognitive change feel natural, inevitable, and accessible. 
+                Through epiphany psychology imbued into technology, we make cognitive change feel natural, inevitable, and accessible. 
                 This isn't about making therapy slightly cheaper or meditation slightly easier. This is about fundamentally changing 
                 what's possible in the domain of personal change.
               </p>
@@ -305,7 +305,7 @@ const Methodology = () => {
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto space-y-8">
             <h2 className="text-4xl font-bold text-center bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              What Already Exists—And Why It's Not Enough
+              What Already Exists and Why It's Not Enough
             </h2>
             <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
               <p>
@@ -314,7 +314,7 @@ const Methodology = () => {
               </p>
               <p>
                 <strong className="text-secondary">Traditional Therapy:</strong> Effective for those who can afford it and commit to 
-                regular sessions—but inaccessible for most, and progress remains slow.
+                regular sessions, but inaccessible for most, and progress remains slow.
               </p>
               <p>
                 <strong className="text-secondary">Behavior Change Apps:</strong> Track habits and nudge action, but don't address the 

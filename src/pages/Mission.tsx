@@ -60,7 +60,7 @@ const Mission = () => {
               </h2>
               
               <p className="text-lg text-white leading-relaxed">
-                We started with a simple goal: <span className="text-xl font-semibold">build a healthcare app</span>. We wanted to empower people with their health— to make it really easy to understand the intangible elements that affected their&nbsp;wellbeing.
+                We started with a simple goal: <span className="text-xl font-semibold">build a healthcare app</span>. We wanted to empower people with their health, to make it really easy to understand the intangible elements that affected their&nbsp;wellbeing.
               </p>
 
               <p className="text-lg text-white leading-relaxed">
@@ -109,7 +109,7 @@ const Mission = () => {
               </p>
 
               <p className="text-lg text-white leading-relaxed">
-                Change is inaccessible because sustained behavior change— becoming healthier, becoming more financially responsible, becoming whoever you need to become— is hard because it means <span className="text-xl font-semibold">changing the way we think</span>. And changing the way we think isn't just hard, it's <em className="text-xl text-secondary not-italic font-semibold">effortful</em>. It's <em className="text-xl text-secondary not-italic font-semibold">friction-full</em>.
+                Change is inaccessible because sustained behavior change (becoming healthier, becoming more financially responsible, becoming whoever you need to become) is hard because it means <span className="text-xl font-semibold">changing the way we think</span>. And changing the way we think isn't just hard, it's <em className="text-xl text-secondary not-italic font-semibold">effortful</em>. It's <em className="text-xl text-secondary not-italic font-semibold">friction-full</em>.
               </p>
 
               <p className="text-lg text-white leading-relaxed">
@@ -117,7 +117,7 @@ const Mission = () => {
               </p>
 
               <p className="text-2xl font-bold text-white leading-relaxed px-6">
-                It is the <span className="text-secondary">pain of change</span>— the way you want to feel, the way you want to behave— that we understood as being at the crux of what we wanted to&nbsp;build.
+                It is the <span className="text-secondary">pain of change</span> (the way you want to feel, the way you want to behave) that we understood as being at the crux of what we wanted to&nbsp;build.
               </p>
             </div>
           </div>
@@ -156,8 +156,8 @@ const Mission = () => {
                   We're making <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">metacognition effortless</span>.
                 </p>
                 <p className="text-xl font-bold text-white leading-relaxed text-center">
-                  We're not leveraging tech—<br/>
-                  we're leveraging an <span className="text-periwinkle">understanding of the problem</span>.
+                  We're not leveraging tech.<br/>
+                  We're leveraging an <span className="text-periwinkle">understanding of the problem</span>.
                 </p>
               </div>
             </div>
@@ -227,7 +227,7 @@ const Mission = () => {
 
               <div className="bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 p-8 rounded-xl border border-accent/30 mt-8">
                 <p className="text-xl text-white leading-relaxed text-center">
-                  There is no system designed to directly target this problem— to make it easy, democratized, to support everyone regardless of self-awareness— to <span className="text-xl font-bold text-periwinkle">make introspection effortless</span>.
+                  There is no system designed to directly target this problem: to make it easy, democratized, to support everyone regardless of self-awareness, to <span className="text-xl font-bold text-periwinkle">make introspection effortless</span>.
                 </p>
               </div>
             </div>
@@ -245,7 +245,7 @@ const Mission = () => {
               </h2>
               
               <p className="text-lg text-white leading-relaxed">
-                We say <span className="text-2xl font-bold text-periwinkle">"effortlessness"</span> because we recognize the nature of the problem. The current solutions are not effortless— they are&nbsp;<span className="text-xl font-semibold text-gray-400">effortful</span>.
+                We say <span className="text-2xl font-bold text-periwinkle">"effortlessness"</span> because we recognize the nature of the problem. The current solutions are not effortless; they are&nbsp;<span className="text-xl font-semibold text-gray-400">effortful</span>.
               </p>
 
               <p className="text-2xl font-bold text-white leading-relaxed text-center">
@@ -254,11 +254,11 @@ const Mission = () => {
               </p>
 
               <p className="text-lg text-white leading-relaxed">
-                Most AI applications are about <span className="text-xl font-semibold text-gray-400">utility</span>— helping people be more productive. This is different. This is about <span className="text-2xl font-bold text-periwinkle">progress</span>. About meeting people before they've even articulated a goal. They just know they want to become <span className="text-xl font-semibold text-white">healthier</span>, or <span className="text-xl font-semibold text-white">happier</span>, or <span className="text-xl font-semibold text-white">more&nbsp;present</span>.
+                Most AI applications are about <span className="text-xl font-semibold text-gray-400">utility</span>, helping people be more productive. This is different. This is about <span className="text-2xl font-bold text-periwinkle">progress</span>. About meeting people before they've even articulated a goal. They just know they want to become <span className="text-xl font-semibold text-white">healthier</span>, or <span className="text-xl font-semibold text-white">happier</span>, or <span className="text-xl font-semibold text-white">more&nbsp;present</span>.
               </p>
 
               <p className="text-lg text-white leading-relaxed">
-                Apps are designed to track quantitative parts of these things— step counts, calories, to-do lists. <span className="text-2xl font-bold">We're trying to make it so that those decisions are more natural</span>. We're trying to meet you at the <span className="text-xl font-semibold text-white">most upstream level</span> of solving these&nbsp;problems.
+                Apps are designed to track quantitative parts of these things: step counts, calories, to-do lists. <span className="text-2xl font-bold">We're trying to make it so that those decisions are more natural</span>. We're trying to meet you at the <span className="text-xl font-semibold text-white">most upstream level</span> of solving these&nbsp;problems.
               </p>
             </div>
           </div>
