@@ -78,8 +78,7 @@ const Index = () => {
                     </span>
                   </h1>
                   <p className="text-xl text-gray-300 leading-relaxed">
-                    The first progress app of its kind. euno transforms that universal ache of 
-                    "things could be different" into clear, actionable insights that make change feel natural.
+                    The final piece of ai-human interaction: helping people not just be more productive, but make progress in their life. euno transforms the desire for personal change into clear, actionable insights that make change feel natural across every domain of life. Our goal is to make progress as effortless as opening Instagram or using ChatGPT.
                   </p>
                 </div>
               </div>
