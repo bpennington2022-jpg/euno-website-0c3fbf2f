@@ -127,37 +127,109 @@ const Mission = () => {
       {/* Our Solution */}
       <section className="py-16 px-6">
         <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto space-y-12">
+          <div className="max-w-4xl mx-auto space-y-16">
+            <h2 className="text-4xl font-bold text-white text-center bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+              What We're Building
+            </h2>
+            
+            {/* WHO - Target Audience */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold text-periwinkle">Who We're Building For</h3>
+              <div className="bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 p-8 rounded-xl border border-primary/30">
+                <p className="text-2xl font-bold text-white leading-relaxed">
+                  We're building for the people who <span className="text-periwinkle">experience the pain of needing to change</span>.
+                </p>
+                <p className="text-lg text-gray-300 mt-4 leading-relaxed">
+                  Not the people who are super smart or super intellectual and love to intellectualize things. The people who <span className="font-semibold text-white">feel the visceral pain of wanting to change</span>.
+                </p>
+              </div>
+            </div>
+
+            {/* WHAT - The Solution */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold text-periwinkle">What We're Making Possible</h3>
+              <div className="space-y-6">
+                <p className="text-xl text-white leading-relaxed">
+                  We're making it so those people can access change with the same level of control that someone who is super introspective can.
+                </p>
+                <p className="text-3xl font-bold text-white leading-relaxed text-center py-6">
+                  We're making <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">metacognition effortless</span>.
+                </p>
+                <p className="text-xl font-bold text-white leading-relaxed text-center">
+                  We're not leveraging tech—<br/>
+                  we're leveraging an <span className="text-periwinkle">understanding of the problem</span>.
+                </p>
+              </div>
+            </div>
+
+            {/* WHY IT MATTERS - Real Examples */}
             <div className="space-y-8">
-              <h2 className="text-4xl font-bold text-white mb-8 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-                What We're Building
-              </h2>
+              <h3 className="text-2xl font-bold text-periwinkle text-center">Why It Matters</h3>
+              <p className="text-lg text-gray-300 text-center leading-relaxed">
+                This pain is visceral for all of us. And it's everywhere.
+              </p>
               
-              <p className="text-lg text-white leading-relaxed">
-                We're building for <span className="font-bold text-white">the people who experience the pain of needing to change</span>. Not the people who are <em>super smart or super intellectual and love to intellectualize things</em>. No— the people who experience the <span className="font-semibold text-white">pain of wanting to&nbsp;change</span>.
-              </p>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <Card className="p-6 bg-gray-800/50 border-gray-700 hover:border-primary/50 transition-all">
+                  <Target className="h-10 w-10 text-primary mb-4" />
+                  <p className="text-gray-300 leading-relaxed">
+                    Someone who needs to be <span className="font-semibold text-white">financially responsible</span>
+                  </p>
+                </Card>
 
-              <p className="text-lg text-white leading-relaxed">
-                We're making it so those people can access change with the same level of control that someone who is super introspective and thinks all the time can. We're <span className="font-bold text-white">making metacognition&nbsp;effortless</span>.
-              </p>
+                <Card className="p-6 bg-gray-800/50 border-gray-700 hover:border-accent/50 transition-all">
+                  <Heart className="h-10 w-10 text-accent mb-4" />
+                  <p className="text-gray-300 leading-relaxed">
+                    A parent struggling to <span className="font-semibold text-white">accept their child</span> coming out
+                  </p>
+                </Card>
 
-              <p className="text-2xl font-bold text-white leading-relaxed">
-                We're not leveraging tech— we're leveraging an <span className="text-periwinkle">understanding of the problem</span>.
-              </p>
+                <Card className="p-6 bg-gray-800/50 border-gray-700 hover:border-secondary/50 transition-all">
+                  <Users className="h-10 w-10 text-secondary mb-4" />
+                  <p className="text-gray-300 leading-relaxed">
+                    Someone who wants to <span className="font-semibold text-white">be happy</span>
+                  </p>
+                </Card>
 
-              <p className="text-lg text-white leading-relaxed">
-                This pain is <span className="font-semibold text-white">visceral</span> for all of us. And it's <span className="font-semibold text-periwinkle">everywhere</span>. People who need to be financially responsible. A parent whose daughter came out as gay and is having a hard time accepting it. Someone who wants to be happy. Someone who wants to call their mom more. Someone who wants to be a better father or&nbsp;mother.
-              </p>
+                <Card className="p-6 bg-gray-800/50 border-gray-700 hover:border-primary/50 transition-all">
+                  <Brain className="h-10 w-10 text-primary mb-4" />
+                  <p className="text-gray-300 leading-relaxed">
+                    Someone who wants to <span className="font-semibold text-white">call their mom more</span>
+                  </p>
+                </Card>
 
-              <p className="text-3xl font-bold leading-relaxed px-6">
-                <span className="text-periwinkle">Everyone wants to become.</span><br/>
-                <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">Everyone needs help becoming.</span><br/>
-                <span className="text-white">And the act of becoming is a cognitive, psychological experience.</span>
-              </p>
+                <Card className="p-6 bg-gray-800/50 border-gray-700 hover:border-accent/50 transition-all">
+                  <Heart className="h-10 w-10 text-accent mb-4" />
+                  <p className="text-gray-300 leading-relaxed">
+                    Someone who wants to be a <span className="font-semibold text-white">better parent</span>
+                  </p>
+                </Card>
 
-              <p className="text-lg text-white leading-relaxed">
-                There is no system designed to directly target this problem— to make it easy, democratized, to support everyone regardless of self-awareness— to <span className="text-lg font-bold text-white">make introspection&nbsp;effortless</span>.
-              </p>
+                <Card className="p-6 bg-gray-800/50 border-gray-700 hover:border-secondary/50 transition-all">
+                  <Target className="h-10 w-10 text-secondary mb-4" />
+                  <p className="text-gray-300 leading-relaxed">
+                    Someone who wants to be <span className="font-semibold text-white">more present</span>
+                  </p>
+                </Card>
+              </div>
+
+              <div className="pt-8 space-y-4">
+                <p className="text-3xl font-bold leading-relaxed text-center">
+                  <span className="text-periwinkle">Everyone wants to become.</span>
+                </p>
+                <p className="text-2xl font-bold leading-relaxed text-center bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+                  Everyone needs help becoming.
+                </p>
+                <p className="text-xl text-gray-300 leading-relaxed text-center">
+                  And the act of becoming is a cognitive, psychological experience.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 p-8 rounded-xl border border-accent/30 mt-8">
+                <p className="text-xl text-white leading-relaxed text-center">
+                  There is no system designed to directly target this problem— to make it easy, democratized, to support everyone regardless of self-awareness— to <span className="text-xl font-bold text-periwinkle">make introspection effortless</span>.
+                </p>
+              </div>
             </div>
           </div>
         </div>
