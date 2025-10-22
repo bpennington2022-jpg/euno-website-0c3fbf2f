@@ -51,7 +51,7 @@ const AppMockup = () => {
     "You often frame stress management in terms of productivity, not recovery"
   ];
 
-  const categories = ["not working out", "motivation", "health scare", "mortality", "...", "katie's results"];
+  const categories = ["not working out", "health scare", "...", "katie's results"];
 
   return (
     <div ref={wrapperRef} className="relative w-full max-w-[350px] mx-auto min-h-[680px]">
