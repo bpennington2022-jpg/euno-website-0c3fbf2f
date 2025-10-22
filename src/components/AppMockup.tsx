@@ -1,4 +1,4 @@
-import { Sparkles, ChevronRight, Plus, ChevronLeft, Briefcase, GraduationCap, Users, Brain, DollarSign, HeartPulse, UsersRound } from "lucide-react";
+import { Sparkles, ChevronRight, Plus, ChevronLeft, Briefcase, GraduationCap, Users, Brain, DollarSign, HeartPulse, UsersRound, Target, RefreshCw, PlusCircle } from "lucide-react";
 import { useRef, useEffect } from "react";
 
 const AppMockup = () => {
@@ -112,8 +112,12 @@ const AppMockup = () => {
 
             {/* Cluster Goal */}
             <div className="mb-6">
-              <h2 className="text-lg font-semibold text-white mb-2">Cluster Goal</h2>
-              <p className="text-white text-base mb-3">Sleep 8h and stretch 10m daily</p>
+              <div className="flex items-center gap-2 mb-3">
+                <div className="w-8 h-8 rounded-full bg-gradient-to-r from-primary to-primary/60 flex items-center justify-center flex-shrink-0">
+                  <Target className="w-4 h-4 text-white" />
+                </div>
+                <p className="text-white text-base">Sleep 8h and stretch 10m daily</p>
+              </div>
               
               {/* Stats */}
               <div className="flex gap-4 text-xs">
@@ -121,10 +125,12 @@ const AppMockup = () => {
                   <Sparkles className="w-3.5 h-3.5" />
                   <span>185 insights</span>
                 </div>
-                <div className="text-periwinkle">
+                <div className="flex items-center gap-1.5 text-periwinkle">
+                  <RefreshCw className="w-3.5 h-3.5" />
                   <span>20 refined this week</span>
                 </div>
-                <div className="text-gray-500">
+                <div className="flex items-center gap-1.5 text-gray-500">
+                  <PlusCircle className="w-3.5 h-3.5" />
                   <span>4 new this week</span>
                 </div>
               </div>
